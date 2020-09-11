@@ -1,13 +1,5 @@
 <configs>
     <remove xpath="/quests/quest[@id='quest_BasicSurvival1']"/>
-    <remove xpath="/quests/quest[@id='quest_BasicSurvival2']"/>
-    <remove xpath="/quests/quest[@id='quest_BasicSurvival3']"/>
-    <remove xpath="/quests/quest[@id='quest_BasicSurvival4']"/>
-    <remove xpath="/quests/quest[@id='quest_BasicSurvival5']"/>
-    <remove xpath="/quests/quest[@id='quest_BasicSurvival6']"/>
-    <remove xpath="/quests/quest[@id='quest_BasicSurvival7']"/>
-    <remove xpath="/quests/quest[@id='quest_BasicSurvival8']"/>
-    <remove xpath="/quests/quest[@id='quest_whiteRiverCitizen1']"/>
 
     <append xpath="/quests">
         <quest id="quest_BasicSurvival1">
