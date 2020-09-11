@@ -1,0 +1,45 @@
+<configs>
+    <append xpath="/items">
+        <item name="Job Research">
+            <property name="Description" value="Leverage this research to put together a starting kit for your preferred job"/>
+            <property name="CreativeMode" value="None"/>
+            <property name="HoldType" value="21"/>
+            <property name="Meshfile" value="#Other/Items?Misc/bookPrefab.prefab"/>
+            <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+            <property name="Material" value="Mpaper"/>
+            <property name="CustomIcon" value="questMaster"/>
+            <property name="Stacknumber" value="1"/>
+            <property name="EconomicValue" value="0"/>
+            <property name="SellableToTrader" value="false"/>
+            <property name="Weight" value="2"/>
+            <property name="Group" value="Special Items,Mods"/>
+        </item>
+        
+        <item name="Raider Starting Kit">
+            <property name="Extends" value="questMaster"/>
+            <property name="Description" value="Skills and Equipment necessary for any great Raider"/>
+	        <property name="CustomIcon" value="cntWeaponsBagLarge"/>
+            <property class="Action0">
+                <property name="QuestGiven" value="job_raider"/>
+            </property>
+        </item>
+
+        <item name="Crafter Starting Kit">
+            <property name="Extends" value="questMaster"/>
+            <property name="Description" value="Skills and Equipment necessary for any great Crafter"/>
+	        <property name="CustomIcon" value="cntRollingToolBoxClosed"/>
+            <property class="Action0">
+                <property name="QuestGiven" value="job_crafter"/>
+            </property>
+        </item>
+
+        <item name="Gatherer Starting Kit">
+            <property name="Extends" value="questMaster"/>
+            <property name="Description" value="Skills and Equipment necessary for any great Gatherer"/>
+	        <property name="CustomIcon" value="backpackMedium"/>
+            <property class="Action0">
+                <property name="QuestGiven" value="job_gatherer"/>
+            </property>
+        </item>
+    </append>
+</configs>
