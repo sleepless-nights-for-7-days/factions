@@ -1,0 +1,4 @@
+<configs>
+    <!-- Remove the "SleepingBag" class from all blocks - this prevents respawning and protection -->
+    <remove xpath="/blocks/block/property[@value='SleepingBag']" />
+</configs>
