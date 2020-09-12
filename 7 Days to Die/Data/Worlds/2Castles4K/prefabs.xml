@@ -289,7 +289,7 @@
 <decoration type="model" name="carlot_01" position="-373,43,-555" rotation="0" />
 <decoration type="model" name="prison_01" position="-473,48,-555" rotation="0" />
 <decoration type="model" name="remnant_industrial_01" position="-297,49,-981" rotation="3" />
-<decoration type="model" name="factory_lg_01" position="-573,48,-455" rotation="3" />
+<decoration type="model" name="factory_lg_01" position="-573,48,-455" rotation="1" />
 <decoration type="model" name="remnant_industrial_03" position="-373,49,-575" rotation="3" />
 <decoration type="model" name="installation_red_mesa" position="-855,26,-1147" rotation="2" />
 <decoration type="model" name="utility_refinery_01" position="-773,48,-1055" rotation="3" />
@@ -301,7 +301,7 @@
 <decoration type="model" name="junkyard_lg_01" position="-373,46,-439" rotation="1" />
 <decoration type="model" name="remnant_industrial_02" position="-697,49,-855" rotation="1" />
 <decoration type="model" name="factory_lg_01" position="-881,48,-857" rotation="1" />
-<decoration type="model" name="factory_lg_01" position="-573,48,-355" rotation="0" />
+<decoration type="model" name="factory_lg_02" position="-573,43,-355" rotation="0" />
 <decoration type="model" name="utility_waterworks_01" position="-427,35,-409" rotation="1" />
 <decoration type="model" name="school_k6_01" position="-233,41,542" rotation="1" />
 <decoration type="model" name="player_start1" position="-161,42,526" rotation="3" />
@@ -757,4 +757,5 @@
 <decoration type="model" name="cabin_04" position="1455,122,1147" rotation="3" />
 <decoration type="model" name="indian_burial_grounds_01" position="1360,121,1196" rotation="0" />
 <decoration type="model" name="ranger_station_05" position="1134,133,1116" rotation="1" />
+<decoration type="model" name="trader_bob" position="-372,48,-494" rotation="3" />
 </prefabs>
