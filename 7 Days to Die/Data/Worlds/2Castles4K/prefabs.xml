@@ -319,7 +319,6 @@
 <decoration type="model" name="house_modern_13" position="-95,37,608" rotation="1" />
 <decoration type="model" name="remnant_house_02" position="-207,38,442" rotation="1" />
 <decoration type="model" name="house_old_bungalow_10" position="-101,40,542" rotation="1" />
-<decoration type="model" name="house_old_victorian_01" position="-103,32,642" rotation="0" />
 <decoration type="model" name="house_old_victorian_06" position="-307,38,642" rotation="1" />
 <decoration type="model" name="house_old_gambrel_02" position="-245,41,642" rotation="3" />
 <decoration type="model" name="house_modern_12" position="-183,39,596" rotation="2" />
@@ -595,7 +594,6 @@
 <decoration type="model" name="survivor_site_05" position="-1291,41,857" rotation="3" />
 <decoration type="model" name="army_camp_02" position="-1352,40,870" rotation="1" />
 <decoration type="model" name="army_camp_01" position="-57,39,245" rotation="3" />
-<decoration type="model" name="cave_05" position="-162,27,777" rotation="2" />
 <decoration type="model" name="survivor_site_02" position="-131,45,813" rotation="3" />
 <decoration type="model" name="cabin_03" position="-532,46,108" rotation="0" />
 <decoration type="model" name="indian_burial_grounds_01" position="-590,45,111" rotation="0" />
@@ -646,8 +644,6 @@
 <decoration type="model" name="player_start4" position="-1566,41,568" rotation="2" />
 <decoration type="model" name="ranger_station_01" position="-63,41,114" rotation="1" />
 <decoration type="model" name="installation_red_mesa" position="33,18,833" rotation="0" />
-<decoration type="model" name="army_barracks_01" position="-22,36,883" rotation="0" />
-<decoration type="model" name="cabin_07" position="23,40,776" rotation="2" />
 <decoration type="model" name="survivor_site_08" position="118,40,805" rotation="3" />
 <decoration type="model" name="cabin_13" position="-1426,36,4" rotation="2" />
 <decoration type="model" name="survivor_site_03" position="-1455,41,40" rotation="1" />
@@ -731,8 +727,6 @@
 <decoration type="model" name="ranger_station_05" position="1417,107,1325" rotation="3" />
 <decoration type="model" name="cabin_07" position="1423,164,-942" rotation="0" />
 <decoration type="model" name="survivor_site_05" position="1038,168,-1184" rotation="3" />
-<decoration type="model" name="army_camp_01" position="1042,166,-1245" rotation="2" />
-<decoration type="model" name="survivor_site_04" position="1069,165,-1172" rotation="3" />
 <decoration type="model" name="cabin_13" position="1332,170,-1045" rotation="0" />
 <decoration type="model" name="cabin_08" position="1294,175,-1090" rotation="2" />
 <decoration type="model" name="cabin_06" position="1179,109,1383" rotation="0" />
@@ -742,8 +736,6 @@
 <decoration type="model" name="ranger_station_04" position="1107,129,1533" rotation="0" />
 <decoration type="model" name="ranger_station_06" position="1041,127,1427" rotation="1" />
 <decoration type="model" name="cabin_11" position="1148,157,-1261" rotation="3" />
-<decoration type="model" name="army_camp_03" position="1147,163,-1108" rotation="3" />
-<decoration type="model" name="cabin_04" position="1158,168,-1213" rotation="3" />
 <decoration type="model" name="army_camp_03" position="1503,156,921" rotation="3" />
 <decoration type="model" name="survivor_site_08" position="1523,161,889" rotation="2" />
 <decoration type="model" name="cabin_11" position="1451,150,972" rotation="1" />
@@ -755,16 +747,32 @@
 <decoration type="model" name="cabin_04" position="1455,122,1147" rotation="3" />
 <decoration type="model" name="indian_burial_grounds_01" position="1360,121,1196" rotation="0" />
 <decoration type="model" name="ranger_station_05" position="1134,133,1116" rotation="1" />
+<decoration type="model" name="army_barracks_01" position="-1487,48,-1116" rotation="2" />
+<decoration type="model" name="factory_lg_01" position="1065,52,206" rotation="3" />
+<decoration type="model" name="survivor_site_04" position="1069,165,-1172" rotation="3" />
+<decoration type="model" name="cave_05" position="-162,27,777" rotation="2" />
+<decoration type="model" name="army_camp_01" position="1042,166,-1245" rotation="2" />
+<decoration type="model" name="house_old_victorian_01" position="-103,32,642" rotation="0" />
 
-<!-- Only Trader on the Map -->
+<!-- Neutral Trader -->
 <decoration type="model" name="trader_bob" position="-372,48,-494" rotation="3" />
 
-<!-- NE Base: 1.6KM from Trader, but more in City, surface of 53M -->
-<!-- name="factory_lg_01" -->
-<decoration type="model" name="player_base_01" position="1065,30,206" rotation="3" />
+<!-- Snow Faction Base -->
+<!-- <decoration type="model" name="cabin_04" position="1158,168,-1213" rotation="3" /> -->
+<decoration type="model" name="player_base_01" position="1158,146,-1213" rotation="2" />
 
-<!-- SW Base: 1.3KM from Trader, but more in Forest, surface of 53M -->
-<!-- name="army_barracks_01" -->
-<decoration type="model" name="player_base_01" position="-1487,30,-1116" rotation="1" />
+<!-- Snow Faction Trader -->
+<!-- <decoration type="model" name="army_camp_03" position="1147,163,-1108" rotation="3" /> -->
+<decoration type="model" name="trader_jen" position="1147,168,-1108" rotation="0" />
+
+
+<!-- Desert Faction Base -->
+<!-- <decoration type="model" name="army_barracks_01" position="-22,36,883" rotation="0" /> -->
+<decoration type="model" name="player_base_01" position="-22,18,883" rotation="0" />
+
+<!-- Desert Faction Trader -->  
+<!-- <decoration type="model" name="cabin_07" position="23,40,776" rotation="2" /> -->
+<decoration type="model" name="trader_hugh" position="23,33,776" rotation="0" />
+
 
 </prefabs>

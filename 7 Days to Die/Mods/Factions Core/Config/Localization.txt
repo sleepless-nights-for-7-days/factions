@@ -1,0 +1,9 @@
+Key,File,Type,English
+tutorialTipQuest01_title,Journal Tip,,"Welcome to FACTIONS"
+tutorialTipQuest01,Journal Tip,,"Initiate,\n\nWe have been expanding for months and you now have an opportunity to be recognized as a full-fledged member of our Faction. Establish our presense in this region by eliminating the CLAIM all other factions have on this area.\n\nVisit your local trader to identify your faction alignment and confirm the skillset you provide to recieve the gear we sent ahead of your arrival.\n\nThere can only be 1 power in this region - make sure it's us."
+
+
+
+job_raider,Quest,Challenge Info,"I'm a Raider"
+job_raider_subtitle,Quest,Challenge Info,,,"I'm a Raider"
+job_raider_offer,Quest,Challenge Info,"Greetings Traveler,\nIf you ‘all are holding this note then you should know my boys have been sticking to you like flies on pig shit. That's because we think you just might be Slick Willie material. Now if you can pull off this wee little task we might just call you kin.\n\nI ain't no city slicker... Willie\n\nChallenge: Kill some boars"

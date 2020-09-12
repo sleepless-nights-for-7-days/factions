@@ -1,0 +1,421 @@
+<configs>
+    <remove xpath="/quests/quest[@id='quest_BasicSurvival1']"/>
+    <append xpath="/quests">
+        <!-- Override starting quest to visit the Trader and choose Faction Colors -->
+        <quest id="quest_BasicSurvival1">
+            <property name="name" value="Identify Faction Alignment"/>
+            <property name="subtitle" value="Identify Faction Alignment"/>
+            <property name="description" value="Identify your Faction alignment with the Trader so he can provide you with our Colors and get your paperwork ready."/>
+            <property name="icon" value="ui_game_symbol_map_trader"/>
+            <property name="category_key" value="quest"/>
+            <property name="difficulty" value="medium"/>
+            <property name="shareable" value="false"/>
+            <property name="completiontype" value="TurnIn"/>
+		    <property name="completion_key" value="quest_tier_complete_completion"/>
+
+            <objective type="Goto" id="trader" value="5" phase="1">
+                <property name="biome_filter_type" value="OnlyBiome" />
+                <property name="biome_filter" value="pine_forest" />
+                <property name="nav_object" value="go_to_trader" />
+            </objective>
+
+            <objective type="InteractWithNPC">
+                <property name="phase" value="2"/>
+                <property name="nav_object" value="return_to_trader" />
+                <property name="use_closest" value="true" />
+            </objective>
+
+            <!-- Boost Skills/Perks to allow choice of 3 Jobs in next quest reward -->
+		    <reward type="Skill" id="perkDaringAdventurer" value="1"/>
+            <!-- Chain next quest to set up Job -->
+            <!-- <reward type="Quest" id="quest_SkillsetConfirmation">
+                <property name="chainquest" value="false"/>
+            </reward> -->
+
+            <!-- Choose your team! -->
+            <!-- TODO: provide starting kit for faction colors instead to give a better explanation? -->
+            <!-- TODO: maybe include a note in this bundle that explains you still have to ally with your team -->
+            <reward type="Item" id="snowFactionSupplies" ischosen="true" isfixed="true"/>
+            <reward type="Item" id="desertFactionSupplies" ischosen="true" isfixed="true"/>
+            <!-- <reward type="Item" id="modDyeblue" ischosen="true" isfixed="true"/> -->
+
+            <!-- TODO: maybe try this? -->
+            <!-- <reward type="ShowTip" value="whiteRiverCitizen" stage="aftercomplete"/> -->
+        </quest>
+        
+        <quest id="quest_ReportToSnowOutpost">
+            <property name="name" value="Report to Snow Outpost"/>
+            <property name="subtitle" value="Report to Snow Outpost"/>
+            <property name="description" value="Identify your Faction alignment with the Trader so he can provide you with our Colors and get your paperwork ready."/>
+            <property name="offer" value="Report to Snow Outpost to be issued your orders and receive your equipment"/>
+            <property name="icon" value="ui_game_symbol_map_trader"/>
+            <property name="category_key" value="quest"/>
+            <!-- <property name="difficulty" value="medium"/> -->
+            <property name="shareable" value="false"/>
+            <property name="completiontype" value="TurnIn"/>
+		    <property name="completion_key" value="quest_tier_complete_completion"/>
+
+            <objective type="Goto" id="trader" value="5" phase="1">
+                <property name="biome_filter_type" value="OnlyBiome" />
+                <property name="biome_filter" value="snow" />
+                <property name="nav_object" value="go_to_trader" />
+            </objective>
+
+            <objective type="InteractWithNPC">
+                <property name="phase" value="2"/>
+                <property name="nav_object" value="return_to_trader" />
+                <property name="use_closest" value="true" />
+            </objective>
+            
+            <!-- <reward type="Item" id="resourceRockSmall" ischosen="true" value="1"/> -->
+            <reward type="Item" id="Raider Starting Kit" ischosen="true"/>
+            <reward type="Item" id="Crafter Starting Kit" ischosen="true"/>
+            <reward type="Item" id="Gatherer Starting Kit" ischosen="true"/>
+        </quest>
+        
+        <quest id="quest_ReportToDesertOutpost">
+            <property name="name" value="Confirm Skillset with Trader"/>
+            <property name="subtitle" value="Confirm Skillset with Trader"/>
+            <property name="description" value="Confirm your skillset to recieve the gear we sent ahead of your arrival."/>
+            <property name="icon" value="ui_game_symbol_map_trader"/>
+            <property name="category_key" value="quest"/>
+            <property name="difficulty" value="medium"/>
+            <property name="shareable" value="false"/>
+		    <property name="completiontype" value="TurnIn"/>
+		    <property name="completion_key" value="quest_tier_complete_completion"/>
+
+            <objective type="Goto" id="trader" value="5" phase="1">
+                <property name="biome_filter_type" value="OnlyBiome" />
+                <property name="biome_filter" value="desert" />
+                <property name="nav_object" value="go_to_trader" />
+            </objective>
+
+            <objective type="InteractWithNPC">
+                <property name="phase" value="2"/>
+                <property name="nav_object" value="return_to_trader" />
+                <property name="use_closest" value="true" />
+            </objective>
+
+            <!-- <reward type="Item" id="resourceRockSmall" ischosen="true" value="1"/> -->
+            <reward type="Item" id="Raider Starting Kit" ischosen="true"/>
+            <reward type="Item" id="Crafter Starting Kit" ischosen="true"/>
+            <reward type="Item" id="Gatherer Starting Kit" ischosen="true"/>
+
+            <!-- <reward type="Exp" value="2000"/>
+            <reward type="Item" id="casinoCoin" value="5000"/>
+            <reward type="SkillPoints" value="4"/> -->
+            
+            
+            <!-- <reward type="Quest" id="job_raider" ischosen="true"/>
+            <reward type="Quest" id="job_crafter" ischosen="true" value="3"/>
+            <reward type="Quest" id="job_gatherer" ischosen="true" isfixed="true"/> -->
+            <!-- <reward type="Quest" id="job_raider" ischosen="true" isfixed="true" value="3"/>
+            <reward type="LootItem" id="groupQuestArmor,groupQuestMedical" ischosen="true" isfixed="true" value="3"/>
+            <reward type="LootItem" id="groupQuestAmmo" ischosen="true" value="3"/>
+            <reward type="LootItem" id="groupQuestWeapons" ischosen="true" value="3"/>
+            <reward type="LootItem" id="groupQuestSchematics" ischosen="true" value="3"/>
+            <reward type="LootItem" id="groupQuestMods" ischosen="true" value="3"/> -->
+        </quest>
+
+        <!-- Jobs -->
+        <quest id="job_raider">
+            <!-- 
+            name - quest name without localization.
+            subtitle - sub name without localization.
+            description - description without localization.
+            offer - offer without localization.
+            group_name - quest chain name without localization.
+            category - category type without localization.
+            -->
+            <property name="name_key" value="job_raider"/>
+            <property name="subtitle_key" value="job_raider_subtitle"/>
+            <property name="description_key" value="offer_key"/>
+            <property name="icon" value="ui_game_symbol_muscle"/>
+            <property name="category_key" value="quest"/>
+            <property name="offer_key" value="job_raider_offer"/>
+            <property name="shareable" value="false"/>
+            
+            <!-- Skills/Perks -->
+            <reward type="Skill" id="attAgility" value="9" />
+		    <reward type="Skill" id="attStrength" value="1" />
+		    <reward type="Skill" id="attStrength" value="1" />
+            <reward type="Skill" id="perkLuckyLooter" value="3" />
+            <reward type="Item" id="resourceRockSmall" value="1000" />
+            <reward type="Item" id="medicalFirstAidKit" value="10" />
+            
+            <!-- Books/Magazines -->
+            <reward type="Skill" id="perkUrbanCombatLanding" value="1" />
+            <reward type="Skill" id="perkUrbanCombatCigar" value="1" />
+            <reward type="Skill" id="perkUrbanCombatSneaking" value="1" />
+            <reward type="Skill" id="perkUrbanCombatLandMines" value="1" />
+            <reward type="Skill" id="perkUrbanCombatJumping" value="1" />
+            <reward type="Skill" id="perkUrbanCombatAdrenalineRush" value="1" />
+            <reward type="Skill" id="perkUrbanCombatRoomClearing" value="1" />
+            <reward type="Skill" id="perkUrbanCombatComplete" value="1" />
+
+            <!-- Items/Equipment -->
+            <reward type="Item" id="gunMGT2TacticalAR" value="6" />
+            <reward type="Item" id="armorSteelChest" value="6" />
+        </quest>
+        <quest id="job_crafter">
+            <!-- 
+            name - quest name without localization.
+            subtitle - sub name without localization.
+            description - description without localization.
+            offer - offer without localization.
+            group_name - quest chain name without localization.
+            category - category type without localization.
+            -->
+            <property name="name" value="Become a Crafter"/>
+            <property name="subtitle" value="Craft "/>
+            <property name="description" value="Craft Weapons, Ammo, and Explosives"/>
+            <property name="icon" value="ui_game_symbol_forge"/>
+            <property name="category_key" value="challenge"/>
+            <property name="offer" value="Become a Crafter to support the Raiders with a steady flow of ammo and equipment"/>
+            <property name="shareable" value="false"/>
+            
+            
+
+            <reward type="Skill" id="attAgility" value="9" />
+		    <reward type="Skill" id="attStrength" value="1" />
+		    <reward type="Skill" id="attStrength" value="1" />
+            <reward type="Skill" id="perkLuckyLooter" value="3" />
+            <reward type="Item" id="resourceRockSmall" value="1000" />
+            <reward type="Item" id="medicalFirstAidKit" value="10" />
+            
+            <reward type="Skill" id="perkUrbanCombatLanding" value="1" />
+            <reward type="Skill" id="perkUrbanCombatCigar" value="1" />
+            <reward type="Skill" id="perkUrbanCombatSneaking" value="1" />
+            <reward type="Skill" id="perkUrbanCombatLandMines" value="1" />
+            <reward type="Skill" id="perkUrbanCombatJumping" value="1" />
+            <reward type="Skill" id="perkUrbanCombatAdrenalineRush" value="1" />
+            <reward type="Skill" id="perkUrbanCombatRoomClearing" value="1" />
+            <reward type="Skill" id="perkUrbanCombatComplete" value="1" />
+
+            <reward type="Item" id="gunMGT2TacticalAR" value="6" />
+            <reward type="Item" id="armorSteelChest" value="6" />
+            
+            <reward type="Item" id="workVoucher" value="1" />
+        </quest>
+        <quest id="job_gatherer">
+            <!-- 
+            name - quest name without localization.
+            subtitle - sub name without localization.
+            description - description without localization.
+            offer - offer without localization.
+            group_name - quest chain name without localization.
+            category - category type without localization.
+            -->
+            <property name="name" value="Become a Gatherer"/>
+            <property name="subtitle" value="Gather Resources and Craft Tools"/>
+            <property name="description" value="Gather Resources to support the Crafters"/>
+            <property name="icon" value="ui_game_symbol_run"/>
+            <property name="category_key" value="challenge"/>
+            <property name="offer" value="Become a Gatherer to support the Crafters with a steady flow of resources"/>
+            <property name="shareable" value="false"/>
+            
+            
+
+            <reward type="Skill" id="attAgility" value="9" />
+		    <reward type="Skill" id="attStrength" value="1" />
+		    <reward type="Skill" id="attStrength" value="1" />
+            <reward type="Skill" id="perkLuckyLooter" value="3" />
+            <reward type="Item" id="resourceRockSmall" value="1000" />
+            <reward type="Item" id="medicalFirstAidKit" value="10" />
+            
+            <reward type="Skill" id="perkUrbanCombatLanding" value="1" />
+            <reward type="Skill" id="perkUrbanCombatCigar" value="1" />
+            <reward type="Skill" id="perkUrbanCombatSneaking" value="1" />
+            <reward type="Skill" id="perkUrbanCombatLandMines" value="1" />
+            <reward type="Skill" id="perkUrbanCombatJumping" value="1" />
+            <reward type="Skill" id="perkUrbanCombatAdrenalineRush" value="1" />
+            <reward type="Skill" id="perkUrbanCombatRoomClearing" value="1" />
+            <reward type="Skill" id="perkUrbanCombatComplete" value="1" />
+
+            <reward type="Item" id="gunMGT2TacticalAR" value="6" />
+            <reward type="Item" id="armorSteelChest" value="6" />
+            
+            <reward type="Item" id="workVoucher" value="1" />
+        </quest>
+    </append>
+</configs>
+
+<!-- 
+ui_game_symbol_critical
+
+ui_game_symbol_beer
+
+ui_game_symbol_drunk
+
+ui_game_symbol_dysentery
+
+ui_game_symbol_food_poisoning
+
+ui_game_symbol_coffee
+
+ui_game_symbol_tea
+
+ui_game_symbol_stunned
+
+ui_game_symbol_pills
+
+ui_game_symbol_infection
+
+ui_game_symbol_medical
+
+ui_game_symbol_brokenbone
+
+ui_game_symbol_splint
+
+ui_game_symbol_fire
+
+ui_game_symbol_hunger
+
+ui_game_symbol_thirst
+
+ui_game_symbol_oxygen
+
+ui_game_symbol_smell
+
+ui_game_symbol_natural_healing
+
+ui_game_symbol_cold
+
+ui_game_symbol_hot
+
+ui_game_symbol_wet
+
+ui_game_symbol_map_bed
+
+ui_game_symbol_campfire
+
+ui_game_symbol_map_player_arrow
+
+ui_game_symbol_hammer
+
+ui_game_symbol_tailoring
+
+ui_game_symbol_shirt
+
+ui_game_symbol_club
+
+ui_game_symbol_archery
+
+ui_game_symbol_map_house
+
+ui_game_symbol_sledge
+
+ui_game_symbol_forge
+
+ui_game_symbol_wrench
+
+ui_game_symbol_knife
+
+ui_game_symbol_zombie
+
+ui_game_symbol_treasure
+
+ui_game_symbol_temperature
+
+ui_game_symbol_trophy
+
+ui_game_symbol_clock
+
+ui_game_symbol_wind
+
+ui_game_symbol_climb
+
+ui_game_symbol_x
+
+ui_game_symbol_book
+
+ui_game_symbol_search
+
+ui_game_symbol_arrow_left
+
+ui_game_symbol_arrow_right
+
+ui_game_symbol_arrow_max
+
+ui_game_symbol_loot_sack
+
+ui_game_symbol_hand
+
+ui_game_symbol_lightbulb
+
+ui_game_symbol_shopping_cart
+
+ui_game_symbol_backpack
+
+ui_game_symbol_all_blocks
+
+ui_game_symbol_computer
+
+ui_game_symbol_check
+
+ui_game_symbol_cookware
+
+ui_game_symbol_character
+
+ui_game_symbol_radiation
+
+ui_game_symbol_muscle
+
+ui_game_symbol_fork
+
+ui_game_symbol_water
+
+ui_game_symbol_death
+
+ui_game_symbol_run
+
+ui_game_symbol_skull
+
+ui_game_symbol_map
+
+ui_game_symbol_map_cursor
+
+ui_game_symbol_map_waypoint_set
+
+ui_game_symbol_map_waypoint_remove
+
+ui_game_symbol_pen
+
+ui_game_symbol_compass
+
+ui_game_symbol_players
+
+ui_game_symbol_allies
+
+ui_game_symbol_perk
+
+ui_game_symbol_ping
+
+ui_game_symbol_invite
+
+ui_game_symbol_mic
+
+ui_game_symbol_minibike
+
+ui_game_symbol_speed
+
+ui_game_symbol_noise
+
+ui_game_symbol_defense
+
+ui_game_symbol_seats
+
+ui_game_symbol_gas
+
+ui_game_symbol_assemble
+
+ui_game_symbol_skills
+
+ui_game_symbol_percent
+
+ui_game_symbol_quest
+
+ui_game_symbol_quest_remove
+
+ui_game_symbol_lock 
+-->

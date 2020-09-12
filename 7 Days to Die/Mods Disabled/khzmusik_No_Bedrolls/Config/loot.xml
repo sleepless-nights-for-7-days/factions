@@ -1,0 +1,4 @@
+<configs>
+    <!-- Remove bedrolls from loot groups -->
+    <remove xpath="/lootcontainers/lootgroup/item[@name='bedroll']" />
+</configs>

@@ -1,0 +1,8 @@
+<configs>
+    <set xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvival']/@value">vehicleBicyclePlaceable</set>
+    <set xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvivalSP']/@value">vehicleBicyclePlaceable</set>
+    <set xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvivalMP']/@value">vehicleBicyclePlaceable</set>
+    <!-- <append xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvival']/@value">,vehicleMotorcyclePlaceable</append>
+    <append xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvivalSP']/@value">,vehicleMotorcyclePlaceable</append>
+    <append xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvivalMP']/@value">,vehicleMotorcyclePlaceable</append>	 -->
+</configs>

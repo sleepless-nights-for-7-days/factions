@@ -1,0 +1,9 @@
+<mod>
+  <info>
+    <author>khzmusik</author>
+    <name>khzmusik_No_Bedrolls</name>
+    <description>Bedrolls and beds do not act as player spawns or prevent enemy spawning.</description>
+    <mod_version>2.0.1</mod_version>
+    <game_version>18.0</game_version>
+  </info>
+</mod>
