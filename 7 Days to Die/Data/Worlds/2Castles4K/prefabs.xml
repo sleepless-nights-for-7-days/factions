@@ -760,9 +760,11 @@
 <decoration type="model" name="trader_bob" position="-372,48,-494" rotation="3" />
 
 <!-- NE Base: 1.6KM from Trader, but more in City, surface of 53M -->
-<decoration type="model" name="factory_lg_01" position="1065,52,206" rotation="3" />
+<!-- name="factory_lg_01" -->
+<decoration type="model" name="player_base_01" position="1065,30,206" rotation="3" />
 
 <!-- SW Base: 1.3KM from Trader, but more in Forest, surface of 53M -->
-<decoration type="model" name="army_barracks_01" position="-1487,48,-1116" rotation="2" />
+<!-- name="army_barracks_01" -->
+<decoration type="model" name="player_base_01" position="-1487,30,-1116" rotation="1" />
 
 </prefabs>
