@@ -148,7 +148,6 @@
 <decoration type="model" name="utility_refinery_01" position="565,52,-592" rotation="0" />
 <decoration type="model" name="remnant_industrial_03" position="765,53,-514" rotation="2" />
 <decoration type="model" name="utility_celltower_02" position="565,52,362" rotation="3" />
-<decoration type="model" name="factory_lg_01" position="1065,52,206" rotation="3" />
 <decoration type="model" name="installation_red_mesa" position="883,30,208" rotation="0" />
 <decoration type="model" name="utility_celltower_02" position="565,52,-530" rotation="2" />
 <decoration type="model" name="mp_waste_bldg_02_red" position="-432,49,-803" rotation="1" />
@@ -630,7 +629,6 @@
 <decoration type="model" name="survivor_site_07" position="-1436,37,-1332" rotation="3" />
 <decoration type="model" name="ranger_station_03" position="-1499,37,-1314" rotation="0" />
 <decoration type="model" name="cabin_09" position="-1459,52,-917" rotation="0" />
-<decoration type="model" name="army_barracks_01" position="-1487,48,-1116" rotation="2" />
 <decoration type="model" name="cabin_13" position="-1493,47,-951" rotation="1" />
 <decoration type="model" name="ranger_station_02" position="-80,55,-1350" rotation="2" />
 <decoration type="model" name="survivor_site_03" position="-92,55,-1313" rotation="0" />
@@ -757,5 +755,14 @@
 <decoration type="model" name="cabin_04" position="1455,122,1147" rotation="3" />
 <decoration type="model" name="indian_burial_grounds_01" position="1360,121,1196" rotation="0" />
 <decoration type="model" name="ranger_station_05" position="1134,133,1116" rotation="1" />
+
+<!-- Only Trader on the Map -->
 <decoration type="model" name="trader_bob" position="-372,48,-494" rotation="3" />
+
+<!-- NE Base: 1.6KM from Trader, but more in City, surface of 53M -->
+<decoration type="model" name="factory_lg_01" position="1065,52,206" rotation="3" />
+
+<!-- SW Base: 1.3KM from Trader, but more in Forest, surface of 53M -->
+<decoration type="model" name="army_barracks_01" position="-1487,48,-1116" rotation="2" />
+
 </prefabs>
