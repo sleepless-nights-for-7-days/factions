@@ -42,7 +42,7 @@
             <!-- TODO: maybe try this? -->
             <!-- <reward type="ShowTip" value="whiteRiverCitizen" stage="aftercomplete"/> -->
         </quest>
-        
+
         <quest id="quest_ReportToSnowOutpost">
             <property name="name" value="Report to Snow Outpost"/>
             <property name="subtitle" value="Report to Snow Outpost"/>
@@ -54,6 +54,8 @@
             <property name="shareable" value="false"/>
             <property name="completiontype" value="TurnIn"/>
 		    <property name="completion_key" value="quest_tier_complete_completion"/>
+
+            <action type="TrackQuest"/>
 
             <objective type="Goto" id="trader" value="5" phase="1">
                 <property name="biome_filter_type" value="OnlyBiome" />
@@ -71,8 +73,30 @@
             <reward type="Item" id="Raider Starting Kit" ischosen="true"/>
             <reward type="Item" id="Crafter Starting Kit" ischosen="true"/>
             <reward type="Item" id="Gatherer Starting Kit" ischosen="true"/>
+
+            <reward type="Quest" id="quest_SecureForSnowFaction"/>
         </quest>
-        
+        <!-- TODO; include a "settling in" quest to help explain the rules and functions of the game? -->
+        <quest id="quest_SecureForSnowFaction">
+            <property name="name" value="Secure Region for Snow Faction"/>
+            <property name="subtitle" value="Secure Region for Snow Faction"/>
+            <property name="description" value="Secure this region for the Snow Faction."/>
+            <property name="offer" value="Report to Snow Outpost to be issued your orders and receive your equipment"/>
+            <property name="icon" value="ui_game_symbol_search"/>
+            <property name="category_key" value="quest"/>
+            <property name="difficulty" value="medium"/>
+            <property name="shareable" value="false"/>
+
+            <action type="ShowTip" value="We just received word that the Desert Faction Outpost has been located.\n\nSeek it out and eliminate its Claim Block while protecting your own.\n\nWork as a team to gather resources, produce the necessary supplies, and secure this Desert outpost for the glory of Snow Faction."/>
+            <action type="TrackQuest"/>
+
+            <objective type="Goto" id="trader" value="5" phase="1">
+                <property name="biome_filter_type" value="OnlyBiome" />
+                <property name="biome_filter" value="snow" />
+                <property name="nav_object" value="go_to_trader" />
+            </objective>
+        </quest>
+
         <quest id="quest_ReportToDesertOutpost">
             <property name="name" value="Confirm Skillset with Trader"/>
             <property name="subtitle" value="Confirm Skillset with Trader"/>
@@ -117,7 +141,6 @@
             <reward type="LootItem" id="groupQuestMods" ischosen="true" value="3"/> -->
         </quest>
 
-        <!-- Jobs -->
         <quest id="job_raider">
             <!-- 
             name - quest name without localization.
