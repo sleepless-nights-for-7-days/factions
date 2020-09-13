@@ -4,7 +4,7 @@
             <property name="CustomIcon" value="questWhiteRiverSupplies"/>
             <!-- TODO: the following does not seem to work! -->
             <property name="CustomIconTint" value="ffffff"/>
-            <property name="ItemTypeIcon" value="treasure"/>
+            <!-- <property name="ItemTypeIcon" value="treasure"/> -->
 	        <property name="HoldType" value="45"/>
             <property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
             <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>

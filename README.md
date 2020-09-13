@@ -44,6 +44,8 @@ Category | Raider | Looter | Engineer
 	- 1 Cement Mixer
 	- 1 Chem Station
 	- 500 Cement Blocks
+	- 5 Drawers
+	- 9 Wooden Storage Boxes
 
 ## Starting Skills/Perks
 Perk | Max Level | Raider | Looter | Engineer
@@ -93,7 +95,7 @@ From The Shadows 		| 5 | 0 | 5 | 0
 Electrocutioner 		| 5 | 0 | 0 | 5
 Robotics Inventor 		| 5 | 0 | 0 | 5
 Better Barter 			| 5 | 0 | 4 | 0
-The Daring Adventurer 	| 4 | 0 | 4 | 0
+The Daring Adventurer 	| 4 | 1 | 4 | 1
 Charismatic Nature 		| 4 | 0 | 4 | 4
 Physician 				| 4 | 0 | 0 | 4
 Advanced Engineering 	| 5 | 0 | 0 | 5
