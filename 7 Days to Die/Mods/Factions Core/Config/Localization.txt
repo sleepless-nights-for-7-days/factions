@@ -1,6 +1,11 @@
 Key,File,Type,English
 tutorialTipQuest01_title,Journal Tip,,"Welcome to FACTIONS"
-tutorialTipQuest01,Journal Tip,,"Initiate,\n\nWe have been expanding for months and you now have an opportunity to be recognized as a full-fledged member of our Faction. Establish our presense in this region by eliminating the CLAIM all other factions have on this area.\n\nVisit your local trader to identify your faction alignment and confirm the skillset you provide to recieve the gear we sent ahead of your arrival.\n\nThere can only be 1 power in this region - make sure it's us."
+tutorialTipQuest01,Journal Tip,,"We received instructed this morning to report to our local trader. Seems a Faction War is on the horizon and everyone wants a taste of victory.\n\nIf executed well, this mission may be the ticket we need to become part of a Faction for good.\n\nNow all we have to do is pick a side and get prepared for the fight of our lives."
+
+snowFactionSupplies,items,Item,"Snow Faction Supplies"
+snowFactionSuppliesDesc,items,Item,"Supply crate issued to all initiates. Includes uniform, basic supplies, and orders on where we should be reporting to."
+desertFactionSupplies,items,Item,"Desert Faction Supplies"
+desertFactionSuppliesDesc,items,Item,"Supply crate issued to all initiates. Includes uniform, basic supplies, and orders on where we should be reporting to."
 
 factionsFinishSetup,Journal Tip,,"Please complete these steps with your team to finalize setup. I hope to make some of these steps automated in the future, but thanks for your patience until then:\n\n- Work with your team to ensure a Claim Block is placed between the steel spikes on Floor 3 of your Base\n- Each team member should place his/her bedroll within your Base\n- Be sure to use your unpack your job/equipment bundle and look over your inventory, skills, and magazines/books progress since this will adjust all three"
 factionsFinishSetup_title,Journal Tip,,"Factions: Finish Setup"

@@ -2,9 +2,8 @@
     <append xpath="/items">
         <item name="snowFactionSupplies">
             <property name="CustomIcon" value="questWhiteRiverSupplies"/>
-            <!-- TODO: the following does not seem to work! -->
-            <property name="CustomIconTint" value="ffffff"/>
-            <!-- <property name="ItemTypeIcon" value="treasure"/> -->
+            <property name="CustomIconTint" value="04aed9"/>
+            <property name="ItemTypeIcon" value="treasure"/>
 	        <property name="HoldType" value="45"/>
             <property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
             <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
@@ -19,8 +18,8 @@
                 <property name="Sound_start" value="close_garbage"/>
                 <!-- TODO; include cold-weather clothing -->
                 <!-- TODO; dye doesn't seem to work.. why? -->
-                <property name="Create_item" value="snowFactionOrders,vehicleMotorcyclePlaceable,modDyeblue,ammoGasCan"/>
-                <property name="Create_item_count" value="1,1,7,3000"/>
+                <property name="Create_item" value="snowFactionOrders,ammoGasCan"/>
+                <property name="Create_item_count" value="1,3000"/>
             </property>
         </item>
         <item name="snowFactionOrders">
@@ -35,12 +34,13 @@
 
         <item name="desertFactionSupplies">
             <property name="CustomIcon" value="questWhiteRiverSupplies"/>
+            <property name="CustomIconTint" value="ffcc99"/>
             <property name="ItemTypeIcon" value="treasure"/>
 	        <property name="HoldType" value="45"/>
             <property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
             <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
             <property name="Material" value="Morganic"/>
-            <property name="Stacknumber" value="5"/>
+            <property name="Stacknumber" value="1"/>
             <property name="SellableToTrader" value="false"/>
             <property name="Group" value="Resources"/>
             <property class="Action0">
