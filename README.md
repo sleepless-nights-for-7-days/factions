@@ -27,6 +27,7 @@ Category | Raider | Looter | Engineer
 - Set of clothes specific to your faction
 	- Snow: Puffer Coat, flannel shirt, denim pants
 	- Desert: Leather Poncho, tank top, shorts
+- 1 Motorcycle with a full tank of gas
 
 ### Building Materials that come with each Engineer
 - Pre-Constructed
