@@ -21,56 +21,56 @@
 ## Starting Skills/Perks
 Perk | Max Level | Raider | Looter | Engineer
 --- | :---: | :---: | :---: | :---:
-**Perception** | 10 | 10 | 7 | 1
-Dead Eye | 5 | 5 | 4 | 0
-Demolitions Expert| 5 | 5 | 0 | 0
-Javelin Master | 5 | 0 | 0 | 0
-Lock Picking | 3 | 0 | 3 | 0
-The Infiltrator | 3 | 3 | 0 | 0
-Animal Tracker| 3 | 0 | 3 | 0
-The Penetrator | 4 | 4 | 3 | 0
-Lucky Looter | 5 | 0 | 5 | 0
-Treasure Hunter | 3 | 0 | 3 | 0
-Salvage Operations | 5 | 0 | 5 | 0
-**Strength** | 10 | 1 | 1 | 10
-Boomstick | 5 | 0 | 0 | 5
-Pummel Pete | 5 | 0 | 0 | 5
-Skull Crusher | 5 | 0 | 0 | 5
-Sexual Tyrannosaurus | 4 | 0 | 0 | 4
-Heavy Armor | 4 | 4 | 0 | 0
-Pack Mule | 5 | 0 | 0 | 4
-Master Chef | 5 | 0 | 0 | 5
-Miner 69’er | 5 | 0 | 0 | 5
-Mother Lode | 5 | 0 | 0 | 5
-**Fortitude** | 10 | 9 | 1 | 1
-The Brawler | 5 | 0 | 0 | 0
-Machine Gunner | 5 | 5 | 0 | 0
-The Huntsman | 5 | 0 | 0 | 0
-Well Insulated | 3 | 3 | 0 | 0
-Living Off The Land | 3 | 0 | 0 | 0
-Pain Tolerance | 5 | 5 | 0 | 0
-Healing Factor | 5 | 5 | 0 | 0
-Iron Gut | 5 | 5 | 0 | 0
-Rule 1: Cardio | 3 | 3 | 0 | 0
-**Agility** | 10 | 9 | 9 | 1
-Archery | 5 | 0 | 0 | 0
-Gunslinger | 5 | 0 | 5 | 0
-Deep Cuts | 5 | 0 | 5 | 0
-Run and Gun | 3 | 3 | 3 | 0
-Flurry of Blows | 3 | 0 | 5 | 0
-Light Armor | 4 | 0 | 4 | 0
-Parkour | 4 | 4 | 4 | 0
-Hidden Strike | 5 | 0 | 5 | 0
-From The Shadows | 5 | 0 | 5 | 0
-**Intellect** | 10 | 1 | 5 | 10
-Electrocutioner | 5 | 0 | 0 | 5
-Robotics Inventor | 5 | 0 | 0 | 5
-Better Barter | 5 | 0 | 3 | 0
-The Daring Adventurer | 4 | 0 | 3 | 0
-Charismatic Nature | 4 | 0 | 0 | 4
-Physician | 4 | 0 | 0 | 4
-Advanced Engineering | 5 | 0 | 0 | 5
-Grease Monkey | 5 | 0 | 0 | 5
+**Perception** 			| 10 | 9 | 7 | 1
+Dead Eye 				| 5 | 5 | 4 | 0
+Demolitions Expert		| 5 | 5 | 0 | 0
+Javelin Master 			| 5 | 0 | 0 | 0
+Lock Picking 			| 3 | 0 | 3 | 0
+The Infiltrator 		| 3 | 3 | 0 | 0
+Animal Tracker			| 3 | 0 | 3 | 0
+The Penetrator 			| 4 | 4 | 3 | 0
+Lucky Looter 			| 5 | 0 | 5 | 0
+Treasure Hunter 		| 3 | 0 | 3 | 0
+Salvage Operations 		| 5 | 0 | 5 | 0
+**Strength** 			| 10 | 6 | 1 | 10
+Boomstick 				| 5 | 0 | 0 | 5
+Pummel Pete 			| 5 | 0 | 0 | 5
+Skull Crusher 			| 5 | 0 | 0 | 5
+Sexual Tyrannosaurus 	| 4 | 0 | 0 | 4
+Heavy Armor 			| 4 | 4 | 0 | 4
+Pack Mule 				| 5 | 0 | 0 | 4
+Master Chef 			| 5 | 0 | 0 | 5
+Miner 69’er 			| 5 | 0 | 0 | 5
+Mother Lode 			| 5 | 0 | 0 | 5
+**Fortitude** 			| 10 | 9 | 1 | 1
+The Brawler 			| 5 | 0 | 0 | 0
+Machine Gunner 			| 5 | 5 | 0 | 0
+The Huntsman 			| 5 | 0 | 0 | 0
+Well Insulated 			| 3 | 3 | 0 | 0
+Living Off The Land 	| 3 | 0 | 0 | 0
+Pain Tolerance 			| 5 | 5 | 0 | 0
+Healing Factor 			| 5 | 5 | 0 | 0
+Iron Gut 				| 5 | 5 | 0 | 0
+Rule 1: Cardio 			| 3 | 3 | 0 | 0
+**Agility** 			| 10 | 9 | 9 | 1
+Archery 				| 5 | 0 | 0 | 0
+Gunslinger 				| 5 | 0 | 5 | 0
+Deep Cuts 				| 5 | 0 | 5 | 0
+Run and Gun 			| 3 | 3 | 3 | 0
+Flurry of Blows 		| 3 | 0 | 5 | 0
+Light Armor 			| 4 | 0 | 4 | 0
+Parkour 				| 4 | 4 | 4 | 0
+Hidden Strike 			| 5 | 0 | 5 | 0
+From The Shadows 		| 5 | 0 | 5 | 0
+**Intellect** 			| 10 | 1 | 7 | 10
+Electrocutioner 		| 5 | 0 | 0 | 5
+Robotics Inventor 		| 5 | 0 | 0 | 5
+Better Barter 			| 5 | 0 | 4 | 0
+The Daring Adventurer 	| 4 | 0 | 4 | 0
+Charismatic Nature 		| 4 | 0 | 4 | 4
+Physician 				| 4 | 0 | 0 | 4
+Advanced Engineering 	| 5 | 0 | 0 | 5
+Grease Monkey 			| 5 | 0 | 0 | 5
 
 ## Starting Book/Magazine Perks
 Series | Raider | Looter | Engineer | Description
