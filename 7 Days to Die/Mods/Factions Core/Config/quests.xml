@@ -69,12 +69,17 @@
                 <property name="use_closest" value="true" />
             </objective>
             
-            <!-- <reward type="Item" id="resourceRockSmall" ischosen="true" value="1"/> -->
+            <reward type="Item" id="bedroll" value="1"/>
+            <reward type="Item" id="keystoneBlock" value="1"/>
             <reward type="Item" id="Raider Starting Kit" ischosen="true"/>
             <reward type="Item" id="Crafter Starting Kit" ischosen="true"/>
             <reward type="Item" id="Gatherer Starting Kit" ischosen="true"/>
 
-            <reward type="Quest" id="quest_SecureForSnowFaction"/>
+            <!-- TODO; only the later reward tip appears. This should be explained some way else... maybe another quest :-/ -->
+            <reward type="ShowTip" value="factionsFinishSetup" stage="aftercomplete"/>
+            <reward type="ShowTip" value="factionsCoreObjective" stage="aftercomplete"/>
+            <!-- TODO: maybe include another tip with rough map coordinates for Desert Faction? -->
+            <!-- <reward type="Quest" id="quest_SecureForSnowFaction"/> -->
         </quest>
         <!-- TODO; include a "settling in" quest to help explain the rules and functions of the game? -->
         <quest id="quest_SecureForSnowFaction">
@@ -87,13 +92,22 @@
             <property name="difficulty" value="medium"/>
             <property name="shareable" value="false"/>
 
-            <action type="ShowTip" value="We just received word that the Desert Faction Outpost has been located.\n\nSeek it out and eliminate its Claim Block while protecting your own.\n\nWork as a team to gather resources, produce the necessary supplies, and secure this Desert outpost for the glory of Snow Faction."/>
+            <!-- TODO: test title attribute.. might not work -->
+            <action type="ShowTip" value="factionsSetup"/>
+            <action type="ShowTip" value="factionsSetup"/>
             <action type="TrackQuest"/>
 
             <objective type="Goto" id="trader" value="5" phase="1">
                 <property name="biome_filter_type" value="OnlyBiome" />
-                <property name="biome_filter" value="snow" />
+                <property name="biome_filter" value="desert" />
                 <property name="nav_object" value="go_to_trader" />
+            </objective>
+
+            <!-- could we *not* include this? We're just trying to highlight the enemy base position -->
+            <objective type="InteractWithNPC">
+                <property name="phase" value="2"/>
+                <property name="nav_object" value="return_to_trader" />
+                <property name="use_closest" value="true" />
             </objective>
         </quest>
 

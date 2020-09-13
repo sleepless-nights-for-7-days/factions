@@ -2,7 +2,11 @@ Key,File,Type,English
 tutorialTipQuest01_title,Journal Tip,,"Welcome to FACTIONS"
 tutorialTipQuest01,Journal Tip,,"Initiate,\n\nWe have been expanding for months and you now have an opportunity to be recognized as a full-fledged member of our Faction. Establish our presense in this region by eliminating the CLAIM all other factions have on this area.\n\nVisit your local trader to identify your faction alignment and confirm the skillset you provide to recieve the gear we sent ahead of your arrival.\n\nThere can only be 1 power in this region - make sure it's us."
 
+factionsFinishSetup,Journal Tip,,"Please complete these steps with your team to finalize setup. I hope to make some of these steps automated in the future, but thanks for your patience until then:\n\n- Work with your team to ensure a Claim Block is placed between the steel spikes on Floor 3 of your Base\n- Each team member should place his/her bedroll within your Base\n- Be sure to use your unpack your job/equipment bundle and look over your inventory, skills, and magazines/books progress since this will adjust all three"
+factionsFinishSetup_title,Journal Tip,,"Factions: Finish Setup"
 
+factionsCoreObjective,Journal Tip,,"The Claim Block your Team placed represents your Faction's claim in this region. If it breaks, your team loses the game.\n\nDestroy the opposing Faction's Claim Block while defending your own to win the game.\n\nBETA: Please Note that meeting the winning condition does not automatically end the game; be sure to let both teams know when this condition is satisfied."
+factionsCoreObjective_title,Journal Tip,,"Factions: Core Objective"
 
 job_raider,Quest,Challenge Info,"I'm a Raider"
 job_raider_subtitle,Quest,Challenge Info,,,"I'm a Raider"
