@@ -1,14 +1,45 @@
 <configs>
+    <!-- removing due to the specifically-placed traders in this map -->
+    <remove xpath="/quests/quest[@id='tier2_nexttrader']"/>
+    <remove xpath="/quests/quest[@id='tier3_nexttrader']"/>
+    <remove xpath="/quests/quest[@id='tier4_nexttrader']"/>
+    <remove xpath="/quests/quest[@id='tier5_nexttrader']"/>
+    <remove xpath="/quests/quest_list/quest[@id='tier2_nexttrader']"/>
+    <remove xpath="/quests/quest_list/quest[@id='tier3_nexttrader']"/>
+    <remove xpath="/quests/quest_list/quest[@id='tier4_nexttrader']"/>
+    <remove xpath="/quests/quest_list/quest[@id='tier5_nexttrader']"/>
+    
     <remove xpath="/quests/quest[@id='quest_BasicSurvival1']"/>
     <append xpath="/quests">
-        <!-- Override starting quest to visit the Trader and choose Faction Colors -->
-        <quest id="quest_BasicSurvival1">
-            <property name="name" value="Identify Faction Alignment"/>
-            <property name="subtitle" value="Identify Faction Alignment"/>
-            <property name="description" value="Identify your Faction alignment with the Trader so he can provide you with our Colors and get your paperwork ready."/>
+        <quest id="quest_factionTest">
+            <property name="name" value="Faction Test"/>
+            <property name="subtitle" value="Test a factions quest feature"/>
+            <property name="description" value=""/>
+            <property name="offer" value=""/>
             <property name="icon" value="ui_game_symbol_map_trader"/>
             <property name="category_key" value="quest"/>
-            <property name="difficulty" value="medium"/>
+            <property name="repeatable" value="true"/>
+
+            <!-- Test... Maybe set this up as 4 loot groups? -->
+            <reward type="Item" id="apparelCoatPufferCoat" mods="modDyeSnow" mod_chance="1"/>
+            <reward type="Item" id="apparelFlannelShirt" mods="modDyeSnow" mod_chance="1"/>
+            <reward type="Item" id="apparelDenimPants" mods="modDyeSnow" mod_chance="1"/>
+            <reward type="Item" id="apparelSuitDressShoes" mods="modDyeSnow" mod_chance="1"/>
+
+            <reward type="Item" id="apparelPlantFiberShirt"/>
+            <reward type="Item" id="apparelPlantFiberGloves"/>
+            <reward type="Item" id="apparelPlantFiberPants" mods="modDyeSnow"/>
+            <reward type="Item" id="apparelPlantFiberShoes" mod_chance="1"/>
+        </quest>
+
+        <quest id="quest_BasicSurvival1">
+            <property name="name_key" value="quest_BasicSurvival1"/>
+            <property name="subtitle_key" value="quest_BasicSurvival1_subtitle"/>
+            <property name="description_key" value="quest_BasicSurvival1_offer"/>
+            <property name="offer_key" value="quest_BasicSurvival1_offer"/>
+            <property name="icon" value="ui_game_symbol_map_trader"/>
+            <property name="category_key" value="quest"/>
+            <!-- <property name="difficulty" value="easy"/> -->
             <property name="shareable" value="false"/>
             <property name="completiontype" value="TurnIn"/>
 		    <property name="completion_key" value="quest_tier_complete_completion"/>
@@ -27,30 +58,29 @@
 
             <!-- Boost Skills/Perks to allow choice of 3 Jobs in next quest reward -->
 		    <reward type="Skill" id="perkDaringAdventurer" value="1"/>
-            <!-- Chain next quest to set up Job -->
-            <!-- <reward type="Quest" id="quest_SkillsetConfirmation">
-                <property name="chainquest" value="false"/>
-            </reward> -->
 
-            <!-- Choose your team! -->
-            <!-- TODO: provide starting kit for faction colors instead to give a better explanation? -->
-            <!-- TODO: maybe include a note in this bundle that explains you still have to ally with your team -->
-            <reward type="Item" id="snowFactionSupplies" ischosen="true" isfixed="true"/>
-            <reward type="Item" id="desertFactionSupplies" ischosen="true" isfixed="true"/>
-            <!-- <reward type="Item" id="modDyeblue" ischosen="true" isfixed="true"/> -->
+            <!-- <item name="armorMiningHelmet" mods="modArmorHelmetLight" mod_chance="1" prob="0.015"/> -->
+            
+            <!-- Choose your Faction -->
+            <!-- <reward type="Item" id="snowFactionSupplies" ischosen="true" isfixed="true"/> -->
+            <reward type="Item" id="ammoGasCan" value="3000"/>
+            <reward type="Item" id="drinkJarPureMineralWater" value="3"/>
+            <reward type="Item" id="foodMeatStew" value="3"/>
+            <reward type="Item" id="snowFactionOrders" ischosen="true" isfixed="true"/>
+            <reward type="Item" id="desertFactionOrders" ischosen="true" isfixed="true"/>
 
             <!-- TODO: maybe try this? -->
             <!-- <reward type="ShowTip" value="whiteRiverCitizen" stage="aftercomplete"/> -->
         </quest>
 
         <quest id="quest_ReportToSnowOutpost">
-            <property name="name" value="Report to Snow Outpost"/>
-            <property name="subtitle" value="Report to Snow Outpost"/>
-            <property name="description" value="Identify your Faction alignment with the Trader so he can provide you with our Colors and get your paperwork ready."/>
-            <property name="offer" value="Report to Snow Outpost to be issued your orders and receive your equipment"/>
+            <property name="name_key" value="quest_ReportToSnowOutpost"/>  
+            <property name="subtitle_key" value="quest_ReportToSnowOutpost_subtitle"/>
+            <property name="description_key" value="quest_ReportToSnowOutpost_offer"/>
+            <property name="offer_key" value="quest_ReportToSnowOutpost_offer"/>
             <property name="icon" value="ui_game_symbol_map_trader"/>
             <property name="category_key" value="quest"/>
-            <!-- <property name="difficulty" value="medium"/> -->
+            <property name="difficulty" value="medium"/>
             <property name="shareable" value="false"/>
             <property name="completiontype" value="TurnIn"/>
 		    <property name="completion_key" value="quest_tier_complete_completion"/>
@@ -71,43 +101,52 @@
             
             <reward type="Item" id="bedroll" value="1"/>
             <reward type="Item" id="keystoneBlock" value="1"/>
-            <reward type="Item" id="Raider Starting Kit" ischosen="true"/>
+
+            <reward type="Item" id="raiderStartingKit" ischosen="true"/>
             <reward type="Item" id="Crafter Starting Kit" ischosen="true"/>
             <reward type="Item" id="Gatherer Starting Kit" ischosen="true"/>
 
-            <!-- TODO; only the later reward tip appears. This should be explained some way else... maybe another quest :-/ -->
-            <reward type="ShowTip" value="factionsFinishSetup" stage="aftercomplete"/>
-            <reward type="ShowTip" value="factionsCoreObjective" stage="aftercomplete"/>
-            <!-- TODO: maybe include another tip with rough map coordinates for Desert Faction? -->
-            <!-- <reward type="Quest" id="quest_SecureForSnowFaction"/> -->
+            <reward type="ShowTip" value="factionsFinishSettingUp" stage="aftercomplete"/>
+
+            <reward type="Quest" id="quest_LocateDesertFactionBase"/>
         </quest>
-        <!-- TODO; include a "settling in" quest to help explain the rules and functions of the game? -->
-        <quest id="quest_SecureForSnowFaction">
-            <property name="name" value="Secure Region for Snow Faction"/>
-            <property name="subtitle" value="Secure Region for Snow Faction"/>
-            <property name="description" value="Secure this region for the Snow Faction."/>
-            <property name="offer" value="Report to Snow Outpost to be issued your orders and receive your equipment"/>
+        
+        <!-- TODO: see how these people do it: https://7daystodiemods.com/expanded-quest-mod/ -->
+
+        <!-- <quest id="quest_navigateToSnowFactionBase">
+            <property name="name" value="Go to Snow Faction Base"/>
+            <property name="subtitle" value="Go There"/>
+            <property name="description" value="Go to Snow Faction Base description"/>
+            <property name="offer" value="Go to Snow Faction Base offer"/>
             <property name="icon" value="ui_game_symbol_search"/>
             <property name="category_key" value="quest"/>
-            <property name="difficulty" value="medium"/>
+            <property name="difficulty" value="insane"/>
             <property name="shareable" value="false"/>
 
-            <!-- TODO: test title attribute.. might not work -->
-            <action type="ShowTip" value="factionsSetup"/>
-            <action type="ShowTip" value="factionsSetup"/>
+            <action type="TrackQuest"/>
+
+            <objective type="Goto" id="factionsBase" value="5" phase="1">
+                <property name="nav_object" value="quest" />
+                <property name="biome_filter_type" value="OnlyBiome" />
+                <property name="biome_filter" value="snow" />
+            </objective>
+        </quest> -->
+        <quest id="quest_LocateDesertFactionBase">
+            <property name="name_key" value="quest_LocateDesertFactionBase"/>
+            <property name="subtitle_key" value="quest_LocateDesertFactionBase_subtitle"/>
+            <property name="description_key" value="quest_LocateDesertFactionBase_offer"/>
+            <property name="offer_key" value="quest_LocateDesertFactionBase_offer"/>
+            <property name="icon" value="ui_game_symbol_search"/>
+            <property name="category_key" value="quest"/>
+            <property name="difficulty" value="insane"/>
+            <property name="shareable" value="false"/>
+
             <action type="TrackQuest"/>
 
             <objective type="Goto" id="trader" value="5" phase="1">
                 <property name="biome_filter_type" value="OnlyBiome" />
                 <property name="biome_filter" value="desert" />
                 <property name="nav_object" value="go_to_trader" />
-            </objective>
-
-            <!-- could we *not* include this? We're just trying to highlight the enemy base position -->
-            <objective type="InteractWithNPC">
-                <property name="phase" value="2"/>
-                <property name="nav_object" value="return_to_trader" />
-                <property name="use_closest" value="true" />
             </objective>
         </quest>
 
@@ -135,7 +174,7 @@
             </objective>
 
             <!-- <reward type="Item" id="resourceRockSmall" ischosen="true" value="1"/> -->
-            <reward type="Item" id="Raider Starting Kit" ischosen="true"/>
+            <reward type="Item" id="raiderStartingKit" ischosen="true"/>
             <reward type="Item" id="Crafter Starting Kit" ischosen="true"/>
             <reward type="Item" id="Gatherer Starting Kit" ischosen="true"/>
 

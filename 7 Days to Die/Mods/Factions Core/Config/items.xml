@@ -1,7 +1,7 @@
 <configs>
     <append xpath="/items">
         <item name="snowFactionSupplies">
-            <property name="CustomIcon" value="questWhiteRiverSupplies"/>
+            <property name="CustomIcon" value="backpackMedium"/>
             <property name="CustomIconTint" value="04aed9"/>
             <property name="ItemTypeIcon" value="treasure"/>
 	        <property name="HoldType" value="45"/>
@@ -15,21 +15,44 @@
                 <property name="Class" value="OpenBundle"/>
                 <property name="Delay" value="0"/>
                 <property name="Use_time" value="0"/>
-                <property name="Sound_start" value="close_garbage"/>
-                <!-- TODO; include cold-weather clothing -->
-                <!-- TODO; dye doesn't seem to work.. why? -->
-                <property name="Create_item" value="snowFactionOrders,ammoGasCan"/>
-                <property name="Create_item_count" value="1,3000"/>
+                <property name="Sound_start" value="UseActions/open_backpack"/>
+                <property name="Create_item" value="snowFactionOrders,snowFactionDyeKit,ammoGasCan,drinkJarPureMineralWater,foodMeatStew,apparelCoatPufferCoat,apparelFlannelShirt,apparelDenimPants,apparelSuitDressShoes"/>
+                <property name="Create_item_count" value="1,1,3000,3,3,1,1,1,1"/>
+            </property>
+        </item>
+        <item name="snowFactionDyeKit">
+            <property name="CustomIcon" value="cntDuffle01"/>
+            <property name="CustomIconTint" value="04aed9"/>
+            <property name="ItemTypeIcon" value="treasure"/>
+	        <property name="HoldType" value="45"/>
+            <property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+            <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+            <property name="Material" value="Morganic"/>
+            <property name="Stacknumber" value="1"/>
+            <property name="SellableToTrader" value="false"/>
+            <property name="Group" value="Resources"/>
+            <property class="Action0">
+                <property name="Class" value="OpenBundle"/>
+                <property name="Delay" value="0"/>
+                <property name="Use_time" value="0"/>
+                <property name="Sound_start" value="UseActions/open_backpack"/>
+                <property name="Create_item" value="modDyeSnow,modDyeSnow,modDyeSnow,modDyeSnow,modDyeSnow,modDyeSnow,modDyeSnow,modDyeSnow,modDyeSnow,modDyeSnow"/>
+                <property name="Create_item_count" value="1,1,1,1,1,1,1,1,1,1"/>
             </property>
         </item>
         <item name="snowFactionOrders">
-            <property name="Extends" value="challengeQuestMaster"/>
-            <!-- <property name="Description" value="Skills and Equipment necessary for any great Raider"/> -->
-            <property name="CustomIcon" value="questMaster"/>
+            <property name="Extends" value="questMaster"/>
+            <property name="CustomIconTint" value="04aed9"/>
+            <property name="name_key" value="quest_ReportToSnowOutpost"/>
             <property class="Action0">
-                <!-- <property name="UseAnimation" value="false"/> -->
                 <property name="QuestGiven" value="quest_ReportToSnowOutpost"/>
             </property>
+        </item>
+        <item name="snowFactionMission">
+            <property name="Extends" value="blankNoteMaster"/>
+            <property name="CustomIconTint" value="04aed9"/>
+            <property name="CreativeMode" value="None"/>
+            <property name="DescriptionKey" value="snowFactionMissionDesc"/>
         </item>
 
         <item name="desertFactionSupplies">
@@ -48,13 +71,13 @@
                 <property name="Delay" value="0"/>
                 <property name="Use_time" value="0"/>
                 <property name="Sound_start" value="close_garbage"/>
-                <!-- TODO; include hot-weather clothing -->
-                <property name="Create_item" value="desertFactionOrders,modDyebrown"/>
-                <property name="Create_item_count" value="1,7"/>
+                <property name="Create_item" value="desertFactionOrders,ammoGasCan,drinkJarPureMineralWater,foodMeatStew,apparelCoatLeatherPoncho,apparelTankTop,apparelDenimShortsPants,apparelRunningShoesHP"/>
+                <property name="Create_item_count" value="1,3000,3,3,1,1,1,1"/>
             </property>
         </item>
         <item name="desertFactionOrders">
             <property name="Extends" value="questMaster"/>
+            <property name="CustomIconTint" value="ffcc99"/>
             <property name="Description" value="Skills and Equipment necessary for any great Raider"/>
 	        <property name="CustomIcon" value="questMaster"/>
             <property name="Group" value="Special Items,Mods"/>
@@ -63,29 +86,37 @@
             </property>
         </item>
 
-        <item name="Raider Starting Kit">
+        <item name="raiderStartingKit">
             <property name="Extends" value="questMaster"/>
             <property name="Description" value="Skills and Equipment necessary for any great Raider"/>
-	        <property name="CustomIcon" value="cntWeaponsBagLarge"/>
-            <property name="Group" value="Special Items,Mods"/>
+	        <property name="CustomIcon" value="questWhiteRiverSupplies"/>
+            <property name="ItemTypeIcon" value="treasure"/>
+            <property name="StackNumber" value="1"/>
             <property class="Action0">
+                <property name="SoundStart" value="SupplyDrops/open_supply_crate"/>
                 <property name="QuestGiven" value="job_raider"/>
-            </property>
-        </item>
-        <item name="Crafter Starting Kit">
-            <property name="Extends" value="questMaster"/>
-            <property name="Description" value="Skills and Equipment necessary for any great Crafter"/>
-	        <property name="CustomIcon" value="cntRollingToolBoxClosed"/>
-            <property class="Action0">
-                <property name="QuestGiven" value="job_crafter"/>
             </property>
         </item>
         <item name="Gatherer Starting Kit">
             <property name="Extends" value="questMaster"/>
-            <property name="Description" value="Skills and Equipment necessary for any great Gatherer"/>
-	        <property name="CustomIcon" value="backpackMedium"/>
+            <property name="Description" value="Skills and Equipment necessary for any great Looter"/>
+	        <property name="CustomIcon" value="questWhiteRiverSupplies"/>
+            <property name="ItemTypeIcon" value="treasure"/>
+            <property name="StackNumber" value="1"/>
             <property class="Action0">
+                <property name="SoundStart" value="SupplyDrops/open_supply_crate"/>
                 <property name="QuestGiven" value="job_gatherer"/>
+            </property>
+        </item>
+        <item name="Crafter Starting Kit">
+            <property name="Extends" value="questMaster"/>
+            <property name="Description" value="Skills and Equipment necessary for any great Engineer"/>
+	        <property name="CustomIcon" value="questWhiteRiverSupplies"/>
+            <property name="ItemTypeIcon" value="treasure"/>
+            <property name="StackNumber" value="1"/>
+            <property class="Action0">
+                <property name="SoundStart" value="SupplyDrops/open_supply_crate"/>
+                <property name="QuestGiven" value="job_crafter"/>
             </property>
         </item>
     </append>
