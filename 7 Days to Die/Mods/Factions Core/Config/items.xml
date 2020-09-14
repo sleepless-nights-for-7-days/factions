@@ -3,6 +3,7 @@
         <item name="snowFactionSupplies">
             <property name="CustomIcon" value="backpackMedium"/>
             <property name="CustomIconTint" value="04aed9"/>
+            <property name="DescriptionKey" value="factionSuppliesDesc"/>
             <property name="ItemTypeIcon" value="treasure"/>
 	        <property name="HoldType" value="45"/>
             <property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
@@ -48,12 +49,6 @@
                 <property name="QuestGiven" value="quest_ReportToSnowOutpost"/>
             </property>
         </item>
-        <item name="snowFactionMission">
-            <property name="Extends" value="blankNoteMaster"/>
-            <property name="CustomIconTint" value="04aed9"/>
-            <property name="CreativeMode" value="None"/>
-            <property name="DescriptionKey" value="snowFactionMissionDesc"/>
-        </item>
 
         <item name="desertFactionSupplies">
             <property name="CustomIcon" value="questWhiteRiverSupplies"/>
@@ -88,7 +83,7 @@
 
         <item name="raiderStartingKit">
             <property name="Extends" value="questMaster"/>
-            <property name="Description" value="Skills and Equipment necessary for any great Raider"/>
+            <property name="CustomIconTint" value="7851A9"/>
 	        <property name="CustomIcon" value="questWhiteRiverSupplies"/>
             <property name="ItemTypeIcon" value="treasure"/>
             <property name="StackNumber" value="1"/>
@@ -97,26 +92,26 @@
                 <property name="QuestGiven" value="job_raider"/>
             </property>
         </item>
-        <item name="Gatherer Starting Kit">
+        <item name="looterStartingKit">
             <property name="Extends" value="questMaster"/>
-            <property name="Description" value="Skills and Equipment necessary for any great Looter"/>
+            <property name="CustomIconTint" value="238E23"/>
 	        <property name="CustomIcon" value="questWhiteRiverSupplies"/>
             <property name="ItemTypeIcon" value="treasure"/>
             <property name="StackNumber" value="1"/>
             <property class="Action0">
                 <property name="SoundStart" value="SupplyDrops/open_supply_crate"/>
-                <property name="QuestGiven" value="job_gatherer"/>
+                <property name="QuestGiven" value="job_looter"/>
             </property>
         </item>
-        <item name="Crafter Starting Kit">
+        <item name="engineerStartingKit">
             <property name="Extends" value="questMaster"/>
-            <property name="Description" value="Skills and Equipment necessary for any great Engineer"/>
+            <property name="CustomIconTint" value="A62A2A"/>
 	        <property name="CustomIcon" value="questWhiteRiverSupplies"/>
             <property name="ItemTypeIcon" value="treasure"/>
             <property name="StackNumber" value="1"/>
             <property class="Action0">
                 <property name="SoundStart" value="SupplyDrops/open_supply_crate"/>
-                <property name="QuestGiven" value="job_crafter"/>
+                <property name="QuestGiven" value="job_engineer"/>
             </property>
         </item>
     </append>

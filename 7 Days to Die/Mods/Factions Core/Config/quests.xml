@@ -58,19 +58,10 @@
 
             <!-- Boost Skills/Perks to allow choice of 3 Jobs in next quest reward -->
 		    <reward type="Skill" id="perkDaringAdventurer" value="1"/>
-
-            <!-- <item name="armorMiningHelmet" mods="modArmorHelmetLight" mod_chance="1" prob="0.015"/> -->
             
             <!-- Choose your Faction -->
-            <!-- <reward type="Item" id="snowFactionSupplies" ischosen="true" isfixed="true"/> -->
-            <reward type="Item" id="ammoGasCan" value="3000"/>
-            <reward type="Item" id="drinkJarPureMineralWater" value="3"/>
-            <reward type="Item" id="foodMeatStew" value="3"/>
-            <reward type="Item" id="snowFactionOrders" ischosen="true" isfixed="true"/>
-            <reward type="Item" id="desertFactionOrders" ischosen="true" isfixed="true"/>
-
-            <!-- TODO: maybe try this? -->
-            <!-- <reward type="ShowTip" value="whiteRiverCitizen" stage="aftercomplete"/> -->
+            <reward type="Item" id="snowFactionSupplies" ischosen="true" isfixed="true"/>
+            <reward type="Item" id="desertFactionSupplies" ischosen="true" isfixed="true"/>
         </quest>
 
         <quest id="quest_ReportToSnowOutpost">
@@ -103,8 +94,8 @@
             <reward type="Item" id="keystoneBlock" value="1"/>
 
             <reward type="Item" id="raiderStartingKit" ischosen="true"/>
-            <reward type="Item" id="Crafter Starting Kit" ischosen="true"/>
-            <reward type="Item" id="Gatherer Starting Kit" ischosen="true"/>
+            <reward type="Item" id="engineerStartingKit" ischosen="true"/>
+            <reward type="Item" id="looterStartingKit" ischosen="true"/>
 
             <reward type="ShowTip" value="factionsFinishSettingUp" stage="aftercomplete"/>
 
@@ -175,8 +166,8 @@
 
             <!-- <reward type="Item" id="resourceRockSmall" ischosen="true" value="1"/> -->
             <reward type="Item" id="raiderStartingKit" ischosen="true"/>
-            <reward type="Item" id="Crafter Starting Kit" ischosen="true"/>
-            <reward type="Item" id="Gatherer Starting Kit" ischosen="true"/>
+            <reward type="Item" id="engineerStartingKit" ischosen="true"/>
+            <reward type="Item" id="looterStartingKit" ischosen="true"/>
 
             <!-- <reward type="Exp" value="2000"/>
             <reward type="Item" id="casinoCoin" value="5000"/>
@@ -184,8 +175,8 @@
             
             
             <!-- <reward type="Quest" id="job_raider" ischosen="true"/>
-            <reward type="Quest" id="job_crafter" ischosen="true" value="3"/>
-            <reward type="Quest" id="job_gatherer" ischosen="true" isfixed="true"/> -->
+            <reward type="Quest" id="job_engineer" ischosen="true" value="3"/>
+            <reward type="Quest" id="job_looter" ischosen="true" isfixed="true"/> -->
             <!-- <reward type="Quest" id="job_raider" ischosen="true" isfixed="true" value="3"/>
             <reward type="LootItem" id="groupQuestArmor,groupQuestMedical" ischosen="true" isfixed="true" value="3"/>
             <reward type="LootItem" id="groupQuestAmmo" ischosen="true" value="3"/>
@@ -205,10 +196,10 @@
             -->
             <property name="name_key" value="job_raider"/>
             <property name="subtitle_key" value="job_raider_subtitle"/>
-            <property name="description_key" value="offer_key"/>
+            <property name="description_key" value="job_offer"/>
+            <property name="offer_key" value="job_offer"/>
             <property name="icon" value="ui_game_symbol_muscle"/>
             <property name="category_key" value="quest"/>
-            <property name="offer_key" value="job_raider_offer"/>
             <property name="shareable" value="false"/>
             
             <!-- Skills/Perks -->
@@ -216,8 +207,6 @@
 		    <reward type="Skill" id="attStrength" value="1" />
 		    <reward type="Skill" id="attStrength" value="1" />
             <reward type="Skill" id="perkLuckyLooter" value="3" />
-            <reward type="Item" id="resourceRockSmall" value="1000" />
-            <reward type="Item" id="medicalFirstAidKit" value="10" />
             
             <!-- Books/Magazines -->
             <reward type="Skill" id="perkUrbanCombatLanding" value="1" />
@@ -229,51 +218,19 @@
             <reward type="Skill" id="perkUrbanCombatRoomClearing" value="1" />
             <reward type="Skill" id="perkUrbanCombatComplete" value="1" />
 
-            <!-- Items/Equipment -->
+            <!-- Weapons -->
             <reward type="Item" id="gunMGT2TacticalAR" value="6" />
-            <reward type="Item" id="armorSteelChest" value="6" />
-        </quest>
-        <quest id="job_crafter">
-            <!-- 
-            name - quest name without localization.
-            subtitle - sub name without localization.
-            description - description without localization.
-            offer - offer without localization.
-            group_name - quest chain name without localization.
-            category - category type without localization.
-            -->
-            <property name="name" value="Become a Crafter"/>
-            <property name="subtitle" value="Craft "/>
-            <property name="description" value="Craft Weapons, Ammo, and Explosives"/>
-            <property name="icon" value="ui_game_symbol_forge"/>
-            <property name="category_key" value="challenge"/>
-            <property name="offer" value="Become a Crafter to support the Raiders with a steady flow of ammo and equipment"/>
-            <property name="shareable" value="false"/>
-            
-            
 
-            <reward type="Skill" id="attAgility" value="9" />
-		    <reward type="Skill" id="attStrength" value="1" />
-		    <reward type="Skill" id="attStrength" value="1" />
-            <reward type="Skill" id="perkLuckyLooter" value="3" />
-            <reward type="Item" id="resourceRockSmall" value="1000" />
+            <!-- Armor -->
+            <reward type="Item" id="armorSteelChest" value="6" />
+
+            <!-- Consumables -->
             <reward type="Item" id="medicalFirstAidKit" value="10" />
-            
-            <reward type="Skill" id="perkUrbanCombatLanding" value="1" />
-            <reward type="Skill" id="perkUrbanCombatCigar" value="1" />
-            <reward type="Skill" id="perkUrbanCombatSneaking" value="1" />
-            <reward type="Skill" id="perkUrbanCombatLandMines" value="1" />
-            <reward type="Skill" id="perkUrbanCombatJumping" value="1" />
-            <reward type="Skill" id="perkUrbanCombatAdrenalineRush" value="1" />
-            <reward type="Skill" id="perkUrbanCombatRoomClearing" value="1" />
-            <reward type="Skill" id="perkUrbanCombatComplete" value="1" />
 
-            <reward type="Item" id="gunMGT2TacticalAR" value="6" />
-            <reward type="Item" id="armorSteelChest" value="6" />
-            
-            <reward type="Item" id="workVoucher" value="1" />
+            <!-- Resources -->
+            <reward type="Item" id="resourceRockSmall" value="1000" />
         </quest>
-        <quest id="job_gatherer">
+        <quest id="job_looter">
             <!-- 
             name - quest name without localization.
             subtitle - sub name without localization.
@@ -288,6 +245,49 @@
             <property name="icon" value="ui_game_symbol_run"/>
             <property name="category_key" value="challenge"/>
             <property name="offer" value="Become a Gatherer to support the Crafters with a steady flow of resources"/>
+            <property name="shareable" value="false"/>
+            
+            
+            <!-- Skills/Attributes -->
+            <reward type="Skill" id="attAgility" value="9" />
+		    <reward type="Skill" id="attStrength" value="1" />
+		    <reward type="Skill" id="attStrength" value="1" />
+            <reward type="Skill" id="perkLuckyLooter" value="3" />
+            
+            <!-- Magazine Perks -->
+            <reward type="Skill" id="perkUrbanCombatLanding" value="1" />
+            <reward type="Skill" id="perkUrbanCombatCigar" value="1" />
+            <reward type="Skill" id="perkUrbanCombatSneaking" value="1" />
+            <reward type="Skill" id="perkUrbanCombatLandMines" value="1" />
+            <reward type="Skill" id="perkUrbanCombatJumping" value="1" />
+            <reward type="Skill" id="perkUrbanCombatAdrenalineRush" value="1" />
+            <reward type="Skill" id="perkUrbanCombatRoomClearing" value="1" />
+            <reward type="Skill" id="perkUrbanCombatComplete" value="1" />
+
+            <!-- Weapons -->
+            <reward type="Item" id="gunMGT2TacticalAR" value="6" />
+
+            <!-- Armor -->
+            <reward type="Item" id="armorSteelChest" value="6" />
+            
+
+            <reward type="Item" id="workVoucher" value="1" />
+        </quest>
+        <quest id="job_engineer">
+            <!-- 
+            name - quest name without localization.
+            subtitle - sub name without localization.
+            description - description without localization.
+            offer - offer without localization.
+            group_name - quest chain name without localization.
+            category - category type without localization.
+            -->
+            <property name="name" value="Become a Crafter"/>
+            <property name="subtitle" value="Craft "/>
+            <property name="description" value="Craft Weapons, Ammo, and Explosives"/>
+            <property name="icon" value="ui_game_symbol_forge"/>
+            <property name="category_key" value="challenge"/>
+            <property name="offer" value="Become a Crafter to support the Raiders with a steady flow of ammo and equipment"/>
             <property name="shareable" value="false"/>
             
             

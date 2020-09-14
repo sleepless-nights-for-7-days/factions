@@ -2,14 +2,13 @@ Key,File,Type,English
 tutorialTipQuest01_title,Journal Tip,,"Welcome to FACTIONS"
 tutorialTipQuest01,Journal Tip,,"We received instructed this morning to report to our local trader. Seems a Faction War is on the horizon and everyone wants a taste of victory.\n\nIf executed well, this mission may be the ticket we need to become part of a Faction for good.\n\nNow all we have to do is pick a side and get prepared for the fight of our lives."
 
-quest_BasicSurvival1,Quest,Challenge Info,"Join a Faction"
-quest_BasicSurvival1_subtitle,Quest,Challenge Info,"Pick Up Faction Supplies"
-quest_BasicSurvival1_offer,Quest,Challenge Info,"Join a Faction at the Trader so he can provide you with a uniform and suppplies."
+quest_BasicSurvival1,Quest,Quest Info,"Join a Faction"
+quest_BasicSurvival1_subtitle,Quest,Quest Info,"Pick Up Faction Supplies"
+quest_BasicSurvival1_offer,Quest,Quest Info,"Join a Faction at the Trader so he can provide you with a uniform and supplies."
 
 snowFactionSupplies,items,Item,"Snow Faction Supplies"
-snowFactionSuppliesDesc,items,Item,"Supply crate issued to all initiates. Includes uniform, basic supplies, and orders on where we should be reporting to."
 desertFactionSupplies,items,Item,"Desert Faction Supplies"
-desertFactionSuppliesDesc,items,Item,"Supply crate issued to all initiates. Includes uniform, basic supplies, and orders on where we should be reporting to."
+factionSuppliesDesc,items,Item,"Supply bag issued to all initiates. Includes uniform, basic supplies, and orders on where we should be reporting to."
 
 snowFactionDyeKit,items,Item,"Snow Faction Dye Kit"
 snowFactionDyeKitDesc,items,Item,"Dye Kit containing 10 Faction-Specific dyes. Make sure you have enough room in your inventory before opening."
@@ -35,12 +34,21 @@ quest_LocateSnowFactionBase,Quest,Quest Info,"Locate Snow Faction Base"
 quest_LocateSnowFactionBase_subtitle,Quest,Quest Info,"Track down the Snow Faction Base"
 quest_LocateSnowFactionBase_offer,Quest,Quest Info,"Find the opposing faction's base while keeping your own secure. When found, destroy their Claim Block to win the game"
 
-snowFactionMissionDesc,items,Quest - Note,"Snow Faction Mission\n\nLocate and destroy the Claim Block in the enemy Faction's Base while ensuring your own Base is defended from attack.\n\nOur scouts have discovered the Desert Faction Base at: 22W 883N"
-desertFactionMissionDesc,items,Quest - Note,"Desert Faction Mission\n\nLocate and destroy the Claim Block in the enemy Faction's Base while ensuring your own Base is defended from attack.\n\nOur scouts have discovered the Snow Faction Base at: 1158E 1213S"
-
-factionsFinishSettingUp,Journal Tip,,"Complete the following steps with your team:\n- Each team member should place his/her bedroll within your Base, which is located nearby.\n- Unpack your job/equipment bundle and look over your inventory, skills, and magazines/books progress since this will adjust all three.\n- Ensure a Claim Block is placed between the steel spikes on Floor 3 of your Base."
+factionsFinishSettingUp,Journal Tip,,"Complete the following steps with your team:\n- Send an Ally (and possibly Party) invite to each person in your faction and join up in a voice service like Discord.\n- Each team member should place his/her bedroll within your Base, which is located nearby.\n- Unpack your job/equipment bundle and look over your inventory, skills, and magazines/books progress since this will adjust all three.\n- Ensure a Claim Block is placed between the steel spikes on Floor 3 of your Base."
 factionsFinishSettingUp_title,Journal Tip,,"Factions: Finish Setting Up"
 
-job_raider,Quest,Challenge Info,"I'm a Raider"
-job_raider_subtitle,Quest,Challenge Info,,,"I'm a Raider"
-job_raider_offer,Quest,Challenge Info,"Greetings Traveler,\nIf you ‘all are holding this note then you should know my boys have been sticking to you like flies on pig shit. That's because we think you just might be Slick Willie material. Now if you can pull off this wee little task we might just call you kin.\n\nI ain't no city slicker... Willie\n\nChallenge: Kill some boars"
+raiderStartingKit,items,Item,"Raider Kit"
+raiderStartingKitDesc,items,Item,"Being a Raider means you're the tip of the spear: the embodiment of war and ruthlessness, along with the skill and endurance to come out the other side alive.\n\nPrime Objective: locate and defeat the opposing Faction's Base to claim victory for your Faction."
+looterStartingKit,items,Item,"Looter Kit"
+looterStartingKitDesc,items,Item,"Loot, Scrap, and Exchange resources to satisfy the needs of your Engineers while running supplies to your Raiders.\n\nInitial Objective: Gather and supply your Engineers with resources found by scrapping, looting, trading, and completing quests.\n\nLater Objective: Load up on supplies and join the Raiders in their assault on the opposing Faction's Base."
+engineerStartingKit,items,Item,"Engineer Kit"
+engineerStartingKitDesc,items,Item,"As a good Engineer, you will keep your team stocked with ammo, meds, higher-tier vehicles, and explosives - all while defending your Faction's Base.\n\nPrime Objective: Keep your base safe and your team supplied by Building, Crafting, Mining/Gathering, and fighting anyone dares approach your fortress"
+
+job_raider,Quest,Challenge Info,"Open Raider Kit"
+job_raider_subtitle,Quest,Challenge Info,,,"Open Raider Kit"
+job_looter,Quest,Challenge Info,"Open Raider Kit"
+job_looter_subtitle,Quest,Challenge Info,,,"Open Raider Kit"
+job_engineer,Quest,Challenge Info,"Open Raider Kit"
+job_engineer_subtitle,Quest,Challenge Info,,,"Open Raider Kit"
+
+job_offer,Quest,Quest Info,"Includes specialized equipment for your job responsibilities.\n\n[!] It may be a good idea to store your existing inventory in a box before opening this since there may be a lot of goodies inside.\n\nWeapons, Armor, Skill Unlocks, and Perk Unlocks all included"
