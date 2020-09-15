@@ -11,7 +11,8 @@
     
     <remove xpath="/quests/quest[@id='quest_BasicSurvival1']"/>
     <append xpath="/quests">
-        <quest id="quest_factionTest">
+        <!-- was testing out adding a specific dye to the uniforms by default; doesn't seem to work -->
+        <!-- <quest id="quest_factionTest">
             <property name="name" value="Faction Test"/>
             <property name="subtitle" value="Test a factions quest feature"/>
             <property name="description" value=""/>
@@ -20,7 +21,6 @@
             <property name="category_key" value="quest"/>
             <property name="repeatable" value="true"/>
 
-            <!-- Test... Maybe set this up as 4 loot groups? -->
             <reward type="Item" id="apparelCoatPufferCoat" mods="modDyeSnow" mod_chance="1"/>
             <reward type="Item" id="apparelFlannelShirt" mods="modDyeSnow" mod_chance="1"/>
             <reward type="Item" id="apparelDenimPants" mods="modDyeSnow" mod_chance="1"/>
@@ -30,7 +30,7 @@
             <reward type="Item" id="apparelPlantFiberGloves"/>
             <reward type="Item" id="apparelPlantFiberPants" mods="modDyeSnow"/>
             <reward type="Item" id="apparelPlantFiberShoes" mod_chance="1"/>
-        </quest>
+        </quest> -->
 
         <quest id="quest_BasicSurvival1">
             <property name="name_key" value="quest_BasicSurvival1"/>
@@ -41,6 +41,7 @@
             <property name="category_key" value="quest"/>
             <!-- <property name="difficulty" value="easy"/> -->
             <property name="shareable" value="false"/>
+
             <property name="completiontype" value="TurnIn"/>
 		    <property name="completion_key" value="quest_tier_complete_completion"/>
 
@@ -101,27 +102,44 @@
 
             <reward type="Quest" id="quest_LocateDesertFactionBase"/>
         </quest>
-        
-        <!-- TODO: see how these people do it: https://7daystodiemods.com/expanded-quest-mod/ -->
-
-        <!-- <quest id="quest_navigateToSnowFactionBase">
-            <property name="name" value="Go to Snow Faction Base"/>
-            <property name="subtitle" value="Go There"/>
-            <property name="description" value="Go to Snow Faction Base description"/>
-            <property name="offer" value="Go to Snow Faction Base offer"/>
-            <property name="icon" value="ui_game_symbol_search"/>
+        <quest id="quest_ReportToDesertOutpost">
+            <property name="name_key" value="quest_ReportToDesertOutpost"/>  
+            <property name="subtitle_key" value="quest_ReportToDesertOutpost_subtitle"/>
+            <property name="description_key" value="quest_ReportToDesertOutpost_offer"/>
+            <property name="offer_key" value="quest_ReportToDesertOutpost_offer"/>
+            <property name="icon" value="ui_game_symbol_map_trader"/>
             <property name="category_key" value="quest"/>
-            <property name="difficulty" value="insane"/>
+            <property name="difficulty" value="medium"/>
             <property name="shareable" value="false"/>
+            <property name="completiontype" value="TurnIn"/>
+		    <property name="completion_key" value="quest_tier_complete_completion"/>
 
             <action type="TrackQuest"/>
 
-            <objective type="Goto" id="factionsBase" value="5" phase="1">
-                <property name="nav_object" value="quest" />
+            <objective type="Goto" id="trader" value="5" phase="1">
                 <property name="biome_filter_type" value="OnlyBiome" />
-                <property name="biome_filter" value="snow" />
+                <property name="biome_filter" value="desert" />
+                <property name="nav_object" value="go_to_trader" />
             </objective>
-        </quest> -->
+
+            <objective type="InteractWithNPC">
+                <property name="phase" value="2"/>
+                <property name="nav_object" value="return_to_trader" />
+                <property name="use_closest" value="true" />
+            </objective>
+            
+            <reward type="Item" id="bedroll" value="1"/>
+            <reward type="Item" id="keystoneBlock" value="1"/>
+
+            <reward type="Item" id="raiderStartingKit" ischosen="true"/>
+            <reward type="Item" id="engineerStartingKit" ischosen="true"/>
+            <reward type="Item" id="looterStartingKit" ischosen="true"/>
+
+            <reward type="ShowTip" value="factionsFinishSettingUp" stage="aftercomplete"/>
+
+            <reward type="Quest" id="quest_LocateSnowFactionBase"/>
+        </quest>
+
         <quest id="quest_LocateDesertFactionBase">
             <property name="name_key" value="quest_LocateDesertFactionBase"/>
             <property name="subtitle_key" value="quest_LocateDesertFactionBase_subtitle"/>
@@ -140,50 +158,44 @@
                 <property name="nav_object" value="go_to_trader" />
             </objective>
         </quest>
-
-        <quest id="quest_ReportToDesertOutpost">
-            <property name="name" value="Confirm Skillset with Trader"/>
-            <property name="subtitle" value="Confirm Skillset with Trader"/>
-            <property name="description" value="Confirm your skillset to recieve the gear we sent ahead of your arrival."/>
-            <property name="icon" value="ui_game_symbol_map_trader"/>
+        <quest id="quest_LocateSnowFactionBase">
+            <property name="name_key" value="quest_LocateSnowFactionBase"/>
+            <property name="subtitle_key" value="quest_LocateSnowFactionBase_subtitle"/>
+            <property name="description_key" value="quest_LocateSnowFactionBase_offer"/>
+            <property name="offer_key" value="quest_LocateSnowFactionBase_offer"/>
+            <property name="icon" value="ui_game_symbol_search"/>
             <property name="category_key" value="quest"/>
-            <property name="difficulty" value="medium"/>
+            <property name="difficulty" value="insane"/>
             <property name="shareable" value="false"/>
-		    <property name="completiontype" value="TurnIn"/>
-		    <property name="completion_key" value="quest_tier_complete_completion"/>
+
+            <action type="TrackQuest"/>
 
             <objective type="Goto" id="trader" value="5" phase="1">
                 <property name="biome_filter_type" value="OnlyBiome" />
-                <property name="biome_filter" value="desert" />
+                <property name="biome_filter" value="snow" />
                 <property name="nav_object" value="go_to_trader" />
             </objective>
-
-            <objective type="InteractWithNPC">
-                <property name="phase" value="2"/>
-                <property name="nav_object" value="return_to_trader" />
-                <property name="use_closest" value="true" />
-            </objective>
-
-            <!-- <reward type="Item" id="resourceRockSmall" ischosen="true" value="1"/> -->
-            <reward type="Item" id="raiderStartingKit" ischosen="true"/>
-            <reward type="Item" id="engineerStartingKit" ischosen="true"/>
-            <reward type="Item" id="looterStartingKit" ischosen="true"/>
-
-            <!-- <reward type="Exp" value="2000"/>
-            <reward type="Item" id="casinoCoin" value="5000"/>
-            <reward type="SkillPoints" value="4"/> -->
-            
-            
-            <!-- <reward type="Quest" id="job_raider" ischosen="true"/>
-            <reward type="Quest" id="job_engineer" ischosen="true" value="3"/>
-            <reward type="Quest" id="job_looter" ischosen="true" isfixed="true"/> -->
-            <!-- <reward type="Quest" id="job_raider" ischosen="true" isfixed="true" value="3"/>
-            <reward type="LootItem" id="groupQuestArmor,groupQuestMedical" ischosen="true" isfixed="true" value="3"/>
-            <reward type="LootItem" id="groupQuestAmmo" ischosen="true" value="3"/>
-            <reward type="LootItem" id="groupQuestWeapons" ischosen="true" value="3"/>
-            <reward type="LootItem" id="groupQuestSchematics" ischosen="true" value="3"/>
-            <reward type="LootItem" id="groupQuestMods" ischosen="true" value="3"/> -->
         </quest>
+        
+        <!-- TODO: see how these people do it: https://7daystodiemods.com/expanded-quest-mod/ -->
+        <!-- <quest id="quest_navigateToSnowFactionBase">
+            <property name="name" value="Go to Snow Faction Base"/>
+            <property name="subtitle" value="Go There"/>
+            <property name="description" value="Go to Snow Faction Base description"/>
+            <property name="offer" value="Go to Snow Faction Base offer"/>
+            <property name="icon" value="ui_game_symbol_search"/>
+            <property name="category_key" value="quest"/>
+            <property name="difficulty" value="insane"/>
+            <property name="shareable" value="false"/>
+
+            <action type="TrackQuest"/>
+
+            <objective type="Goto" id="factionsBase" value="5" phase="1">
+                <property name="nav_object" value="quest" />
+                <property name="biome_filter_type" value="OnlyBiome" />
+                <property name="biome_filter" value="snow" />
+            </objective>
+        </quest> -->
 
         <quest id="job_raider">
             <!-- 
