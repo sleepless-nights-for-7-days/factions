@@ -27,8 +27,8 @@ Category | Raider | Looter | Engineer
 **Armor** | Mid-Tier Heavy, Night Vision Goggles | Mid-Tier Light, Lucky Goggles, Cigarette | Mid-Tier Heavy, Nerdy Glasses
 **Ammo** | 130 7.62, 80 7.62HP, 80 7.62AP | 50 7.62AP, 300 9mmHP, 150 9mmAP | 1000 RobTurAmmo, 500 AP, 500 HP, 1000 Shells, 500 Slugs
 **Tools** | Auger, Hunting Knife | Machette, Impact Driver | Wire Tool, Steel Pickaxe, Steel Axe, Steel Shovel, Nailgun
-**Consumables** | 10 First Aid Kits, 1 Fort Bites | 100 Lockpicks, 1 Grandpa's Awesome Sauce, 1 Recog | 50 coffee, 20 Sham Chowder
-**Resources** | 300 Gas | 7500 Dukes | *lots... see below* 
+**Consumables** | 10 First Aid Kits, 1 Fort Bites | 1 Grandpa's Awesome Sauce, 1 Recog | 50 coffee, 20 Sham Chowder
+**Resources** | 300 Gas | 7500 Dukes, 100 Lockpicks | *lots... see below* 
 
 ### Building Materials that come with each Engineer
 - Pre-Constructed
@@ -51,7 +51,7 @@ Category | Raider | Looter | Engineer
 ## Starting Skills/Perks
 Perk | Max Level | Raider | Looter | Engineer
 --- | :---: | :---: | :---: | :---:
-**Perception** 			| 10 | 9 | 7 | 1
+**Perception** 			| 10 | 9 | 6 | 1
 Dead Eye 				| 5 | 5 | 4 | 0
 Demolitions Expert		| 5 | 5 | 0 | 0
 Javelin Master 			| 5 | 0 | 0 | 0
@@ -82,7 +82,7 @@ Pain Tolerance 			| 5 | 5 | 0 | 0
 Healing Factor 			| 5 | 5 | 0 | 0
 Iron Gut 				| 5 | 5 | 0 | 0
 Rule 1: Cardio 			| 3 | 3 | 0 | 0
-**Agility** 			| 10 | 9 | 9 | 1
+**Agility** 			| 10 | 7 | 9 | 1
 Archery 				| 5 | 0 | 0 | 0
 Gunslinger 				| 5 | 0 | 5 | 0
 Deep Cuts 				| 5 | 0 | 5 | 0

@@ -207,18 +207,17 @@
             <property name="shareable" value="false"/>
 
             <!-- Weapons -->
-            <reward type="Item" id="gunMGT2TacticalAR" value="6"/>
-            <reward type="Item" id="gunRifleT2MarksmanRifle" value="6"/>
+            <reward type="Item" id="gunMGT2TacticalAR" value="6" mods="modGunMuzzleBrake,modGunReflexSight"/>
+            <reward type="Item" id="gunRifleT2MarksmanRifle" value="6" mods="modGunScopeMedium,modGunMagazineExtender,modGunMuzzleBrake"/>
 
             <!-- Armor -->
-            <reward type="Item" id="armorIronHelmet" value="6"/>
-            <reward type="Item" id="armorIronChest" value="6"/>
-            <reward type="Item" id="armorIronGloves" value="6"/>
-            <reward type="Item" id="armorIronLegs" value="6"/>
-            <reward type="Item" id="armorIronBoots" value="6"/>
+            <reward type="Item" id="armorIronHelmet" value="6" mods="modArmorPlatingReinforced"/>
+            <reward type="Item" id="armorIronChest" value="6" mods="modArmorPlatingReinforced"/>
+            <reward type="Item" id="armorIronGloves" value="6" mods="modArmorPlatingReinforced"/>
+            <reward type="Item" id="armorIronLegs" value="6" mods="modArmorPlatingReinforced"/>
+            <reward type="Item" id="armorIronBoots" value="6" mods="modArmorPlatingReinforced"/>
             <reward type="Item" id="apparelNightvisionGoggles"/>
-            <!-- TODO: include this? -->
-            <!-- <reward type="Item" id="apparelCigar"/> -->
+            <reward type="Item" id="apparelCigar"/>
 
             <!-- Ammo -->
             <reward type="Item" id="ammo762mmBulletBall" value="130"/>
@@ -279,17 +278,6 @@
             <reward type="Skill" id="perkSniperAPAmmo" value="1"/>
             <reward type="Skill" id="perkSniperHPAmmo" value="1"/>
             <reward type="Skill" id="perkSniperComplete" value="1"/>
-
-            <!-- TODO: only for looter... -->
-            <reward type="Skill" id="perkUrbanCombatLanding" value="1"/>
-            <reward type="Skill" id="perkUrbanCombatCigar" value="1"/>
-            <reward type="Skill" id="perkUrbanCombatSneaking" value="1"/>
-            <reward type="Skill" id="perkUrbanCombatLandMines" value="1"/>
-            <reward type="Skill" id="perkUrbanCombatJumping" value="1"/>
-            <reward type="Skill" id="perkUrbanCombatAdrenalineRush" value="1"/>
-            <reward type="Skill" id="perkUrbanCombatRoomClearing" value="1"/>
-            <reward type="Skill" id="perkUrbanCombatComplete" value="1"/>
-
         </quest>
         <quest id="job_looter">
             <property name="name_key" value="job_looter"/>
@@ -301,61 +289,138 @@
             <property name="shareable" value="false"/>
 
             <!-- Weapons -->
-            <reward type="Item" id="gunMGT2TacticalAR" value="6"/>
-            <reward type="Item" id="gunRifleT2MarksmanRifle" value="6"/>
+            <reward type="Item" id="gunHandgunT2Magnum44" value="6"/>
+            <reward type="Item" id="gunHandgunT3SMG5" value="6"/>
+            <reward type="Item" id="gunRifleT2MarksmanRifle" value="6" mods="modGunSoundSuppressorSilencer,modGunScopeLarge"/>
 
             <!-- Armor -->
-            <reward type="Item" id="armorIronHelmet" value="6"/>
-            <reward type="Item" id="armorIronChest" value="6"/>
-            <reward type="Item" id="armorIronGloves" value="6"/>
-            <reward type="Item" id="armorIronLegs" value="6"/>
-            <reward type="Item" id="armorIronBoots" value="6"/>
-            <reward type="Item" id="apparelNightvisionGoggles"/>
-            <!-- TODO: include this? -->
-            <!-- <reward type="Item" id="apparelCigar"/> -->
+            <reward type="Item" id="armorLeatherHood" value="6"/>
+            <reward type="Item" id="armorLeatherChest" value="6"/>
+            <reward type="Item" id="armorLeatherGloves" value="6"/>
+            <reward type="Item" id="armorLeatherPants" value="6"/>
+            <reward type="Item" id="armorLeatherBoots" value="6" mods="modArmorImpactBracing"/>
+            <reward type="Item" id="apparelAviatorGoggles"/>
+            <reward type="Item" id="apparelCigarette"/>
 
             <!-- Ammo -->
-            <reward type="Item" id="ammo762mmBulletBall" value="300"/>
-            <reward type="Item" id="ammo762mmBulletHP" value="100"/>
-            <reward type="Item" id="ammo762mmBulletAP" value="100"/>
+            <reward type="Item" id="ammo762mmBulletAP" value="50"/>
+            <reward type="Item" id="ammo9mmBulletHP" value="300"/>
+            <reward type="Item" id="ammo9mmBulletAP" value="150"/>
 
             <!-- Tools -->
-            <reward type="Item" id="meleeToolPickT3Auger" value="4"/>
-            <reward type="Item" id="meleeWpnBladeT1HuntingKnife" value="6"/>
+            <reward type="Item" id="meleeWpnBladeT3Machete" value="6"/>
+            <reward type="Item" id="meleeToolSalvageT3ImpactDriver" value="6"/>
 
             <!-- Consumables -->
-            <reward type="Item" id="medicalFirstAidKit" value="10"/>
-            <reward type="Item" id="drugFortBites" value="1"/>
+            <reward type="Item" id="drinkJarGrandpasAwesomeSauce" value="1"/>
+            <reward type="Item" id="drugRecog" value="1"/>
 
             <!-- Resources -->
-            <reward type="Item" id="ammoGasCan" value="600"/>
+            <reward type="Item" id="casinoCoin" value="7500"/>
+            <reward type="Item" id="resourceLockPick" value="100"/>
             
             <!-- Skills/Perks -->
-            <reward type="Skill" id="attPerception" value="8"/>
-            <reward type="Skill" id="perkDeadEye" value="5"/>
-            <reward type="Skill" id="perkDemolitionsExpert" value="5"/>
-            <reward type="Skill" id="perkInfiltrator" value="3"/>
-            <reward type="Skill" id="perkPenetrator" value="4"/>
+            <reward type="Skill" id="attPerception" value="5"/>
+            <reward type="Skill" id="perkDeadEye" value="4"/>
+            <reward type="Skill" id="perkLockPicking" value="3"/>
+            <reward type="Skill" id="perkAnimalTracker" value="3"/>
+            <reward type="Skill" id="perkPenetrator" value="3"/>
+            <reward type="Skill" id="perkLuckyLooter" value="5"/>
+            <reward type="Skill" id="perkTreasureHunter" value="3"/>
+            <reward type="Skill" id="perkSalvageOperations" value="5"/>
 
-            <reward type="Skill" id="attStrength" value="5"/>
-            <reward type="Skill" id="perkHeavyArmor" value="4"/>
+            <!-- <reward type="Skill" id="attStrength" value="0"/> -->
 
-            <reward type="Skill" id="attFortitude" value="8"/>
-            <reward type="Skill" id="perkMachineGunner" value="5"/>
-            <reward type="Skill" id="perkTheHuntsman" value="5"/>
-            <reward type="Skill" id="perkWellInsulated" value="3"/>
-            <reward type="Skill" id="perkPainTolerance" value="5"/>
-            <reward type="Skill" id="perkHealingFactor" value="5"/>
-            <reward type="Skill" id="perkSlowMetabolism" value="5"/>
-            <reward type="Skill" id="perkRuleOneCardio" value="3"/>
+            <!-- <reward type="Skill" id="attFortitude" value="0"/> -->
 
-		    <reward type="Skill" id="attAgility" value="6"/>
-		    <reward type="Skill" id="perkRunAndGun" value="3"/>
-		    <reward type="Skill" id="perkParkour" value="4"/>
+		    <reward type="Skill" id="attAgility" value="8"/>
+            <reward type="Skill" id="perkGunslinger" value="5"/>
+            <reward type="Skill" id="perkDeepCuts" value="5"/>
+            <reward type="Skill" id="perkRunAndGun" value="3"/>
+            <reward type="Skill" id="perkFlurryOfBlows" value="5"/>
+            <reward type="Skill" id="perkLightArmor" value="4"/>
+            <reward type="Skill" id="perkParkour" value="4"/>
+            <reward type="Skill" id="perkHiddenStrike" value="5"/>
+            <reward type="Skill" id="perkFromTheShadows" value="5"/>
 
-		    <!-- <reward type="Skill" id="attIntellect" value="0"/> -->
+		    <reward type="Skill" id="attIntellect" value="6"/>
+            <reward type="Skill" id="perkBetterBarter" value="4"/>
+            <reward type="Skill" id="perkDaringAdventurer" value="4"/>
+            <reward type="Skill" id="perkCharismaticNature" value="4"/>
             
             <!-- Books/Magazines -->
+            <reward type="Skill" id="perkGreatHeistSafes" value="1"/>
+            <reward type="Skill" id="perkGreatHeistGems" value="1"/>
+            <reward type="Skill" id="perkGreatHeistTimedCharge" value="1"/>
+            <reward type="Skill" id="perkGreatHeistClaimed" value="1"/>
+            <reward type="Skill" id="perkGreatHeistAdrenalineFall" value="1"/>
+            <reward type="Skill" id="perkGreatHeistSprintSneak" value="1"/>
+            <reward type="Skill" id="perkGreatHeistMotionDetection" value="1"/>
+            <reward type="Skill" id="perkGreatHeistComplete" value="1"/>
+            
+            <reward type="Skill" id="perkHuntingJournalBears" value="1"/>
+            <reward type="Skill" id="perkHuntingJournalWolves" value="1"/>
+            <reward type="Skill" id="perkHuntingJournalCoyotes" value="1"/>
+            <reward type="Skill" id="perkHuntingJournalMountainLions" value="1"/>
+            <reward type="Skill" id="perkHuntingJournalDeer" value="1"/>
+            <reward type="Skill" id="perkHuntingJournalVultures" value="1"/>
+            <reward type="Skill" id="perkHuntingJournalSelfDefense" value="1"/>
+            <reward type="Skill" id="perkHuntingJournalComplete" value="1"/>
+            
+            <reward type="Skill" id="perkLuckyLooterDukes" value="1"/>
+            <reward type="Skill" id="perkLuckyLooterAmmunition" value="1"/>
+            <reward type="Skill" id="perkLuckyLooterBrass" value="1"/>
+            <reward type="Skill" id="perkLuckyLooterLead" value="1"/>
+            <reward type="Skill" id="perkLuckyLooterBooks" value="1"/>
+            <reward type="Skill" id="perkLuckyLooterFood" value="1"/>
+            <reward type="Skill" id="perkLuckyLooterMedical" value="1"/>
+            <reward type="Skill" id="perkLuckyLooterComplete" value="1"/>
+            
+            <reward type="Skill" id="perkEnforcerDamage" value="1"/>
+            <reward type="Skill" id="perkEnforcerApparel" value="1"/>
+            <reward type="Skill" id="perkEnforcerPunks" value="1"/>
+            <reward type="Skill" id="perkEnforcerIntimidation" value="1"/>
+            <reward type="Skill" id="perkEnforcerAPAmmo" value="1"/>
+            <reward type="Skill" id="perkEnforcerHPAmmo" value="1"/>
+            <reward type="Skill" id="perkEnforcerCriminalPursuit" value="1"/>
+            <reward type="Skill" id="perkEnforcerComplete" value="1"/>
+            
+            <reward type="Skill" id="perkNightStalkerStealthDamage" value="1"/>
+            <reward type="Skill" id="perkNightStalkerSilentNight" value="1"/>
+            <reward type="Skill" id="perkNightStalkerBlades" value="1"/>
+            <reward type="Skill" id="perkNightStalkerThiefAdrenaline" value="1"/>
+            <reward type="Skill" id="perkNightStalkerArchery" value="1"/>
+            <reward type="Skill" id="perkNightStalkerTwilightThief" value="1"/>
+            <reward type="Skill" id="perkNightStalkerSlumberParty" value="1"/>
+            <reward type="Skill" id="perkNightStalkerComplete" value="1"/>
+            
+            <reward type="Skill" id="perkPistolPeteTakeAim" value="1"/>
+            <reward type="Skill" id="perkPistolPeteSwissKnees" value="1"/>
+            <reward type="Skill" id="perkPistolPeteSteadyHand" value="1"/>
+            <reward type="Skill" id="perkPistolPeteMaintenance" value="1"/>
+            <reward type="Skill" id="perkPistolPeteHPAmmo" value="1"/>
+            <reward type="Skill" id="perkPistolPeteAPAmmo" value="1"/>
+            <reward type="Skill" id="perkPistolPeteDamage" value="1"/>
+            <reward type="Skill" id="perkPistolPeteComplete" value="1"/>
+            
+            <reward type="Skill" id="perkRangersArrowRecovery" value="1"/>
+            <reward type="Skill" id="perkRangersExplodingBolts" value="1"/>
+            <reward type="Skill" id="perkRangersCripplingShot" value="1"/>
+            <reward type="Skill" id="perkRangersAPAmmo" value="1"/>
+            <reward type="Skill" id="perkRangersFlamingArrows" value="1"/>
+            <reward type="Skill" id="perkRangersForestGuide" value="1"/>
+            <reward type="Skill" id="perkRangersKnockdown" value="1"/>
+            <reward type="Skill" id="perkRangersComplete" value="1"/>
+            
+            <reward type="Skill" id="perkSpearHunter1Damage" value="1"/>
+            <reward type="Skill" id="perkSpearHunter2Maintenance" value="1"/>
+            <reward type="Skill" id="perkSpearHunter3SteelSpears" value="1"/>
+            <reward type="Skill" id="perkSpearHunter4StrongArm" value="1"/>
+            <reward type="Skill" id="perkSpearHunter5RapidStrike" value="1"/>
+            <reward type="Skill" id="perkSpearHunter6PuncturedLung" value="1"/>
+            <reward type="Skill" id="perkSpearHunter7QuickStrike" value="1"/>
+            <reward type="Skill" id="perkSpearHunter8Complete" value="1"/>
+            
             <reward type="Skill" id="perkUrbanCombatLanding" value="1"/>
             <reward type="Skill" id="perkUrbanCombatCigar" value="1"/>
             <reward type="Skill" id="perkUrbanCombatSneaking" value="1"/>
@@ -364,6 +429,15 @@
             <reward type="Skill" id="perkUrbanCombatAdrenalineRush" value="1"/>
             <reward type="Skill" id="perkUrbanCombatRoomClearing" value="1"/>
             <reward type="Skill" id="perkUrbanCombatComplete" value="1"/>
+            
+            <reward type="Skill" id="perkWasteTreasuresHoney" value="1"/>
+            <reward type="Skill" id="perkWasteTreasuresCoffins" value="1"/>
+            <reward type="Skill" id="perkWasteTreasuresAcid" value="1"/>
+            <reward type="Skill" id="perkWasteTreasuresWater" value="1"/>
+            <reward type="Skill" id="perkWasteTreasuresDoors" value="1"/>
+            <reward type="Skill" id="perkWasteTreasuresCloth" value="1"/>
+            <reward type="Skill" id="perkWasteTreasuresSinks" value="1"/>
+            <reward type="Skill" id="perkWasteTreasuresComplete" value="1"/>
         </quest>
         <quest id="job_engineer">
             <!-- 
