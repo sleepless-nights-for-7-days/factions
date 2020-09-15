@@ -25,9 +25,9 @@ Category | Raider | Looter | Engineer
 --- | --- | --- | ---
 **Weapons** | Tactical Rifle, Marksman Rifle | Magnum, Silenced SMG, Silenced Marksman | Robotic Turret, Pump Shotgun
 **Armor** | Mid-Tier Heavy, Night Vision Goggles | Mid-Tier Light, Lucky Goggles, Cigarette | Mid-Tier Heavy, Nerdy Glasses
-**Ammo** | 130 7.62, 80 7.62HP, 80 7.62AP | 300 9mmHP, 150 9mmAP, 75 .44, 50 7.62AP | 1000 RobTurAmmo, 500 AP, 500 HP, 1000 Shells, 500 Slugs
+**Ammo** | 130 7.62, 80 7.62HP, 80 7.62AP | 300 9mmHP, 150 9mmAP, 75 .44, 50 7.62AP | 1000 RobTurAmmo, 500 AP, 500 HP, 140 Shells, 140 Slugs
 **Tools** | Auger, Hunting Knife | Machette, Impact Driver | Wire Tool, Steel Pickaxe, Steel Axe, Steel Shovel, Nailgun
-**Consumables** | 10 First Aid Kits, 1 Fort Bites | 1 Grandpa's Awesome Sauce, 1 Recog | 50 coffee, 20 Sham Chowder
+**Consumables** | 10 First Aid Kits, 1 Fort Bites | 1 Grandpa's Awesome Sauce, 1 Recog | 10 coffee, 10 Sham Chowder
 **Resources** | 300 Gas | 7500 Dukes, 40 Lockpicks | *lots... see below* 
 
 ### Building Materials that come with each Engineer

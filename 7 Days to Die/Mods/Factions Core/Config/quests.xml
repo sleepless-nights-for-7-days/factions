@@ -502,8 +502,8 @@
             <reward type="Item" id="ammoJunkTurretRegular" value="1000"/>
             <reward type="Item" id="ammoJunkTurretShell" value="500"/>
             <reward type="Item" id="ammoJunkTurretAP" value="500"/>
-            <reward type="Item" id="ammoShotgunShell" value="1000"/>
-            <reward type="Item" id="ammoShotgunSlug" value="500"/>
+            <reward type="Item" id="ammoShotgunShell" value="140"/>
+            <reward type="Item" id="ammoShotgunSlug" value="140"/>
 
             <!-- Tools -->
             <reward type="Item" id="meleeToolWireTool"/>
@@ -513,8 +513,8 @@
             <reward type="Item" id="meleeToolRepairT3Nailgun"/>
 
             <!-- Consumables -->
-            <reward type="Item" id="drinkJarCoffee" value="50"/>
-            <reward type="Item" id="foodShamChowder" value="20"/>
+            <reward type="Item" id="drinkJarCoffee" value="10"/>
+            <reward type="Item" id="foodShamChowder" value="10"/>
 
             <!-- Resources -->
             <reward type="Item" id="metalReinforcedWoodDrawBridge" value="1"/>
