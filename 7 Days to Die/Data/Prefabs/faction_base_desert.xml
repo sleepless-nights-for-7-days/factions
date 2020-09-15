@@ -9,18 +9,18 @@
   <property name="DifficultyTier" value="1" />
   <property name="ShowQuestClearCount" value="1" />
   <property name="TraderArea" value="False" />
-  <property name="RotationToFaceNorth" value="0" />
-  <property name="YOffset" value="-23" />
+  <property name="RotationToFaceNorth" value="2" />
+  <property name="YOffset" value="-25" />
   <property class="Stats">
-    <property name="TotalVertices" value="181383" />
-    <property name="TotalTriangles" value="117472" />
+    <property name="TotalVertices" value="187489" />
+    <property name="TotalTriangles" value="127760" />
     <property class="BlockEntities">
-      <property name="Vertices" value="1276" />
-      <property name="Triangles" value="1508" />
+      <property name="Vertices" value="9305" />
+      <property name="Triangles" value="11564" />
     </property>
     <property class="ChunkMeshes0">
-      <property name="Vertices" value="32545" />
-      <property name="Triangles" value="18824" />
+      <property name="Vertices" value="30242" />
+      <property name="Triangles" value="18360" />
     </property>
     <property class="ChunkMeshes1">
       <property name="Vertices" value="0" />
@@ -47,8 +47,8 @@
       <property name="Triangles" value="0" />
     </property>
     <property class="ChunkMeshes7">
-      <property name="Vertices" value="8038" />
-      <property name="Triangles" value="13980" />
+      <property name="Vertices" value="8418" />
+      <property name="Triangles" value="14676" />
     </property>
     <property class="ChunkMeshes8">
       <property name="Vertices" value="0" />
