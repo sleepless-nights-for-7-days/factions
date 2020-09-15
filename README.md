@@ -11,15 +11,6 @@
 - Work with your team to destroy the enemy Faction's Claim Block, held high above in the upper floors of their fortress outpost while defending your Fortress's Claim on the region
 
 ## Starting Gear
-Category | Raider | Looter | Engineer
---- | --- | --- | ---
-**Armor** | High-Tier Heavy, Night Vision Goggles | High-Tier Light, Lucky Goggles, Cigarette | Mid-Tier Heavy, Nerdy Glasses
-**Weapons** | Tactical Rifle, Sniper Rifle | Magnum, Silenced SMF, Silenced Marksman | Robotic Turret, Auto Shotgun
-**Ammo** | 300 7.62, 100 7.62HP, 100 7.62AP | 50 7.62AP, 300 9mmHP, 150 9mmAP | 1000 RobTurAmmo, 500 AP, 500 HP, 1000 Shells, 500 Slugs
-**Tools** | Auger, Hunting Knife | Machette, Impact Driver | Wire Tool, Steel Pickaxe, Steel Axe, Steel Shovel, Nailgun
-**Consumables** | 10 First Aid Kits, 1 Fort Bytes | 100 Lockpicks, 1 Grandpa's Awesome Sauce, 1 Recog, 15000 Dukes | 50 coffee, 20 Sham Chowder
-
-### Everyone Gets
 - 1 Land Claim Block
 	- make sure one is placed between the spikes on your base's third floor
 - 3 Purified Water
@@ -28,6 +19,15 @@ Category | Raider | Looter | Engineer
 	- Snow: Puffer Coat, flannel shirt, denim pants
 	- Desert: Leather Poncho, tank top, shorts
 - 1 Motorcycle with a full tank of gas
+
+### Equipment by Skillset
+Category | Raider | Looter | Engineer
+--- | --- | --- | ---
+**Armor** | High-Tier Heavy, Night Vision Goggles | High-Tier Light, Lucky Goggles, Cigarette | Mid-Tier Heavy, Nerdy Glasses
+**Weapons** | Tactical Rifle, Sniper Rifle | Magnum, Silenced SMF, Silenced Marksman | Robotic Turret, Auto Shotgun
+**Ammo** | 300 7.62, 100 7.62HP, 100 7.62AP | 50 7.62AP, 300 9mmHP, 150 9mmAP | 1000 RobTurAmmo, 500 AP, 500 HP, 1000 Shells, 500 Slugs
+**Tools** | Auger, Hunting Knife | Machette, Impact Driver | Wire Tool, Steel Pickaxe, Steel Axe, Steel Shovel, Nailgun
+**Consumables** | 10 First Aid Kits, 1 Fort Bytes | 100 Lockpicks, 1 Grandpa's Awesome Sauce, 1 Recog, 15000 Dukes | 50 coffee, 20 Sham Chowder
 
 ### Building Materials that come with each Engineer
 - Pre-Constructed
