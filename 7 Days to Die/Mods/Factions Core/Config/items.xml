@@ -1,6 +1,7 @@
 <configs>
     <append xpath="/items">
         <item name="snowFactionSupplies">
+	        <property name="NoScrapping" value="true"/>
             <property name="CustomIcon" value="backpackMedium"/>
             <property name="CustomIconTint" value="04aed9"/>
             <property name="DescriptionKey" value="factionSuppliesDesc"/>
@@ -22,6 +23,7 @@
             </property>
         </item>
         <item name="desertFactionSupplies">
+	        <property name="NoScrapping" value="true"/>
             <property name="CustomIcon" value="backpackMedium"/>
             <property name="CustomIconTint" value="ffcc99"/>
             <property name="DescriptionKey" value="factionSuppliesDesc"/>
@@ -44,6 +46,7 @@
         </item>
 
         <item name="snowFactionDyeKit">
+	        <property name="NoScrapping" value="true"/>
             <property name="CustomIcon" value="cntDuffle01"/>
             <property name="CustomIconTint" value="04aed9"/>
             <property name="ItemTypeIcon" value="treasure"/>
@@ -64,6 +67,7 @@
             </property>
         </item>
         <item name="desertFactionDyeKit">
+	        <property name="NoScrapping" value="true"/>
             <property name="CustomIcon" value="cntDuffle01"/>
             <property name="CustomIconTint" value="ffcc99"/>
             <property name="ItemTypeIcon" value="treasure"/>
@@ -85,6 +89,7 @@
         </item>
 
         <item name="snowFactionOrders">
+	        <property name="NoScrapping" value="true"/>
             <property name="Extends" value="questMaster"/>
             <property name="CustomIconTint" value="04aed9"/>
             <property name="name_key" value="quest_ReportToSnowOutpost"/>
@@ -93,6 +98,7 @@
             </property>
         </item>
         <item name="desertFactionOrders">
+	        <property name="NoScrapping" value="true"/>
             <property name="Extends" value="questMaster"/>
             <property name="CustomIconTint" value="ffcc99"/>
             <property name="name_key" value="quest_ReportToDesertOutpost"/>
@@ -102,6 +108,7 @@
         </item>
 
         <item name="raiderStartingKit">
+	        <property name="NoScrapping" value="true"/>
             <property name="Extends" value="questMaster"/>
             <property name="CustomIconTint" value="7851A9"/>
 	        <property name="CustomIcon" value="questWhiteRiverSupplies"/>
@@ -113,6 +120,7 @@
             </property>
         </item>
         <item name="looterStartingKit">
+	        <property name="NoScrapping" value="true"/>
             <property name="Extends" value="questMaster"/>
             <property name="CustomIconTint" value="238E23"/>
 	        <property name="CustomIcon" value="questWhiteRiverSupplies"/>
@@ -124,6 +132,7 @@
             </property>
         </item>
         <item name="engineerStartingKit">
+	        <property name="NoScrapping" value="true"/>
             <property name="Extends" value="questMaster"/>
             <property name="CustomIconTint" value="A62A2A"/>
 	        <property name="CustomIcon" value="questWhiteRiverSupplies"/>
