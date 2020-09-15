@@ -46,15 +46,15 @@
 		    <property name="completion_key" value="quest_tier_complete_completion"/>
 
             <objective type="Goto" id="trader" value="5" phase="1">
-                <property name="biome_filter_type" value="OnlyBiome" />
-                <property name="biome_filter" value="pine_forest" />
-                <property name="nav_object" value="go_to_trader" />
+                <property name="biome_filter_type" value="OnlyBiome"/>
+                <property name="biome_filter" value="pine_forest"/>
+                <property name="nav_object" value="go_to_trader"/>
             </objective>
 
             <objective type="InteractWithNPC">
                 <property name="phase" value="2"/>
-                <property name="nav_object" value="return_to_trader" />
-                <property name="use_closest" value="true" />
+                <property name="nav_object" value="return_to_trader"/>
+                <property name="use_closest" value="true"/>
             </objective>
 
             <!-- Boost Skills/Perks to allow choice of 3 Jobs in next quest reward -->
@@ -80,15 +80,15 @@
             <action type="TrackQuest"/>
 
             <objective type="Goto" id="trader" value="5" phase="1">
-                <property name="biome_filter_type" value="OnlyBiome" />
-                <property name="biome_filter" value="snow" />
-                <property name="nav_object" value="go_to_trader" />
+                <property name="biome_filter_type" value="OnlyBiome"/>
+                <property name="biome_filter" value="snow"/>
+                <property name="nav_object" value="go_to_trader"/>
             </objective>
 
             <objective type="InteractWithNPC">
                 <property name="phase" value="2"/>
-                <property name="nav_object" value="return_to_trader" />
-                <property name="use_closest" value="true" />
+                <property name="nav_object" value="return_to_trader"/>
+                <property name="use_closest" value="true"/>
             </objective>
             
             <reward type="Item" id="bedroll" value="1"/>
@@ -117,15 +117,15 @@
             <action type="TrackQuest"/>
 
             <objective type="Goto" id="trader" value="5" phase="1">
-                <property name="biome_filter_type" value="OnlyBiome" />
-                <property name="biome_filter" value="desert" />
-                <property name="nav_object" value="go_to_trader" />
+                <property name="biome_filter_type" value="OnlyBiome"/>
+                <property name="biome_filter" value="desert"/>
+                <property name="nav_object" value="go_to_trader"/>
             </objective>
 
             <objective type="InteractWithNPC">
                 <property name="phase" value="2"/>
-                <property name="nav_object" value="return_to_trader" />
-                <property name="use_closest" value="true" />
+                <property name="nav_object" value="return_to_trader"/>
+                <property name="use_closest" value="true"/>
             </objective>
             
             <reward type="Item" id="bedroll" value="1"/>
@@ -153,9 +153,9 @@
             <action type="TrackQuest"/>
 
             <objective type="Goto" id="trader" value="5" phase="1">
-                <property name="biome_filter_type" value="OnlyBiome" />
-                <property name="biome_filter" value="desert" />
-                <property name="nav_object" value="go_to_trader" />
+                <property name="biome_filter_type" value="OnlyBiome"/>
+                <property name="biome_filter" value="desert"/>
+                <property name="nav_object" value="go_to_trader"/>
             </objective>
         </quest>
         <quest id="quest_LocateSnowFactionBase">
@@ -171,9 +171,9 @@
             <action type="TrackQuest"/>
 
             <objective type="Goto" id="trader" value="5" phase="1">
-                <property name="biome_filter_type" value="OnlyBiome" />
-                <property name="biome_filter" value="snow" />
-                <property name="nav_object" value="go_to_trader" />
+                <property name="biome_filter_type" value="OnlyBiome"/>
+                <property name="biome_filter" value="snow"/>
+                <property name="nav_object" value="go_to_trader"/>
             </objective>
         </quest>
         
@@ -191,9 +191,9 @@
             <action type="TrackQuest"/>
 
             <objective type="Goto" id="factionsBase" value="5" phase="1">
-                <property name="nav_object" value="quest" />
-                <property name="biome_filter_type" value="OnlyBiome" />
-                <property name="biome_filter" value="snow" />
+                <property name="nav_object" value="quest"/>
+                <property name="biome_filter_type" value="OnlyBiome"/>
+                <property name="biome_filter" value="snow"/>
             </objective>
         </quest> -->
 
@@ -213,34 +213,89 @@
             <property name="icon" value="ui_game_symbol_muscle"/>
             <property name="category_key" value="quest"/>
             <property name="shareable" value="false"/>
-            
-            <!-- Skills/Perks -->
-            <reward type="Skill" id="attAgility" value="9" />
-		    <reward type="Skill" id="attStrength" value="1" />
-		    <reward type="Skill" id="attStrength" value="1" />
-            <reward type="Skill" id="perkLuckyLooter" value="3" />
-            
-            <!-- Books/Magazines -->
-            <reward type="Skill" id="perkUrbanCombatLanding" value="1" />
-            <reward type="Skill" id="perkUrbanCombatCigar" value="1" />
-            <reward type="Skill" id="perkUrbanCombatSneaking" value="1" />
-            <reward type="Skill" id="perkUrbanCombatLandMines" value="1" />
-            <reward type="Skill" id="perkUrbanCombatJumping" value="1" />
-            <reward type="Skill" id="perkUrbanCombatAdrenalineRush" value="1" />
-            <reward type="Skill" id="perkUrbanCombatRoomClearing" value="1" />
-            <reward type="Skill" id="perkUrbanCombatComplete" value="1" />
 
             <!-- Weapons -->
-            <reward type="Item" id="gunMGT2TacticalAR" value="6" />
+            <reward type="Item" id="gunMGT2TacticalAR" value="6"/>
+            <reward type="Item" id="gunRifleT2MarksmanRifle" value="6"/>
 
             <!-- Armor -->
-            <reward type="Item" id="armorSteelChest" value="6" />
+            <reward type="Item" id="armorIronHelmet" value="6"/>
+            <reward type="Item" id="armorIronChest" value="6"/>
+            <reward type="Item" id="armorIronGloves" value="6"/>
+            <reward type="Item" id="armorIronLegs" value="6"/>
+            <reward type="Item" id="armorIronBoots" value="6"/>
+            <reward type="Item" id="apparelNightvisionGoggles"/>
+            <!-- TODO: include this? -->
+            <!-- <reward type="Item" id="apparelCigar"/> -->
+
+            <!-- Ammo -->
+            <reward type="Item" id="ammo762mmBulletBall" value="300"/>
+            <reward type="Item" id="ammo762mmBulletHP" value="100"/>
+            <reward type="Item" id="ammo762mmBulletAP" value="100"/>
+
+            <!-- Tools -->
+            <reward type="Item" id="meleeToolPickT3Auger" value="4"/>
+            <reward type="Item" id="meleeWpnBladeT1HuntingKnife" value="6"/>
 
             <!-- Consumables -->
-            <reward type="Item" id="medicalFirstAidKit" value="10" />
+            <reward type="Item" id="medicalFirstAidKit" value="10"/>
+            <reward type="Item" id="drugFortBites" value="1"/>
 
             <!-- Resources -->
-            <reward type="Item" id="resourceRockSmall" value="1000" />
+            <!-- none for Raider -->
+            
+            <!-- Skills/Perks -->
+            <reward type="Skill" id="attPerception" value="8"/>
+            <reward type="Skill" id="perkDeadEye" value="5"/>
+            <reward type="Skill" id="perkDemolitionsExpert" value="5"/>
+            <reward type="Skill" id="perkInfiltrator" value="3"/>
+            <reward type="Skill" id="perkPenetrator" value="4"/>
+
+            <reward type="Skill" id="attStrength" value="5"/>
+            <reward type="Skill" id="perkHeavyArmor" value="4"/>
+
+            <reward type="Skill" id="attFortitude" value="8"/>
+            <reward type="Skill" id="perkMachineGunner" value="5"/>
+            <reward type="Skill" id="perkTheHuntsman" value="5"/>
+            <reward type="Skill" id="perkWellInsulated" value="3"/>
+            <reward type="Skill" id="perkPainTolerance" value="5"/>
+            <reward type="Skill" id="perkHealingFactor" value="5"/>
+            <reward type="Skill" id="perkSlowMetabolism" value="5"/>
+            <reward type="Skill" id="perkRuleOneCardio" value="3"/>
+
+		    <reward type="Skill" id="attAgility" value="6"/>
+		    <reward type="Skill" id="perkRunAndGun" value="3"/>
+		    <reward type="Skill" id="perkParkour" value="4"/>
+
+		    <!-- <reward type="Skill" id="attIntellect" value="0"/> -->
+            
+            <!-- Books/Magazines -->
+            <reward type="Skill" id="bookAutoWeaponsDamage" value="1"/>
+            <reward type="Skill" id="bookAutoWeaponsUncontrolledBurst" value="1"/>
+            <reward type="Skill" id="bookAutoWeaponsMaintenance" value="1"/>
+            <reward type="Skill" id="bookAutoWeaponsDrumMag" value="1"/>
+            <reward type="Skill" id="bookAutoWeaponsRecoil" value="1"/>
+            <reward type="Skill" id="bookAutoWeaponsRagdoll" value="1"/>
+            <reward type="Skill" id="bookAutoWeaponsMachineGuns" value="1"/>
+
+            <reward type="Skill" id="bookSniperDamage" value="1"/>
+            <reward type="Skill" id="bookSniperCripplingShot" value="1"/>
+            <reward type="Skill" id="bookSniperHeadShot" value="1"/>
+            <reward type="Skill" id="bookSniperReload" value="1"/>
+            <reward type="Skill" id="bookSniperControlledBreathing" value="1"/>
+            <reward type="Skill" id="bookSniperAPAmmo" value="1"/>
+            <reward type="Skill" id="bookSniperHPAmmo" value="1"/>
+
+            <!-- TODO: only for looter... -->
+            <!-- <reward type="Skill" id="perkUrbanCombatLanding" value="1"/>
+            <reward type="Skill" id="perkUrbanCombatCigar" value="1"/>
+            <reward type="Skill" id="perkUrbanCombatSneaking" value="1"/>
+            <reward type="Skill" id="perkUrbanCombatLandMines" value="1"/>
+            <reward type="Skill" id="perkUrbanCombatJumping" value="1"/>
+            <reward type="Skill" id="perkUrbanCombatAdrenalineRush" value="1"/>
+            <reward type="Skill" id="perkUrbanCombatRoomClearing" value="1"/> -->
+            <!-- <reward type="Skill" id="perkUrbanCombatComplete" value="1"/> -->
+
         </quest>
         <quest id="job_looter">
             <!-- 
@@ -261,29 +316,29 @@
             
             
             <!-- Skills/Attributes -->
-            <reward type="Skill" id="attAgility" value="9" />
-		    <reward type="Skill" id="attStrength" value="1" />
-		    <reward type="Skill" id="attStrength" value="1" />
-            <reward type="Skill" id="perkLuckyLooter" value="3" />
+            <reward type="Skill" id="attAgility" value="9"/>
+		    <reward type="Skill" id="attStrength" value="1"/>
+		    <reward type="Skill" id="attStrength" value="1"/>
+            <reward type="Skill" id="perkLuckyLooter" value="3"/>
             
             <!-- Magazine Perks -->
-            <reward type="Skill" id="perkUrbanCombatLanding" value="1" />
-            <reward type="Skill" id="perkUrbanCombatCigar" value="1" />
-            <reward type="Skill" id="perkUrbanCombatSneaking" value="1" />
-            <reward type="Skill" id="perkUrbanCombatLandMines" value="1" />
-            <reward type="Skill" id="perkUrbanCombatJumping" value="1" />
-            <reward type="Skill" id="perkUrbanCombatAdrenalineRush" value="1" />
-            <reward type="Skill" id="perkUrbanCombatRoomClearing" value="1" />
-            <reward type="Skill" id="perkUrbanCombatComplete" value="1" />
+            <reward type="Skill" id="perkUrbanCombatLanding" value="1"/>
+            <reward type="Skill" id="perkUrbanCombatCigar" value="1"/>
+            <reward type="Skill" id="perkUrbanCombatSneaking" value="1"/>
+            <reward type="Skill" id="perkUrbanCombatLandMines" value="1"/>
+            <reward type="Skill" id="perkUrbanCombatJumping" value="1"/>
+            <reward type="Skill" id="perkUrbanCombatAdrenalineRush" value="1"/>
+            <reward type="Skill" id="perkUrbanCombatRoomClearing" value="1"/>
+            <reward type="Skill" id="perkUrbanCombatComplete" value="1"/>
 
             <!-- Weapons -->
-            <reward type="Item" id="gunMGT2TacticalAR" value="6" />
+            <reward type="Item" id="gunMGT2TacticalAR" value="6"/>
 
             <!-- Armor -->
-            <reward type="Item" id="armorSteelChest" value="6" />
+            <reward type="Item" id="armorSteelChest" value="6"/>
             
 
-            <reward type="Item" id="workVoucher" value="1" />
+            <reward type="Item" id="workVoucher" value="1"/>
         </quest>
         <quest id="job_engineer">
             <!-- 
@@ -304,26 +359,26 @@
             
             
 
-            <reward type="Skill" id="attAgility" value="9" />
-		    <reward type="Skill" id="attStrength" value="1" />
-		    <reward type="Skill" id="attStrength" value="1" />
-            <reward type="Skill" id="perkLuckyLooter" value="3" />
-            <reward type="Item" id="resourceRockSmall" value="1000" />
-            <reward type="Item" id="medicalFirstAidKit" value="10" />
+            <reward type="Skill" id="attAgility" value="9"/>
+		    <reward type="Skill" id="attStrength" value="1"/>
+		    <reward type="Skill" id="attStrength" value="1"/>
+            <reward type="Skill" id="perkLuckyLooter" value="3"/>
+            <reward type="Item" id="resourceRockSmall" value="1000"/>
+            <reward type="Item" id="medicalFirstAidKit" value="10"/>
             
-            <reward type="Skill" id="perkUrbanCombatLanding" value="1" />
-            <reward type="Skill" id="perkUrbanCombatCigar" value="1" />
-            <reward type="Skill" id="perkUrbanCombatSneaking" value="1" />
-            <reward type="Skill" id="perkUrbanCombatLandMines" value="1" />
-            <reward type="Skill" id="perkUrbanCombatJumping" value="1" />
-            <reward type="Skill" id="perkUrbanCombatAdrenalineRush" value="1" />
-            <reward type="Skill" id="perkUrbanCombatRoomClearing" value="1" />
-            <reward type="Skill" id="perkUrbanCombatComplete" value="1" />
+            <reward type="Skill" id="perkUrbanCombatLanding" value="1"/>
+            <reward type="Skill" id="perkUrbanCombatCigar" value="1"/>
+            <reward type="Skill" id="perkUrbanCombatSneaking" value="1"/>
+            <reward type="Skill" id="perkUrbanCombatLandMines" value="1"/>
+            <reward type="Skill" id="perkUrbanCombatJumping" value="1"/>
+            <reward type="Skill" id="perkUrbanCombatAdrenalineRush" value="1"/>
+            <reward type="Skill" id="perkUrbanCombatRoomClearing" value="1"/>
+            <reward type="Skill" id="perkUrbanCombatComplete" value="1"/>
 
-            <reward type="Item" id="gunMGT2TacticalAR" value="6" />
-            <reward type="Item" id="armorSteelChest" value="6" />
+            <reward type="Item" id="gunMGT2TacticalAR" value="6"/>
+            <reward type="Item" id="armorSteelChest" value="6"/>
             
-            <reward type="Item" id="workVoucher" value="1" />
+            <reward type="Item" id="workVoucher" value="1"/>
         </quest>
     </append>
 </configs>
