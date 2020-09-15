@@ -518,8 +518,8 @@
 
             <!-- Resources -->
             <reward type="Item" id="metalReinforcedWoodDrawBridge" value="1"/>
-            <reward type="Item" id="vaultDoor01" value="4"/>
-            <reward type="Item" id="vaultHatch_v1" value="1"/>
+            <reward type="Item" id="vaultDoor01" value="6"/>
+            <reward type="Item" id="vaultHatch_v1" value="2"/>
 
             <reward type="Item" id="solarbank" value="1"/>
             <reward type="Item" id="solarCell" value="6"/>
