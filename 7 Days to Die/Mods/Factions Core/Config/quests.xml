@@ -198,16 +198,102 @@
         </quest> -->
 
         <quest id="job_raider">
-            <!-- 
-            name - quest name without localization.
-            subtitle - sub name without localization.
-            description - description without localization.
-            offer - offer without localization.
-            group_name - quest chain name without localization.
-            category - category type without localization.
-            -->
             <property name="name_key" value="job_raider"/>
             <property name="subtitle_key" value="job_raider_subtitle"/>
+            <property name="description_key" value="job_offer"/>
+            <property name="offer_key" value="job_offer"/>
+            <property name="icon" value="ui_game_symbol_muscle"/>
+            <property name="category_key" value="quest"/>
+            <property name="shareable" value="false"/>
+
+            <!-- Weapons -->
+            <reward type="Item" id="gunMGT2TacticalAR" value="6"/>
+            <reward type="Item" id="gunRifleT2MarksmanRifle" value="6"/>
+
+            <!-- Armor -->
+            <reward type="Item" id="armorIronHelmet" value="6"/>
+            <reward type="Item" id="armorIronChest" value="6"/>
+            <reward type="Item" id="armorIronGloves" value="6"/>
+            <reward type="Item" id="armorIronLegs" value="6"/>
+            <reward type="Item" id="armorIronBoots" value="6"/>
+            <reward type="Item" id="apparelNightvisionGoggles"/>
+            <!-- TODO: include this? -->
+            <!-- <reward type="Item" id="apparelCigar"/> -->
+
+            <!-- Ammo -->
+            <reward type="Item" id="ammo762mmBulletBall" value="130"/>
+            <reward type="Item" id="ammo762mmBulletHP" value="80"/>
+            <reward type="Item" id="ammo762mmBulletAP" value="80"/>
+
+            <!-- Tools -->
+            <reward type="Item" id="meleeToolPickT3Auger" value="4"/>
+            <reward type="Item" id="meleeWpnBladeT1HuntingKnife" value="6"/>
+
+            <!-- Consumables -->
+            <reward type="Item" id="medicalFirstAidKit" value="10"/>
+            <reward type="Item" id="drugFortBites" value="1"/>
+
+            <!-- Resources -->
+            <reward type="Item" id="ammoGasCan" value="300"/>
+            
+            <!-- Skills/Perks -->
+            <reward type="Skill" id="attPerception" value="8"/>
+            <reward type="Skill" id="perkDeadEye" value="5"/>
+            <reward type="Skill" id="perkDemolitionsExpert" value="5"/>
+            <reward type="Skill" id="perkInfiltrator" value="3"/>
+            <reward type="Skill" id="perkPenetrator" value="4"/>
+
+            <reward type="Skill" id="attStrength" value="5"/>
+            <reward type="Skill" id="perkHeavyArmor" value="4"/>
+
+            <reward type="Skill" id="attFortitude" value="8"/>
+            <reward type="Skill" id="perkMachineGunner" value="5"/>
+            <reward type="Skill" id="perkTheHuntsman" value="5"/>
+            <reward type="Skill" id="perkWellInsulated" value="3"/>
+            <reward type="Skill" id="perkPainTolerance" value="5"/>
+            <reward type="Skill" id="perkHealingFactor" value="5"/>
+            <reward type="Skill" id="perkSlowMetabolism" value="5"/>
+            <reward type="Skill" id="perkRuleOneCardio" value="3"/>
+
+		    <reward type="Skill" id="attAgility" value="6"/>
+		    <reward type="Skill" id="perkRunAndGun" value="3"/>
+		    <reward type="Skill" id="perkParkour" value="4"/>
+
+		    <!-- <reward type="Skill" id="attIntellect" value="0"/> -->
+            
+            <!-- Books/Magazines -->
+            <reward type="Skill" id="perkAutoWeaponsDamage" value="1"/>
+            <reward type="Skill" id="perkAutoWeaponsUncontrolledBurst" value="1"/>
+            <reward type="Skill" id="perkAutoWeaponsMaintenance" value="1"/>
+            <reward type="Skill" id="perkAutoWeaponsDrumMag" value="1"/>
+            <reward type="Skill" id="perkAutoWeaponsRecoil" value="1"/>
+            <reward type="Skill" id="perkAutoWeaponsRagdoll" value="1"/>
+            <reward type="Skill" id="perkAutoWeaponsMachineGuns" value="1"/>
+            <reward type="Skill" id="perkAutoWeaponsComplete" value="1"/>
+
+            <reward type="Skill" id="perkSniperDamage" value="1"/>
+            <reward type="Skill" id="perkSniperCripplingShot" value="1"/>
+            <reward type="Skill" id="perkSniperHeadShot" value="1"/>
+            <reward type="Skill" id="perkSniperReload" value="1"/>
+            <reward type="Skill" id="perkSniperControlledBreathing" value="1"/>
+            <reward type="Skill" id="perkSniperAPAmmo" value="1"/>
+            <reward type="Skill" id="perkSniperHPAmmo" value="1"/>
+            <reward type="Skill" id="perkSniperComplete" value="1"/>
+
+            <!-- TODO: only for looter... -->
+            <reward type="Skill" id="perkUrbanCombatLanding" value="1"/>
+            <reward type="Skill" id="perkUrbanCombatCigar" value="1"/>
+            <reward type="Skill" id="perkUrbanCombatSneaking" value="1"/>
+            <reward type="Skill" id="perkUrbanCombatLandMines" value="1"/>
+            <reward type="Skill" id="perkUrbanCombatJumping" value="1"/>
+            <reward type="Skill" id="perkUrbanCombatAdrenalineRush" value="1"/>
+            <reward type="Skill" id="perkUrbanCombatRoomClearing" value="1"/>
+            <reward type="Skill" id="perkUrbanCombatComplete" value="1"/>
+
+        </quest>
+        <quest id="job_looter">
+            <property name="name_key" value="job_looter"/>
+            <property name="subtitle_key" value="job_looter_subtitle"/>
             <property name="description_key" value="job_offer"/>
             <property name="offer_key" value="job_offer"/>
             <property name="icon" value="ui_game_symbol_muscle"/>
@@ -242,7 +328,7 @@
             <reward type="Item" id="drugFortBites" value="1"/>
 
             <!-- Resources -->
-            <!-- none for Raider -->
+            <reward type="Item" id="ammoGasCan" value="600"/>
             
             <!-- Skills/Perks -->
             <reward type="Skill" id="attPerception" value="8"/>
@@ -270,58 +356,6 @@
 		    <!-- <reward type="Skill" id="attIntellect" value="0"/> -->
             
             <!-- Books/Magazines -->
-            <reward type="Skill" id="bookAutoWeaponsDamage" value="1"/>
-            <reward type="Skill" id="bookAutoWeaponsUncontrolledBurst" value="1"/>
-            <reward type="Skill" id="bookAutoWeaponsMaintenance" value="1"/>
-            <reward type="Skill" id="bookAutoWeaponsDrumMag" value="1"/>
-            <reward type="Skill" id="bookAutoWeaponsRecoil" value="1"/>
-            <reward type="Skill" id="bookAutoWeaponsRagdoll" value="1"/>
-            <reward type="Skill" id="bookAutoWeaponsMachineGuns" value="1"/>
-
-            <reward type="Skill" id="bookSniperDamage" value="1"/>
-            <reward type="Skill" id="bookSniperCripplingShot" value="1"/>
-            <reward type="Skill" id="bookSniperHeadShot" value="1"/>
-            <reward type="Skill" id="bookSniperReload" value="1"/>
-            <reward type="Skill" id="bookSniperControlledBreathing" value="1"/>
-            <reward type="Skill" id="bookSniperAPAmmo" value="1"/>
-            <reward type="Skill" id="bookSniperHPAmmo" value="1"/>
-
-            <!-- TODO: only for looter... -->
-            <!-- <reward type="Skill" id="perkUrbanCombatLanding" value="1"/>
-            <reward type="Skill" id="perkUrbanCombatCigar" value="1"/>
-            <reward type="Skill" id="perkUrbanCombatSneaking" value="1"/>
-            <reward type="Skill" id="perkUrbanCombatLandMines" value="1"/>
-            <reward type="Skill" id="perkUrbanCombatJumping" value="1"/>
-            <reward type="Skill" id="perkUrbanCombatAdrenalineRush" value="1"/>
-            <reward type="Skill" id="perkUrbanCombatRoomClearing" value="1"/> -->
-            <!-- <reward type="Skill" id="perkUrbanCombatComplete" value="1"/> -->
-
-        </quest>
-        <quest id="job_looter">
-            <!-- 
-            name - quest name without localization.
-            subtitle - sub name without localization.
-            description - description without localization.
-            offer - offer without localization.
-            group_name - quest chain name without localization.
-            category - category type without localization.
-            -->
-            <property name="name" value="Become a Gatherer"/>
-            <property name="subtitle" value="Gather Resources and Craft Tools"/>
-            <property name="description" value="Gather Resources to support the Crafters"/>
-            <property name="icon" value="ui_game_symbol_run"/>
-            <property name="category_key" value="challenge"/>
-            <property name="offer" value="Become a Gatherer to support the Crafters with a steady flow of resources"/>
-            <property name="shareable" value="false"/>
-            
-            
-            <!-- Skills/Attributes -->
-            <reward type="Skill" id="attAgility" value="9"/>
-		    <reward type="Skill" id="attStrength" value="1"/>
-		    <reward type="Skill" id="attStrength" value="1"/>
-            <reward type="Skill" id="perkLuckyLooter" value="3"/>
-            
-            <!-- Magazine Perks -->
             <reward type="Skill" id="perkUrbanCombatLanding" value="1"/>
             <reward type="Skill" id="perkUrbanCombatCigar" value="1"/>
             <reward type="Skill" id="perkUrbanCombatSneaking" value="1"/>
@@ -330,15 +364,6 @@
             <reward type="Skill" id="perkUrbanCombatAdrenalineRush" value="1"/>
             <reward type="Skill" id="perkUrbanCombatRoomClearing" value="1"/>
             <reward type="Skill" id="perkUrbanCombatComplete" value="1"/>
-
-            <!-- Weapons -->
-            <reward type="Item" id="gunMGT2TacticalAR" value="6"/>
-
-            <!-- Armor -->
-            <reward type="Item" id="armorSteelChest" value="6"/>
-            
-
-            <reward type="Item" id="workVoucher" value="1"/>
         </quest>
         <quest id="job_engineer">
             <!-- 

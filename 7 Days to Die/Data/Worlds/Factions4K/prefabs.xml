@@ -772,7 +772,7 @@
 
 <!-- Desert Faction Trader -->  
 <!-- <decoration type="model" name="cabin_07" position="23,40,776" rotation="2" /> -->
-<decoration type="model" name="trader_hugh" position="23,33,776" rotation="0" />
+<decoration type="model" name="trader_hugh" position="23,33,776" rotation="2" />
 
 
 </prefabs>
