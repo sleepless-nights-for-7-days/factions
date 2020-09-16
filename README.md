@@ -126,4 +126,4 @@ Tech Junkie | | | x | Buff Robotic weapons, craft special turret ammo
 Wasteland Treasures | | x | | Buff looting of certain items
 
 # Map
-![map image](7%20Days%20to%20Die/Data/Worlds/Factions4K/preview/previewMap.png)
+![map image](serverfiles/Data/Worlds/Factions4K/preview/previewMap.png)
