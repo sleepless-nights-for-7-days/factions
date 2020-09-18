@@ -160,8 +160,8 @@
                 <property name="Delay" value="0"/>
                 <property name="Use_time" value="0"/>
                 <property name="Sound_start" value="SupplyDrops/open_supply_crate"/>
-                <property name="Create_item" value="meleeToolWireTool,solarbank,solarCell,solarCell,solarCell,solarCell,solarCell,solarCell,batterybank,carBattery,carBattery,carBattery,carBattery,carBattery,carBattery"/>
-                <property name="Create_item_count" value="1,1,6,6,6,6,6,6,1,6,6,6,6,6,6"/>
+                <property name="Create_item" value="meleeToolWireTool,solarbank,solarCell,batterybank,carBattery"/>
+                <property name="Create_item_count" value="1,1,6,1,6"/>
             </property>
         </item>
 
