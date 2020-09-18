@@ -500,11 +500,6 @@
             <reward type="Item" id="ammoShotgunSlug" value="140"/>
 
             <!-- Armor -->
-            <!-- TODO update to use half-blocks at base of desert faction -->
-            <!-- TODO update claim block frame to what was used for drawbridge rigging -->
-            <!-- TODO update drawbridge rigging to minimize -->
-            <!-- Try out the map with 15 minute days -->
-            <!-- install lights instead of torches -->
             <reward type="Item" id="armorMiningHelmet" value="6"/>
             <reward type="Item" id="armorIronChest" value="6"/>
             <reward type="Item" id="armorIronGloves" value="6"/>
@@ -546,10 +541,6 @@
             <reward type="Item" id="carBattery" value="6"/>
             <reward type="Item" id="carBattery" value="6"/>
             <reward type="Item" id="carBattery" value="6"/> -->
-
-            <!-- TODO: give all teammates a BlockPlace quest for "Place Bedroll"; see quest_BasicSurvival1 for example -->
-            <!-- TODO: add BlockPlace quest for "Secure Home Base" giving detailed instructions on where to place blocks -->
-            <!-- TODO: add base as a quest point based on tier1_fetch? -->
 
             <reward type="Item" id="cntWoodFurnitureBlockVariantHelper" value="9"/>
             <reward type="Item" id="cntGreenDrawerSecure" value="5"/>
