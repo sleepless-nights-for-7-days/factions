@@ -12,15 +12,15 @@
   <property name="RotationToFaceNorth" value="2" />
   <property name="YOffset" value="-25" />
   <property class="Stats">
-    <property name="TotalVertices" value="170533" />
-    <property name="TotalTriangles" value="117658" />
+    <property name="TotalVertices" value="187419" />
+    <property name="TotalTriangles" value="127712" />
     <property class="BlockEntities">
-      <property name="Vertices" value="9305" />
-      <property name="Triangles" value="11564" />
+      <property name="Vertices" value="9375" />
+      <property name="Triangles" value="11616" />
     </property>
     <property class="ChunkMeshes0">
-      <property name="Vertices" value="30198" />
-      <property name="Triangles" value="18338" />
+      <property name="Vertices" value="30404" />
+      <property name="Triangles" value="18440" />
     </property>
     <property class="ChunkMeshes1">
       <property name="Vertices" value="0" />
@@ -35,8 +35,8 @@
       <property name="Triangles" value="0" />
     </property>
     <property class="ChunkMeshes4">
-      <property name="Vertices" value="122612" />
-      <property name="Triangles" value="73080" />
+      <property name="Vertices" value="139222" />
+      <property name="Triangles" value="82980" />
     </property>
     <property class="ChunkMeshes5">
       <property name="Vertices" value="0" />
