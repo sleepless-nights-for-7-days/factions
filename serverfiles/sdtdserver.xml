@@ -91,7 +91,7 @@ Please Note that while a lot of this game mode is automated through mods, some p
 
 	<!--  -->
 	<property name="BuildCreate"					value="false" />			<!-- cheat mode on/off -->
-	<property name="DayNightLength"					value="60" />				<!-- real time minutes per in game day: 60 minutes -->
+	<property name="DayNightLength"					value="30" />				<!-- real time minutes per in game day: 60 minutes -->
 	<property name="DayLightLength"					value="18" />				<!-- in game hours the sun shines per day: 18 hours day light per in game day -->
 	<property name="DropOnDeath"					value="3" />				<!-- 0 = nothing, 1 = everything, 2 = toolbelt only, 3 = backpack only, 4 = delete all -->
 	<property name="DropOnQuit"						value="0" />				<!-- 0 = nothing, 1 = everything, 2 = toolbelt only, 3 = backpack only -->
