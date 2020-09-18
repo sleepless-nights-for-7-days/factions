@@ -508,10 +508,9 @@
             <reward type="Item" id="apparelNerdGlasses"/>
 
             <!-- Armor Mods -->
-            <!-- none -->
+            <reward type="Item" id="modArmorHelmetLight"/>
 
             <!-- Tools -->
-            <reward type="Item" id="meleeToolWireTool"/>
             <reward type="Item" id="meleeToolPickT2SteelPickaxe" value="6"/>
             <reward type="Item" id="meleeToolAxeT2SteelAxe" value="6"/>
             <reward type="Item" id="meleeToolShovelT2SteelShovel" value="6"/>
