@@ -207,8 +207,9 @@
             <property name="shareable" value="false"/>
 
             <!-- Weapons -->
-            <reward type="Item" id="gunMGT2TacticalAR" value="6"/>
-            <reward type="Item" id="gunRifleT2MarksmanRifle" value="6"/>
+            <reward type="Item" id="meleeWpnKnucklesT3SteelKnuckles" value="6"/>
+            <reward type="Item" id="gunMGT1AK47" value="6"/>
+            <reward type="Item" id="gunHandgunT3DesertVulture" value="6"/>
 
             <!-- Weapon Mods -->
             <reward type="Item" id="modGunMuzzleBrake"/>
@@ -216,6 +217,13 @@
             <reward type="Item" id="modGunReflexSight"/>
             <reward type="Item" id="modGunScopeMedium"/>
             <reward type="Item" id="modGunMagazineExtender"/>
+            <reward type="Item" id="modGunMagazineExtender"/>
+            <reward type="Item" id="modGunMeleeTheHunter"/>
+            <reward type="Item" id="modGunMeleeRadRemover"/>
+
+            <!-- Ammo -->
+            <reward type="Item" id="ammo762mmBulletAP" value="240"/>
+            <reward type="Item" id="ammo44MagnumBulletHP" value="120"/>
 
             <!-- Armor -->
             <reward type="Item" id="armorIronHelmet" value="6"/>
@@ -233,36 +241,33 @@
             <reward type="Item" id="modArmorPlatingReinforced"/>
             <reward type="Item" id="modArmorPlatingReinforced"/>
 
-            <!-- Ammo -->
-            <reward type="Item" id="ammo762mmBulletBall" value="130"/>
-            <reward type="Item" id="ammo762mmBulletHP" value="80"/>
-            <reward type="Item" id="ammo762mmBulletAP" value="80"/>
-
             <!-- Tools -->
             <reward type="Item" id="meleeToolPickT3Auger" value="4"/>
-            <reward type="Item" id="meleeWpnBladeT1HuntingKnife" value="6"/>
 
             <!-- Consumables -->
-            <reward type="Item" id="medicalFirstAidKit" value="10"/>
+            <reward type="Item" id="medicalFirstAidKit" value="5"/>
             <reward type="Item" id="drugFortBites" value="1"/>
 
             <!-- Resources -->
             <reward type="Item" id="ammoGasCan" value="300"/>
             
             <!-- Skills/Perks -->
-            <reward type="Skill" id="attPerception" value="8"/>
-            <reward type="Skill" id="perkDeadEye" value="5"/>
-            <reward type="Skill" id="perkDemolitionsExpert" value="5"/>
-            <reward type="Skill" id="perkInfiltrator" value="3"/>
-            <reward type="Skill" id="perkPenetrator" value="4"/>
+            <reward type="Skill" id="attPerception" value="4"/>
+            <reward type="Skill" id="perkDemolitionsExpert" value="3"/>
+            <reward type="Skill" id="perkInfiltrator" value="2"/>
+            <reward type="Skill" id="perkAnimalTracker" value="2"/>
+            <reward type="Skill" id="perkPenetrator" value="3"/>
 
             <reward type="Skill" id="attStrength" value="5"/>
             <reward type="Skill" id="perkHeavyArmor" value="4"/>
+            <reward type="Skill" id="perkPackMule" value="2"/>
 
             <reward type="Skill" id="attFortitude" value="8"/>
+            <reward type="Skill" id="perkBrawler" value="5"/>
             <reward type="Skill" id="perkMachineGunner" value="5"/>
             <reward type="Skill" id="perkTheHuntsman" value="5"/>
             <reward type="Skill" id="perkWellInsulated" value="3"/>
+            <reward type="Skill" id="perkLivingOffTheLand" value="3"/>
             <reward type="Skill" id="perkPainTolerance" value="5"/>
             <reward type="Skill" id="perkHealingFactor" value="5"/>
             <reward type="Skill" id="perkSlowMetabolism" value="5"/>
@@ -283,15 +288,15 @@
             <reward type="Skill" id="perkAutoWeaponsRagdoll" value="1"/>
             <reward type="Skill" id="perkAutoWeaponsMachineGuns" value="1"/>
             <reward type="Skill" id="perkAutoWeaponsComplete" value="1"/>
-
-            <reward type="Skill" id="perkSniperDamage" value="1"/>
-            <reward type="Skill" id="perkSniperCripplingShot" value="1"/>
-            <reward type="Skill" id="perkSniperHeadShot" value="1"/>
-            <reward type="Skill" id="perkSniperReload" value="1"/>
-            <reward type="Skill" id="perkSniperControlledBreathing" value="1"/>
-            <reward type="Skill" id="perkSniperAPAmmo" value="1"/>
-            <reward type="Skill" id="perkSniperHPAmmo" value="1"/>
-            <reward type="Skill" id="perkSniperComplete" value="1"/>
+            
+            <reward type="Skill" id="perkPistolPeteTakeAim"/>
+            <reward type="Skill" id="perkPistolPeteSwissKnees"/>
+            <reward type="Skill" id="perkPistolPeteSteadyHand"/>
+            <reward type="Skill" id="perkPistolPeteMaintenance"/>
+            <reward type="Skill" id="perkPistolPeteHPAmmo"/>
+            <reward type="Skill" id="perkPistolPeteAPAmmo"/>
+            <reward type="Skill" id="perkPistolPeteDamage"/>
+            <reward type="Skill" id="perkPistolPeteComplete"/>
         </quest>
         <quest id="job_looter">
             <property name="name_key" value="job_looter"/>
@@ -303,13 +308,19 @@
             <property name="shareable" value="false"/>
 
             <!-- Weapons -->
-            <reward type="Item" id="gunHandgunT2Magnum44" value="6"/>
+            <reward type="Item" id="meleeWpnBladeT3Machete" value="6"/>
             <reward type="Item" id="gunHandgunT3SMG5" value="6"/>
             <reward type="Item" id="gunRifleT2MarksmanRifle" value="6"/>
             
             <!-- Weapon Mods -->
             <reward type="Item" id="modGunSoundSuppressorSilencer"/>
+            <reward type="Item" id="modGunSoundSuppressorSilencer"/>
             <reward type="Item" id="modGunScopeLarge"/>
+
+            <!-- Ammo -->
+            <reward type="Item" id="ammo9mmBulletHP" value="270"/>
+            <reward type="Item" id="ammo9mmBulletAP" value="150"/>
+            <reward type="Item" id="ammo762mmBulletAP" value="120"/>
 
             <!-- Armor -->
             <reward type="Item" id="armorLeatherHood" value="6"/>
@@ -323,18 +334,11 @@
             <!-- Armor Mods -->
             <reward type="Item" id="modArmorImpactBracing"/>
 
-            <!-- Ammo -->
-            <reward type="Item" id="ammo9mmBulletHP" value="300"/>
-            <reward type="Item" id="ammo9mmBulletAP" value="150"/>
-            <reward type="Item" id="ammo762mmBulletAP" value="50"/>
-            <reward type="Item" id="ammo44MagnumBulletBall" value="75"/>
-
             <!-- Tools -->
-            <reward type="Item" id="meleeWpnBladeT3Machete" value="6"/>
             <reward type="Item" id="meleeToolSalvageT3ImpactDriver" value="6"/>
 
             <!-- Consumables -->
-            <reward type="Item" id="drinkJarGrandpasAwesomeSauce" value="1"/>
+            <reward type="Item" id="drinkJarGrandpasAwesomeSauce" value="2"/>
             <reward type="Item" id="drugRecog" value="1"/>
 
             <!-- Resources -->
@@ -342,11 +346,13 @@
             <reward type="Item" id="resourceLockPick" value="40"/>
             
             <!-- Skills/Perks -->
-            <reward type="Skill" id="attPerception" value="5"/>
-            <reward type="Skill" id="perkDeadEye" value="4"/>
+            <reward type="Skill" id="attPerception" value="8"/>
+            <reward type="Skill" id="perkDeadEye" value="5"/>
+            <reward type="Skill" id="perkDemolitionsExpert" value="5"/>
             <reward type="Skill" id="perkLockPicking" value="3"/>
+            <reward type="Skill" id="perkInfiltrator" value="3"/>
             <reward type="Skill" id="perkAnimalTracker" value="3"/>
-            <reward type="Skill" id="perkPenetrator" value="3"/>
+            <reward type="Skill" id="perkPenetrator" value="4"/>
             <reward type="Skill" id="perkLuckyLooter" value="5"/>
             <reward type="Skill" id="perkTreasureHunter" value="3"/>
             <reward type="Skill" id="perkSalvageOperations" value="5"/>
@@ -442,6 +448,15 @@
             <reward type="Skill" id="perkSpearHunter6PuncturedLung" value="1"/>
             <reward type="Skill" id="perkSpearHunter7QuickStrike" value="1"/>
             <reward type="Skill" id="perkSpearHunter8Complete" value="1"/>
+
+            <reward type="Skill" id="perkSniperDamage" value="1"/>
+            <reward type="Skill" id="perkSniperCripplingShot" value="1"/>
+            <reward type="Skill" id="perkSniperHeadShot" value="1"/>
+            <reward type="Skill" id="perkSniperReload" value="1"/>
+            <reward type="Skill" id="perkSniperControlledBreathing" value="1"/>
+            <reward type="Skill" id="perkSniperAPAmmo" value="1"/>
+            <reward type="Skill" id="perkSniperHPAmmo" value="1"/>
+            <reward type="Skill" id="perkSniperComplete" value="1"/>
             
             <reward type="Skill" id="perkUrbanCombatLanding" value="1"/>
             <reward type="Skill" id="perkUrbanCombatCigar" value="1"/>
@@ -476,11 +491,13 @@
             <reward type="Item" id="gunBotT2JunkTurret" value="6"/>
 
             <!-- Weapon Mods -->
-            <!-- <reward type="Item" id="modGunMuzzleBrake"/>
-            <reward type="Item" id="modGunMuzzleBrake"/>
-            <reward type="Item" id="modGunReflexSight"/>
-            <reward type="Item" id="modGunScopeMedium"/>
-            <reward type="Item" id="modGunMagazineExtender"/> -->
+            <!-- none -->
+            
+            <!-- Ammo -->
+            <reward type="Item" id="ammoJunkTurretShell" value="1000"/>
+            <reward type="Item" id="ammoJunkTurretAP" value="1000"/>
+            <reward type="Item" id="ammoShotgunShell" value="140"/>
+            <reward type="Item" id="ammoShotgunSlug" value="140"/>
 
             <!-- Armor -->
             <reward type="Item" id="armorIronHelmet" value="6"/>
@@ -489,21 +506,9 @@
             <reward type="Item" id="armorIronLegs" value="6"/>
             <reward type="Item" id="armorIronBoots" value="6"/>
             <reward type="Item" id="apparelNerdGlasses"/>
-            <!-- <reward type="Item" id="apparelCigar"/> -->
 
             <!-- Armor Mods -->
-            <!-- <reward type="Item" id="modArmorPlatingReinforced"/>
-            <reward type="Item" id="modArmorPlatingReinforced"/>
-            <reward type="Item" id="modArmorPlatingReinforced"/>
-            <reward type="Item" id="modArmorPlatingReinforced"/>
-            <reward type="Item" id="modArmorPlatingReinforced"/> -->
-
-            <!-- Ammo -->
-            <reward type="Item" id="ammoJunkTurretRegular" value="1000"/>
-            <reward type="Item" id="ammoJunkTurretShell" value="500"/>
-            <reward type="Item" id="ammoJunkTurretAP" value="500"/>
-            <reward type="Item" id="ammoShotgunShell" value="140"/>
-            <reward type="Item" id="ammoShotgunSlug" value="140"/>
+            <!-- none -->
 
             <!-- Tools -->
             <reward type="Item" id="meleeToolWireTool"/>
@@ -513,7 +518,7 @@
             <reward type="Item" id="meleeToolRepairT3Nailgun"/>
 
             <!-- Consumables -->
-            <reward type="Item" id="drinkJarCoffee" value="10"/>
+            <reward type="Item" id="drinkJarBlackStrapCoffee" value="10"/>
             <reward type="Item" id="foodShamChowder" value="10"/>
 
             <!-- Resources -->
@@ -664,6 +669,8 @@
             <reward type="Skill" id="perkSniperAPAmmo"/>
             <reward type="Skill" id="perkSniperHPAmmo"/>
             <reward type="Skill" id="perkSniperComplete"/>
+            
+            <reward type="Skill" id="perkSpearHunter3SteelSpears" value="1"/>
 
             <reward type="Skill" id="perkTechJunkie1Damage"/>
             <reward type="Skill" id="perkTechJunkie2Maintenance"/>

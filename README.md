@@ -23,11 +23,13 @@
 ### Equipment by Skillset
 Category | Raider | Looter | Engineer
 --- | --- | --- | ---
-**Weapons** | Tactical Rifle, Marksman Rifle | Magnum, Silenced SMG, Silenced Marksman | Robotic Turret, Pump Shotgun
+**Weapons** | Steel Knuckles, AK-47, Desert Vulture | Machette, SMG-5, Marksman Rifle | Stun Baton, Robotic Turret, Pump Shotgun
+**Weapon Mods** | 2 Muzzle Brake Mods, 2 Magazine Extender Mods, Hunter Mod, Rad Remover Mod, Reflex Sight Mod, Scope 4x Mod | 2 Silencer Mods, Scope 8x Mod | N/A
+**Ammo** | 240 7.62AP, 120 .44HP | 270 9mmHP, 150 9mmAP, 120 7.62AP | 1000 Robotic Turret Shells, 1000 Robotic Turret AP Ammo, 140 Shotgun Shells, 140 Shotgun AP Slugs
 **Armor** | Mid-Tier Heavy, Night Vision Goggles | Mid-Tier Light, Lucky Goggles, Cigarette | Mid-Tier Heavy, Nerdy Glasses
-**Ammo** | 130 7.62, 80 7.62HP, 80 7.62AP | 300 9mmHP, 150 9mmAP, 75 .44, 50 7.62AP | 1000 RobTurAmmo, 500 AP, 500 HP, 140 Shells, 140 Slugs
-**Tools** | Auger, Hunting Knife | Machette, Impact Driver | Wire Tool, Steel Pickaxe, Steel Axe, Steel Shovel, Nailgun
-**Consumables** | 10 First Aid Kits, 1 Fort Bites | 1 Grandpa's Awesome Sauce, 1 Recog | 10 coffee, 10 Sham Chowder
+**Armor Mods** | 4 Banded Armor Plating Mods | Impact Bracing Mod | N/A
+**Tools** | Auger | Impact Driver | Wire Tool, Steel Pickaxe, Steel Axe, Steel Shovel, Nailgun
+**Consumables** | 5 First Aid Kits, 1 Fort Bites | 2 bottles of Grandpa's Awesome Sauce, 1 bottle of Recog | 10 cups of Blackstrap Coffee, 10 bowls of Sham Chowder
 **Resources** | 300 Gas | 7500 Dukes, 40 Lockpicks | *lots... see below* 
 
 ### Building Materials that come with each Engineer
@@ -39,7 +41,7 @@ Category | Raider | Looter | Engineer
 	- 6 lvl 6 Solar Panels
 	- 1 Battery Bank
 	- 6 lvl 6 Batteries
-	- 1 Campfire - TODO: replace with Working Oven and Working Sink?
+	- 1 Campfire
 	- 1 Forge
 	- 1 Workbench
 	- 1 Cement Mixer
@@ -51,56 +53,56 @@ Category | Raider | Looter | Engineer
 ## Starting Skills/Perks
 Perk | Max Level | Raider | Looter | Engineer
 --- | :---: | :---: | :---: | :---:
-**Perception** 			| 10 | 9 | 6 | 1
-Dead Eye 				| 5 | 5 | 4 | 0
-Demolitions Expert		| 5 | 5 | 0 | 0
-Javelin Master 			| 5 | 0 | 0 | 0
-Lock Picking 			| 3 | 0 | 3 | 0
-The Infiltrator 		| 3 | 3 | 0 | 0
-Animal Tracker			| 3 | 0 | 3 | 0
-The Penetrator 			| 4 | 4 | 3 | 0
-Lucky Looter 			| 5 | 0 | 5 | 0
-Treasure Hunter 		| 3 | 0 | 3 | 0
-Salvage Operations 		| 5 | 0 | 5 | 0
-**Strength** 			| 10 | 6 | 1 | 10
-Boomstick 				| 5 | 0 | 0 | 5
-Pummel Pete 			| 5 | 0 | 0 | 5
-Skull Crusher 			| 5 | 0 | 0 | 5
-Sexual Tyrannosaurus 	| 4 | 0 | 0 | 4
-Heavy Armor 			| 4 | 4 | 0 | 4
-Pack Mule 				| 5 | 0 | 0 | 4
-Master Chef 			| 5 | 0 | 0 | 5
-Miner 69’er 			| 5 | 0 | 0 | 5
-Mother Lode 			| 5 | 0 | 0 | 5
-**Fortitude** 			| 10 | 9 | 1 | 1
-The Brawler 			| 5 | 0 | 0 | 0
-Machine Gunner 			| 5 | 5 | 0 | 0
-The Huntsman 			| 5 | 5 | 0 | 0
-Well Insulated 			| 3 | 3 | 0 | 0
-Living Off The Land 	| 3 | 0 | 0 | 0
-Pain Tolerance 			| 5 | 5 | 0 | 0
-Healing Factor 			| 5 | 5 | 0 | 0
-Iron Gut 				| 5 | 5 | 0 | 0
-Rule 1: Cardio 			| 3 | 3 | 0 | 0
-**Agility** 			| 10 | 7 | 9 | 1
-Archery 				| 5 | 0 | 0 | 0
-Gunslinger 				| 5 | 0 | 5 | 0
-Deep Cuts 				| 5 | 0 | 5 | 0
-Run and Gun 			| 3 | 3 | 3 | 0
-Flurry of Blows 		| 3 | 0 | 5 | 0
-Light Armor 			| 4 | 0 | 4 | 0
-Parkour 				| 4 | 4 | 4 | 0
-Hidden Strike 			| 5 | 0 | 5 | 0
-From The Shadows 		| 5 | 0 | 5 | 0
-**Intellect** 			| 10 | 1 | 7 | 10
-Electrocutioner 		| 5 | 0 | 0 | 5
-Robotics Inventor 		| 5 | 0 | 0 | 5
-Better Barter 			| 5 | 0 | 4 | 0
-The Daring Adventurer 	| 4 | 1 | 4 | 1
-Charismatic Nature 		| 4 | 0 | 4 | 4
-Physician 				| 4 | 0 | 0 | 4
-Advanced Engineering 	| 5 | 0 | 0 | 5
-Grease Monkey 			| 5 | 0 | 0 | 5
+**Perception** 			| **10** | 5 | 9 | 1
+Dead Eye 				| **5** | 0 | 5 | 0
+Demolitions Expert		| **5** | 3 | 5 | 0
+Javelin Master 			| **5** | 0 | 0 | 0
+Lock Picking 			| **3** | 0 | 3 | 0
+The Infiltrator 		| **3** | 2 | 3 | 0
+Animal Tracker			| **3** | 2 | 3 | 0
+The Penetrator 			| **4** | 3 | 4 | 0
+Lucky Looter 			| **5** | 0 | 5 | 0
+Treasure Hunter 		| **3** | 0 | 3 | 0
+Salvage Operations 		| **5** | 0 | 5 | 0
+**Strength** 			| **10** | 6 | 1 | 10
+Boomstick 				| **5** | 0 | 0 | 5
+Pummel Pete 			| **5** | 0 | 0 | 5
+Skull Crusher 			| **5** | 0 | 0 | 5
+Sexual Tyrannosaurus 	| **4** | 0 | 0 | 4
+Heavy Armor 			| **4** | 4 | 0 | 4
+Pack Mule 				| **5** | 2 | 0 | 4
+Master Chef 			| **5** | 0 | 0 | 5
+Miner 69’er 			| **5** | 0 | 0 | 5
+Mother Lode 			| **5** | 0 | 0 | 5
+**Fortitude** 			| **10** | 9 | 1 | 1
+The Brawler 			| **5** | 5 | 0 | 0
+Machine Gunner 			| **5** | 5 | 0 | 0
+The Huntsman 			| **5** | 5 | 0 | 0
+Well Insulated 			| **3** | 3 | 0 | 0
+Living Off The Land 	| **3** | 3 | 0 | 0
+Pain Tolerance 			| **5** | 5 | 0 | 0
+Healing Factor 			| **5** | 5 | 0 | 0
+Iron Gut 				| **5** | 5 | 0 | 0
+Rule 1: Cardio 			| **3** | 3 | 0 | 0
+**Agility** 			| **10** | 7 | 9 | 1
+Archery 				| **5** | 0 | 0 | 0
+Gunslinger 				| **5** | 0 | 5 | 0
+Deep Cuts 				| **5** | 0 | 5 | 0
+Run and Gun 			| **3** | 3 | 3 | 0
+Flurry of Blows 		| **3** | 0 | 5 | 0
+Light Armor 			| **4** | 0 | 4 | 0
+Parkour 				| **4** | 4 | 4 | 0
+Hidden Strike 			| **5** | 0 | 5 | 0
+From The Shadows 		| **5** | 0 | 5 | 0
+**Intellect** 			| **10** | 1 | 7 | 10
+Electrocutioner 		| **5** | 0 | 0 | 5
+Robotics Inventor 		| **5** | 0 | 0 | 5
+Better Barter 			| **5** | 0 | 4 | 0
+The Daring Adventurer 	| **4** | 1 | 4 | 1
+Charismatic Nature 		| **4** | 0 | 4 | 4
+Physician 				| **4** | 0 | 0 | 4
+Advanced Engineering 	| **5** | 0 | 0 | 5
+Grease Monkey 			| **5** | 0 | 0 | 5
 
 ## Starting Book/Magazine Perks
 Series | Raider | Looter | Engineer | Description
@@ -116,11 +118,11 @@ Lucky Looter | | x | | Buff looting
 Magnum Enforcer | | x | x | Buff magnums, Barter buff while holding magnum, craft special .44 ammo
 Needle & Thread | | | x | Craft clothes
 The Night Stalker | | x | | Buff night activities, not encumbered during night
-Pistol Pete | | x | x | Buff pistols, craft special 9mm ammo, ignore armor at close range
+Pistol Pete | x | x | x | Buff pistols, craft special 9mm ammo, ignore armor at close range
 Ranger's Guide to Archery | | x | x | Buff Archery, craft special arrows
 Shotgun Messiah | | | x | Buff shotguns, craft special shells
-Sniper | x | | x | Buff scope damage, reload, zooming, craft special 7.62 ammo, craft Ghillie suit
-Spear Hunter | | x | | Buff spear use, craft steel spear
+Sniper | | x | x | Buff scope damage, reload, zooming, craft special 7.62 ammo, craft Ghillie suit
+Spear Hunter | | x | / | Buff spear use, craft steel spear
 Urban Combat | | x | | Craft stealth boots, cigars, no sound over trash, less sound on landing, boost sneak jump height, land mines don't explode, ignore armor slowdown when in combat, silencers have no damage
 Tech Junkie | | | x | Buff Robotic weapons, craft special turret ammo
 Wasteland Treasures | | x | | Buff looting of certain items
