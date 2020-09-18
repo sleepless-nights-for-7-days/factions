@@ -11,9 +11,16 @@ desertFactionSupplies,items,Item,"Desert Faction Supplies"
 factionSuppliesDesc,items,Item,"Supply bag issued to all initiates. Includes uniform, basic supplies, and orders on where we should be reporting to."
 
 snowFactionDyeKit,items,Item,"Snow Faction Dye Kit"
-snowFactionDyeKitDesc,items,Item,"Dye Kit containing 10 Faction-Specific dyes. Make sure you have enough room in your inventory before opening."
+snowFactionDyeKitDesc,items,Item,"Dye Kit containing 10 Faction-Specific dyes. Make sure you have enough room in your inventory before opening. [10 slots required]"
 desertFactionDyeKit,items,Item,"Desert Faction Dye Kit"
-desertFactionDyeKitDesc,items,Item,"Dye Kit containing 10 Faction-Specific dyes. Make sure you have enough room in your inventory before opening."
+desertFactionDyeKitDesc,items,Item,"Dye Kit containing 10 Faction-Specific dyes. Make sure you have enough room in your inventory before opening. [10 slots required]"
+
+electricityKit,items,Item,"Electricity Kit"
+electricityKitDesc,items,Item,"Crate containing a Battery Bank, Solar Bank, 6 Batteries, and 6 Solar Cells. [14 slots required]"
+workshopKit,items,Item,"Workshop Kit"
+workshopKitDesc,items,Item,"Box containing a Campfire, Forge, Workbench, Cement Mixer, and Chemistry Station. [5 slots required]"
+seedKit,items,Item,"Seed Kit"
+seedKitDesc,items,Item,"Supply bag filled with 2 of each kind of seed. Use these in the farm on the roof of your Faction Base. [12 slots required]"
 
 snowFactionOrders,items,Item,"Snow Faction Orders"
 snowFactionOrdersDesc,items,Item,"Includes instructions from Snow Faction on where I should report to."

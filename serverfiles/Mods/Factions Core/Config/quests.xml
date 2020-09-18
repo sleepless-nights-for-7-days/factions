@@ -526,7 +526,7 @@
             <reward type="Item" id="vaultDoor01" value="6"/>
             <reward type="Item" id="vaultHatch_v1" value="2"/>
 
-            <reward type="Item" id="solarbank" value="1"/>
+            <!-- <reward type="Item" id="solarbank" value="1"/>
             <reward type="Item" id="solarCell" value="6"/>
             <reward type="Item" id="solarCell" value="6"/>
             <reward type="Item" id="solarCell" value="6"/>
@@ -540,18 +540,17 @@
             <reward type="Item" id="carBattery" value="6"/>
             <reward type="Item" id="carBattery" value="6"/>
             <reward type="Item" id="carBattery" value="6"/>
-            <reward type="Item" id="carBattery" value="6"/>
+            <reward type="Item" id="carBattery" value="6"/> -->
 
             <reward type="Item" id="cntWoodFurnitureBlockVariantHelper" value="9"/>
             <reward type="Item" id="cntGreenDrawerSecure" value="5"/>
 
             <reward type="Item" id="pouredConcreteBlockVariantHelper" value="50"/>
             
-            <reward type="Item" id="campfire" value="1"/>
-            <reward type="Item" id="forge" value="1"/>
-            <reward type="Item" id="workbench" value="1"/>
-            <reward type="Item" id="cementMixer" value="1"/>
-            <reward type="Item" id="chemistryStation" value="1"/>
+            <!-- kits -->
+            <reward type="Item" id="electricityKit" value="1"/>
+            <reward type="Item" id="workshopKit" value="1"/>
+            <reward type="Item" id="seedKit" value="1"/>
             
             <!-- Skills/Perks -->
             <!-- <reward type="Skill" id="attPerception" value="0"/> -->
