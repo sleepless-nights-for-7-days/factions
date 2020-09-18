@@ -494,8 +494,8 @@
             <!-- none -->
             
             <!-- Ammo -->
-            <reward type="Item" id="ammoJunkTurretShell" value="1000"/>
-            <reward type="Item" id="ammoJunkTurretAP" value="1000"/>
+            <reward type="Item" id="ammoJunkTurretShell" value="950"/>
+            <reward type="Item" id="ammoJunkTurretAP" value="950"/>
             <reward type="Item" id="ammoShotgunShell" value="140"/>
             <reward type="Item" id="ammoShotgunSlug" value="140"/>
 

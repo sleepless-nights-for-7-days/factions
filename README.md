@@ -25,7 +25,7 @@ Category | Raider | Looter | Engineer
 --- | --- | --- | ---
 **Weapons** | Steel Knuckles, AK-47, Desert Vulture | Machette, SMG-5, Marksman Rifle | Stun Baton, Robotic Turret, Pump Shotgun
 **Weapon Mods** | 2 Muzzle Brake Mods, 2 Magazine Extender Mods, Hunter Mod, Rad Remover Mod, Reflex Sight Mod, Scope 4x Mod | 2 Silencer Mods, Scope 8x Mod | N/A
-**Ammo** | 240 7.62AP, 120 .44HP | 270 9mmHP, 150 9mmAP, 120 7.62AP | 1000 Robotic Turret Shells, 1000 Robotic Turret AP Ammo, 140 Shotgun Shells, 140 Shotgun AP Slugs
+**Ammo** | 240 7.62AP, 120 .44HP | 270 9mmHP, 150 9mmAP, 120 7.62AP | 950 Robotic Turret Shells, 950 Robotic Turret AP Ammo, 140 Shotgun Shells, 140 Shotgun AP Slugs
 **Armor** | Mid-Tier Heavy, Night Vision Goggles | Mid-Tier Light, Lucky Goggles, Cigarette | Mid-Tier Heavy, Nerdy Glasses
 **Armor Mods** | 4 Banded Armor Plating Mods | Impact Bracing Mod | Helmet Light Mod
 **Tools** | Auger | Impact Driver | Wire Tool, Steel Pickaxe, Steel Axe, Steel Shovel, Nailgun
