@@ -500,14 +500,13 @@
             <reward type="Item" id="ammoShotgunSlug" value="140"/>
 
             <!-- Armor -->
-            <!-- TODO give mining helmet! -->
             <!-- TODO update to use half-blocks at base of desert faction -->
             <!-- TODO update claim block frame to what was used for drawbridge rigging -->
             <!-- TODO update drawbridge rigging to minimize -->
             <!-- TODO give engineer lvl 1 Living off the Land... or maybe just give everyone their first 20 levels? -->
             <!-- Try out the map with 15 minute days -->
             <!-- install lights instead of torches -->
-            <reward type="Item" id="armorIronHelmet" value="6"/>
+            <reward type="Item" id="armorMiningHelmet" value="6"/>
             <reward type="Item" id="armorIronChest" value="6"/>
             <reward type="Item" id="armorIronGloves" value="6"/>
             <reward type="Item" id="armorIronLegs" value="6"/>
