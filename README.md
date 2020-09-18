@@ -74,12 +74,12 @@ Pack Mule 				| **5** | 2 | 0 | 4
 Master Chef 			| **5** | 0 | 0 | 5
 Miner 69’er 			| **5** | 0 | 0 | 5
 Mother Lode 			| **5** | 0 | 0 | 5
-**Fortitude** 			| **10** | 9 | 1 | 1
+**Fortitude** 			| **10** | 9 | 1 | 5
 The Brawler 			| **5** | 5 | 0 | 0
 Machine Gunner 			| **5** | 5 | 0 | 0
 The Huntsman 			| **5** | 5 | 0 | 0
 Well Insulated 			| **3** | 3 | 0 | 0
-Living Off The Land 	| **3** | 3 | 0 | 0
+Living Off The Land 	| **3** | 1 | 0 | 3
 Pain Tolerance 			| **5** | 5 | 0 | 0
 Healing Factor 			| **5** | 5 | 0 | 0
 Iron Gut 				| **5** | 5 | 0 | 0

@@ -267,7 +267,7 @@
             <reward type="Skill" id="perkMachineGunner" value="5"/>
             <reward type="Skill" id="perkTheHuntsman" value="5"/>
             <reward type="Skill" id="perkWellInsulated" value="3"/>
-            <reward type="Skill" id="perkLivingOffTheLand" value="3"/>
+            <reward type="Skill" id="perkLivingOffTheLand" value="1"/>
             <reward type="Skill" id="perkPainTolerance" value="5"/>
             <reward type="Skill" id="perkHealingFactor" value="5"/>
             <reward type="Skill" id="perkSlowMetabolism" value="5"/>
@@ -503,7 +503,6 @@
             <!-- TODO update to use half-blocks at base of desert faction -->
             <!-- TODO update claim block frame to what was used for drawbridge rigging -->
             <!-- TODO update drawbridge rigging to minimize -->
-            <!-- TODO give engineer lvl 1 Living off the Land... or maybe just give everyone their first 20 levels? -->
             <!-- Try out the map with 15 minute days -->
             <!-- install lights instead of torches -->
             <reward type="Item" id="armorMiningHelmet" value="6"/>
@@ -576,7 +575,8 @@
             <reward type="Skill" id="perkMiner69r" value="5"/>
             <reward type="Skill" id="perkMotherLode" value="5"/>
 
-            <!-- <reward type="Skill" id="attFortitude" value="0"/> -->
+            <reward type="Skill" id="attFortitude" value="4"/>
+            <reward type="Skill" id="perkLivingOffTheLand" value="3"/>
 
 		    <!-- <reward type="Skill" id="attAgility" value="0"/> -->
 
