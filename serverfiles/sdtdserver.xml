@@ -6,7 +6,7 @@
 	<property name="ServerName"						value="Factions 4K: SNOW vs DESERT"/>		<!-- Whatever you want the name of the server to be. -->
 	<property name="ServerDescription"				value="Destroy the opposing team's Claim Block while defending your own in this team-based base raiding game mode"/>	<!-- Whatever you want the server description to be, will be shown in the server browser. -->
 	<property name="ServerWebsiteURL"				value="https://github.com/jonathan-robertson/7-days-to-die-factions"/>					<!-- Website URL for the server, will be shown in the serverbrowser as a clickable link -->
-	<property name="ServerPassword"					value="123"/>					<!-- Password to gain entry to the server -->
+	<property name="ServerPassword"					value=""/>					<!-- Password to gain entry to the server -->
 	<property name="ServerLoginConfirmationText"	value="Factions
 -> Destroy the opposing Team's Claim Block while defending your own in this team-based base raiding game mode
 
