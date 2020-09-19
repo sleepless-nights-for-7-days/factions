@@ -10,6 +10,18 @@
 	- Engineer: upgrade your base, mine, and craft nearly anything to supply your team with an edge in the mission and defend your Faction's honor
 - Work with your team to destroy the enemy Faction's Claim Block, held high above in the upper floors of their fortress outpost while defending your Fortress's Claim on the region
 
+## Enhanced Harvesting Perks
+*Greatly boosted perk-powered harvesting to enhance the benefit of support jobs and decrease the time required to reach meaningful gains.*
+
+Perk | Default Boost at Max | Modded Boost
+--- | --- | ---
+Mother Lode | 2x | 50x
+Lucky Looter | 5x | 50x
+The Huntsman | 2x | 15x
+Salvage Operations | 2x | 15x
+Living Off The Land | 3x | 15x
+
+
 ## Starting Gear
 - 1 Land Claim Block
 	- make sure one is placed between the spikes on your base's third floor

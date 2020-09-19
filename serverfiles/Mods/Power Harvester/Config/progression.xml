@@ -1,0 +1,8 @@
+<configs>
+	<!-- TODO: Add updates to localization text later -->
+    <set xpath="/progression/perks/perk[@name='perkMotherLode']/effect_group/passive_effect[@name='HarvestCount']/@value">.2,50</set> <!-- default: .2,1 -->
+	<set xpath="/progression/perks/perk[@name='perkLuckyLooter']/effect_group/passive_effect[@name='LootGamestage']/@value">.05,50</set> <!-- default: .05,.25 -->
+    <set xpath="/progression/perks/perk[@name='perkTheHuntsman']/effect_group/passive_effect[@name='HarvestCount']/@value">.2,15</set> <!-- default: .2,1 -->
+	<set xpath="/progression/perks/perk[@name='perkSalvageOperations']/effect_group/passive_effect[@name='HarvestCount']/@value">.2,15</set> <!-- default: .2,1 -->
+    <set xpath="/progression/perks/perk[@name='perkLivingOffTheLand']/effect_group/passive_effect[@name='HarvestCount']/@value">1,4,14</set> <!-- default: 1,1,2 -->
+</configs>
