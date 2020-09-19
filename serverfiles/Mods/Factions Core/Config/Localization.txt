@@ -15,8 +15,8 @@ snowFactionDyeKitDesc,items,Item,"Dye Kit containing 10 Faction-Specific dyes. M
 desertFactionDyeKit,items,Item,"Desert Faction Dye Kit"
 desertFactionDyeKitDesc,items,Item,"Dye Kit containing 10 Faction-Specific dyes. Make sure you have enough room in your inventory before opening. [10 slots required]"
 
-electricityKit,items,Item,"Electricity Kit"
-electricityKitDesc,items,Item,"Crate containing a Wire Tool, Battery Bank, Solar Bank, 6 Batteries, and 6 Solar Cells. [15 slots required]"
+electronicsKit,items,Item,"Electricity Kit"
+electronicsKitDesc,items,Item,"Crate containing 2 Shotgun Turrets with 300 shells, 1 SMG Turret with 300 9mm ammo, 2 Motion Sensors, 2 Speakers, 12 Simple Lights, and 12 Electric Relays. [9 slots required]"
 workshopKit,items,Item,"Workshop Kit"
 workshopKitDesc,items,Item,"Box containing a Campfire, Forge, Workbench, Cement Mixer, and Chemistry Station. [5 slots required]"
 seedKit,items,Item,"Seed Kit"

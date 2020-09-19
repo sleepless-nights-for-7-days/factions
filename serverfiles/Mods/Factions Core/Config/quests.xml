@@ -511,6 +511,7 @@
             <reward type="Item" id="modArmorHelmetLight"/>
 
             <!-- Tools -->
+            <reward type="Item" id="meleeToolWireTool" value="1"/>
             <reward type="Item" id="meleeToolPickT2SteelPickaxe" value="6"/>
             <reward type="Item" id="meleeToolAxeT2SteelAxe" value="6"/>
             <reward type="Item" id="meleeToolShovelT2SteelShovel" value="6"/>
@@ -524,9 +525,8 @@
             <reward type="Item" id="metalReinforcedWoodDrawBridge" value="1"/>
             <reward type="Item" id="vaultDoor01" value="6"/>
             <reward type="Item" id="vaultHatch_v1" value="2"/>
-            <reward type="Item" id="trapSpikesIronDmg2" value="1"/>
 
-            <!-- <reward type="Item" id="solarbank" value="1"/>
+            <reward type="Item" id="solarbank" value="1"/>
             <reward type="Item" id="solarCell" value="6"/>
             <reward type="Item" id="solarCell" value="6"/>
             <reward type="Item" id="solarCell" value="6"/>
@@ -540,7 +540,7 @@
             <reward type="Item" id="carBattery" value="6"/>
             <reward type="Item" id="carBattery" value="6"/>
             <reward type="Item" id="carBattery" value="6"/>
-            <reward type="Item" id="carBattery" value="6"/> -->
+            <reward type="Item" id="carBattery" value="6"/>
 
             <reward type="Item" id="cntWoodFurnitureBlockVariantHelper" value="9"/>
             <reward type="Item" id="cntGreenDrawerSecure" value="5"/>
@@ -548,7 +548,7 @@
             <reward type="Item" id="pouredConcreteBlockVariantHelper" value="50"/>
             
             <!-- kits -->
-            <reward type="Item" id="electricityKit" value="1"/>
+            <reward type="Item" id="electronicsKit" value="1"/>
             <reward type="Item" id="workshopKit" value="1"/>
             <reward type="Item" id="seedKit" value="1"/>
             
