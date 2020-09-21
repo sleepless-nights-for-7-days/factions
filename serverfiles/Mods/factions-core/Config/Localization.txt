@@ -16,7 +16,7 @@ desertFactionDyeKit,items,Item,"Desert Faction Dye Kit"
 desertFactionDyeKitDesc,items,Item,"Dye Kit containing 10 Faction-Specific dyes. Make sure you have enough room in your inventory before opening.\n[10 slots required]"
 
 electronicsKit,items,Item,"Electronics Kit"
-electronicsKitDesc,items,Item,"Crate containing 1 Generator Bank, 6 Small Engines, 3000 units of Gas, 2 Shotgun Turrets with 300 shells, 1 SMG Turret with 300 9mm ammo, 2 Motion Sensors, 2 Speakers, 12 Simple Lights, and 12 Electric Relays.\n[17 slots required]"
+electronicsKitDesc,items,Item,"Crate containing 1 Generator Bank, 6 Small Engines, 1000 units of Gas, 2 Shotgun Turrets with 300 shells, 1 SMG Turret with 300 9mm ammo, 2 Motion Sensors, 2 Speakers, 12 Simple Lights, and 12 Electric Relays.\n[17 slots required]"
 workshopKit,items,Item,"Workshop Kit"
 workshopKitDesc,items,Item,"Box containing a Campfire with attachments, Forge with attachments, Workbench, Cement Mixer, and Chemistry Station.\n[11 slots required]"
 seedKit,items,Item,"Seed Kit"

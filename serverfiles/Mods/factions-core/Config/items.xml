@@ -161,7 +161,7 @@
                 <property name="Use_time" value="0"/>
                 <property name="Sound_start" value="SupplyDrops/open_supply_crate"/>
                 <property name="Create_item" value="generatorbank,smallEngine,ammoGasCan,shotgunTurret,ammoShotgunShell,autoTurret,ammo9mmBulletBall,motionsensor,speaker,ceilingLight01_player,electricwirerelay"/>
-                <property name="Create_item_count" value="1,6,3000,2,300,1,300,2,2,12,12"/>
+                <property name="Create_item_count" value="1,6,1000,2,300,1,300,2,2,12,12"/>
             </property>
         </item>
 
