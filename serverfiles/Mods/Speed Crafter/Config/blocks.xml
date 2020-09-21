@@ -1,4 +1,7 @@
 <configs>
-    <!-- drop CraftCompletedSound since it's crazy annoying when completing hundreds of items very quickly -->
+    <!-- remove CraftCompletedSound since it's crazy annoying when completing hundreds of items very quickly -->
+    <removeattribute xpath="/blocks/block[@name='campfire']/property[@name='CraftCompleteSound']/@value"/>
     <removeattribute xpath="/blocks/block[@name='forge']/property[@name='CraftCompleteSound']/@value"/>
+    <removeattribute xpath="/blocks/block[@name='cementMixer']/property[@name='CraftCompleteSound']/@value"/>
+    <removeattribute xpath="/blocks/block[@name='chemistryStation']/property[@name='CraftCompleteSound']/@value"/>
 </configs>
