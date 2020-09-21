@@ -526,22 +526,6 @@
             <reward type="Item" id="vaultDoor01" value="6"/>
             <reward type="Item" id="vaultHatch_v1" value="2"/>
 
-            <reward type="Item" id="solarbank" value="1"/>
-            <reward type="Item" id="solarCell" value="6"/>
-            <reward type="Item" id="solarCell" value="6"/>
-            <reward type="Item" id="solarCell" value="6"/>
-            <reward type="Item" id="solarCell" value="6"/>
-            <reward type="Item" id="solarCell" value="6"/>
-            <reward type="Item" id="solarCell" value="6"/>
-
-            <reward type="Item" id="batterybank" value="1"/>
-            <reward type="Item" id="carBattery" value="6"/>
-            <reward type="Item" id="carBattery" value="6"/>
-            <reward type="Item" id="carBattery" value="6"/>
-            <reward type="Item" id="carBattery" value="6"/>
-            <reward type="Item" id="carBattery" value="6"/>
-            <reward type="Item" id="carBattery" value="6"/>
-
             <reward type="Item" id="cntWoodFurnitureBlockVariantHelper" value="9"/>
             <reward type="Item" id="cntGreenDrawerSecure" value="5"/>
 
