@@ -4,11 +4,11 @@
 
 	<!-- Server representation -->
 	<property name="ServerName"						value="Factions 4K: SNOW vs DESERT"/>		<!-- Whatever you want the name of the server to be. -->
-	<property name="ServerDescription"				value="Destroy the opposing team's Claim Block while defending your own in this team-based base raiding game mode"/>	<!-- Whatever you want the server description to be, will be shown in the server browser. -->
+	<property name="ServerDescription"				value="Destroy the opposing faction Claim Block while defending your own in this team-based base raiding game mode"/>	<!-- Whatever you want the server description to be, will be shown in the server browser. -->
 	<property name="ServerWebsiteURL"				value="https://github.com/jonathan-robertson/7-days-to-die-factions"/>					<!-- Website URL for the server, will be shown in the serverbrowser as a clickable link -->
 	<property name="ServerPassword"					value=""/>					<!-- Password to gain entry to the server -->
-	<property name="ServerLoginConfirmationText"	value="Factions
--> Destroy the opposing Team's Claim Block while defending your own in this team-based base raiding game mode
+	<property name="ServerLoginConfirmationText"	value="Factions 4K: SNOW vs DESERT
+Destroy the opposing faction Claim Block while defending your own in this team-based base raiding game mode
 
 What makes Factions unique?
 1. Jump into the action: complete the initial quest to register with your chosen Faction and start with a little over 100 skills based on your declared job:
@@ -20,16 +20,7 @@ What makes Factions unique?
 	- Looting and Crafting are meant to both be rewarding and should have a meaningful impact on your success
 	- Nothing is preventing you from choosing the same Job as a teammate and having 3 Raiders, for example, may be a viable strategy
 3. Custom Nitro map with Steel Bases already laid out; identical bases for Snow and Desert factions
-	- Be sure to get an Engineer on your team so you can set doors, hatches, and a drawbridge to defend yourself... otherwise, be prepared to rush!
-
-:: Personal Note ::
-There is no doubt that 7 Days to Die is not meant to be played like this, but I wanted a fun way for the buddies I play 7DTD with to split into teams and practice PvP with one another. My expectaion is that this will help us improve our PvP skills and bring those skills back with us into the standard-play server we like to frequent.
-
-Please Note that while a lot of this game mode is automated through mods, some parts are not:
-- Winning Condition: Let the enemy team know when you've destroyed its Claim Block via Global Chat
-- Automated Wipes/Reset: Map and Players do not auto-wipe when the win condition is met
-	- I'd love for a server wipe to be scheduled within a couple minutes the winning condition being met, but that may not be possible (looking into it still).
-	- So for now, I'm planning to manually take down the server or have it wiped on a schedule every 3 hrs or so"/>
+	- Engineers start with doors, hatches, and a drawbridge to help defend your base. Without one, you could be at a disadvantage"/>
 <!-- If set the user will see the message during joining the server and has to confirm it before continuing. For more complex changes to this window you can change the "serverjoinrulesdialog" window in XUi -->
 
 	<!-- Networking -->
