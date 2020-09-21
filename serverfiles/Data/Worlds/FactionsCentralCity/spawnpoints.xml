@@ -1,10 +1,4 @@
 <spawnpoints>
-<spawnpoint position="-555,41,1523" rotation="0,79,0"/>
-<spawnpoint position="-76,41,-1014" rotation="0,79,0"/>
-<spawnpoint position="-398,41,-738" rotation="0,79,0"/>
-<spawnpoint position="-708,41,475" rotation="0,79,0"/>
-<spawnpoint position="-1006,41,1183" rotation="0,79,0"/>
-<spawnpoint position="-1013,41,1051" rotation="0,79,0"/>
-<spawnpoint position="-503,41,-1358" rotation="0,79,0"/>
-<spawnpoint position="-1314,41,-1667" rotation="0,79,0"/>
+<spawnpoint position="-453,41,879" rotation="0,79,0"/>
+<!-- <spawnpoint position="-76,41,-1014" rotation="0,79,0"/> -->
 </spawnpoints>

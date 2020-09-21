@@ -692,8 +692,8 @@
 <decoration type="model" name="trader_bob" position="-288,39,638" rotation="3" />
 
 <!-- North Base --> <!-- did not overwrite any other POIs -->
-<decoration type="model" name="faction_base_snow" position="-453,15,848" rotation="0" />
+<decoration type="model" name="faction_base" position="-453,15,848" rotation="0" />
 
 <!-- South Base --> <!-- did not overwrite any other POIs -->
-<decoration type="model" name="faction_base_desert" position="-453,15,400" rotation="2" />
+<decoration type="model" name="faction_base" position="-453,15,400" rotation="2" />
 </prefabs>
