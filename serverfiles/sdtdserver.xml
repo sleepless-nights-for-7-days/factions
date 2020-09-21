@@ -109,7 +109,7 @@ What makes Factions unique?
 	<!-- Loot -->
 	<property name="LootAbundance"					value="800" />				<!-- percentage in whole numbers -->
 	<property name="LootRespawnDays"				value="1" />				<!-- days in whole numbers -->
-	<property name="AirDropFrequency"				value="4"/>				<!-- How often airdrop occur in game-hours, 0 == never -->
+	<property name="AirDropFrequency"				value="24"/>				<!-- How often airdrop occur in game-hours, 0 == never -->
 	<property name="AirDropMarker"					value="true"/>				<!-- Sets if a marker is added to map/compass for air drops. -->
 
 	<!-- Multiplayer -->
