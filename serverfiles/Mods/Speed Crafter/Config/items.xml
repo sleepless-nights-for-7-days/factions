@@ -1,0 +1,8 @@
+<configs>
+	<!-- TODO: Add updates to localization text later -->
+    
+    <!-- Increase effectiveness of the Bellows -->
+    <!-- stopped at -.99 since more than that (-.9999, for example) can negatively impacts framerate -->
+    <set xpath="/items/item[@name='toolBellows']/effect_group/passive_effect[@name='CraftingSmeltTime']/@value">-0.99</set> <!-- default: -.333 -->
+    <set xpath="/items/item[@name='toolBellows']/effect_group/display_value[@name='dCraftingSmeltTime']/@value">.99</set> <!-- default: .5 -->
+</configs>

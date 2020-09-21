@@ -1,0 +1,15 @@
+<configs>
+	<!-- TODO: Add updates to localization text later -->
+
+    <remove xpath="/progression/perks/perk[@name='perkAdvancedEngineering']/effect_group/passive_effect[@name='CraftingTime']"/>
+    <append xpath="/progression/perks/perk[@name='perkAdvancedEngineering']/effect_group">
+        <passive_effect name="CraftingTime" operation="perc_add" level="1,5" value="-0.2" tags="perkAdvancedEngineering"/>
+
+        <!-- 1. removed tags to make crafting time impact all crafting, not just workbench and forge" -->
+        <!-- 2. updated from default: level="2,5" -->
+        <passive_effect name="CraftingTime" operation="perc_add" level="2,4" value="-0.2" />
+
+        <!-- 3. boosted crafting to instant-speed at level 5 -->
+        <passive_effect name="CraftingTime" operation="perc_add" level="5" value="-1.0" />
+    </append>
+</configs>
