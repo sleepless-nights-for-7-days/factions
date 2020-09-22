@@ -523,7 +523,7 @@
 
             <!-- Resources -->
             <reward type="Item" id="metalReinforcedWoodDrawBridge" value="1"/>
-            <reward type="Item" id="vaultDoor01" value="6"/>
+            <reward type="Item" id="vaultDoor01" value="7"/>
             <reward type="Item" id="vaultHatch_v1" value="2"/>
 
             <reward type="Item" id="cntWoodFurnitureBlockVariantHelper" value="9"/>
@@ -664,6 +664,8 @@
             <reward type="Skill" id="perkTechJunkie6BatonCharge" value="1"/>
             <reward type="Skill" id="perkTechJunkie7Hydraulics" value="1"/>
             <reward type="Skill" id="perkTechJunkie8Complete" value="1"/>
+
+            <reward type="Skill" id="gunExplosivesT3RocketLauncherSchematic" value="1"/>
         </quest>
     </append>
 </configs>
