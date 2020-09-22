@@ -689,7 +689,7 @@
 
 <!-- Trader Bob, the only trader -->
 <!-- <decoration type="model" name="parking_garage_01" position="-288,40,637" rotation="3" /> -->
-<decoration type="model" name="trader_bob" position="-288,39,638" rotation="3" />
+<decoration type="model" name="trader_bob" position="-288,39,638" rotation="1" />
 
 <!-- North Base --> <!-- did not overwrite any other POIs -->
 <decoration type="model" name="faction_base" position="-453,15,848" rotation="0" />
