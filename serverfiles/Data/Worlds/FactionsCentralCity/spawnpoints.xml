@@ -1,4 +1,10 @@
 <spawnpoints>
-<spawnpoint position="-453,41,879" rotation="0,79,0"/>
-<!-- <spawnpoint position="-76,41,-1014" rotation="0,79,0"/> -->
+<!-- Outside Trader Bob's -->
+<spawnpoint position="-223,40,665" rotation="0,265,0"/>
+
+<!-- Outside North Faction Base -->
+<!-- <spawnpoint position="-454,40,824" rotation="0,25,0"/> -->
+
+<!-- Outside South Faction Base -->
+<!-- <spawnpoint position="-426,40,453" rotation="0,187,0"/> -->
 </spawnpoints>
