@@ -1,5 +1,7 @@
-﻿biomes.png=1770482532
-checksums.txt=4289325407
+﻿biomes-backup.png=1770482532
+biomes.png=2938253650
+biomes.xcf=4190238802
+checksums.txt=3452433804
 dtm.raw=3081413272
 dtm_processed.raw=2620908197
 genHM.png=1814438927
