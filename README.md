@@ -46,13 +46,12 @@ Category | Raider | Looter | Engineer
 
 ### Building Materials that come with each Engineer
 - Pre-Constructed
-	- 1 Reinforced Drawbridge
-	- 4 Vault Doors
-	- 1 Vault Hatch
-	- 1 Solar Bank
-	- 6 lvl 6 Solar Panels
-	- 1 Battery Bank
-	- 6 lvl 6 Batteries
+	- 1 Rolling Garage Door 5x3
+	- 6 Vault Doors
+	- 3 Vault Hatch
+	- 1 Generator Bank
+	- 6 Small Engines
+	- 1000 Gas
 	- 1 Campfire
 	- 1 Forge
 	- 1 Workbench
