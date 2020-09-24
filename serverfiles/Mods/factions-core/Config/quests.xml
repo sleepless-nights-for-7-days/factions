@@ -226,7 +226,7 @@
             <reward type="Item" id="ammo44MagnumBulletHP" value="120"/>
 
             <!-- Armor -->
-            <reward type="Item" id="armorIronHelmet" value="6"/>
+            <reward type="Item" id="armorSteelHelmet" value="6"/>
             <reward type="Item" id="armorIronChest" value="6"/>
             <reward type="Item" id="armorIronGloves" value="6"/>
             <reward type="Item" id="armorIronLegs" value="6"/>
