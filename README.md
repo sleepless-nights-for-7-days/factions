@@ -5,32 +5,25 @@
 # What is Factions?
 This is a relatively small server-side overhaul mod for [7 Days to Die](https://7daystodie.com/) on PC.
 
-- *players are not required to download anything outside of 7DTD*
+*players are not required to download anything outside of 7DTD*
 
 ## Objective
-Hop into the game with your friends to join one of the available factions and choose your job loadout. Then team up with your team to smash the faction's `Claim Block` while defending your own.
+Defend your faction's Claim Block in its steel fortress and destroy any opposing faction's Claim. If your faction is the last one remaining with a Claim Block, your team wins!
 
-Once a winner has been determined, just shut the server/game off and wipe the map (or don't).
+This style of gameplay can help to improve your PVP skills and generally have a great time with your buds.
 
-This style of game can help to improve your PVP skills and generally have a great time with your buds.
-
-### Team Size Recommendations
-Try to divide teams evenly:
-- 2 people to each team is good
-- 3 or more to each team makes for a much better experience
-
-### Expectations
+### How is this different from other games/maps?
 - Unlike typical 7DTD maps, these games are meant to be played in a single sitting and are generally expected to last a couple of hours.
 - Every Factions map comes with a pre-built base for each faction that you can fortify.
 
-#### Getting Started
-1. Upon loading into a fresh map, you'll be near a trader and will receive a quest to speak with him/her; doing so will allow you to choose your faction.
-1. After choosing your faction, you'll receive another quest that will lead you to your faction's base to the trader with a shop set up there. Speaking with the trader will provide you with the job/loadout gear and skillset of your choice.
-1. From there, you'll receive some instructions on how to finish setting up and a quest marker for the enemy faction.
-1. Work with your team to destroy the enemy Faction's Claim Block, held high above in the upper floors of their fortress outpost - all while defending your Fortress's Claim on the region!
+## Getting Started
+1. Start game, talk with trader, choose a faction
+1. Talk with faction trader, choose a job
+1. Ensure your faction's Claim Block has been set
+1. Destroy enemy faction's Claim Block to win
 
 ## Features
-*Everything added to the game is designed to bypass the startup grind, increase speed of play, and deliver an authentic 7DTD PVP experience in a form that's as condensed as possible.*
+*Everything added to the game is designed to bypass the startup grind, increase speed of play, and deliver an authentic 7DTD PVP experience in a form as condensed as possible.*
 
 ### Map
 Small, custom [Nitrogen](https://community.7daystodie.com/topic/12730-a19-nitrogen-a-random-world-generator-for-7dtd/) maps tweaked for team play that comes with a pre-built Faction Base for each team:
@@ -185,5 +178,8 @@ Tech Junkie | | | x | Buff Robotic weapons, craft special turret ammo
 Wasteland Treasures | | x | | Buff looting of certain items
 
 # FAQ
+- Is there a recommended team size?
+	- 2 people to each team is good
+	- 3 or more to each team makes for a much better experience. This is because the 3 Job Specializations really are geared to support one another
 - Why'd you make this?
 	- We usually play on a [specific server](https://7daystodie-servers.com/server/87258/) together and are generally very happy with the community, but practicing PVP with each other or experimenting with adjustments in damage output from 7DTD version updates can negatively impact our characters. Having a fresh game we can hop into for friendly PVP and experimentation felt like a good idea
