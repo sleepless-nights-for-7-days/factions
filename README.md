@@ -139,4 +139,4 @@ Tech Junkie | | | x | Buff Robotic weapons, craft special turret ammo
 Wasteland Treasures | | x | | Buff looting of certain items
 
 # Map
-![map image](serverfiles/Data/Worlds/FactionsCentralCity/preview/previewMap.jpg)
+![map image](serverfiles/Data/Worlds/FactionsOfCentralCity/preview/previewMap.jpg)
