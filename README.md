@@ -27,8 +27,16 @@ This style of gameplay can help to improve your PVP skills and generally have a 
 
 ### Map
 Small, custom [Nitrogen](https://community.7daystodie.com/topic/12730-a19-nitrogen-a-random-world-generator-for-7dtd/) maps tweaked for team play that comes with a pre-built Faction Base for each team:
-- [map example](serverfiles/Data/Worlds/FactionsOfCentralCity/preview/previewMap.jpg)
-- [faction base example](serverfiles/Data/Prefabs/faction_base.jpg)
+
+#### Map Example
+*4k map "Factions of Central City" shown*
+
+![map example](serverfiles/Data/Worlds/FactionsOfCentralCity/preview/previewMap.jpg)
+
+#### Faction Base POI Example
+*5 story steel base with roof shown (basement not visible)*
+
+![faction base example](serverfiles/Data/Prefabs/faction_base.jpg)
 
 ### Job Loadouts / Specializations
 Chosen by each player during setup, jobs allow you to start with pre-configured skillset and equipment catered to benefit your team in unique ways.
