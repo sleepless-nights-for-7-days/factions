@@ -16,15 +16,15 @@
   <property name="TraderAreaTeleportCenter" value="0, 0, 0" />
   <property name="Zoning" value="none" />
   <property class="Stats">
-    <property name="TotalVertices" value="128142" />
-    <property name="TotalTriangles" value="133419" />
+    <property name="TotalVertices" value="197190" />
+    <property name="TotalTriangles" value="207491" />
     <property class="BlockEntities">
-      <property name="Vertices" value="101255" />
-      <property name="Triangles" value="113053" />
+      <property name="Vertices" value="150385" />
+      <property name="Triangles" value="172627" />
     </property>
     <property class="ChunkMeshes0">
-      <property name="Vertices" value="22604" />
-      <property name="Triangles" value="13962" />
+      <property name="Vertices" value="42198" />
+      <property name="Triangles" value="28212" />
     </property>
     <property class="ChunkMeshes1">
       <property name="Vertices" value="0" />
@@ -39,8 +39,8 @@
       <property name="Triangles" value="0" />
     </property>
     <property class="ChunkMeshes4">
-      <property name="Vertices" value="467" />
-      <property name="Triangles" value="324" />
+      <property name="Vertices" value="791" />
+      <property name="Triangles" value="572" />
     </property>
     <property class="ChunkMeshes5">
       <property name="Vertices" value="208" />
