@@ -523,7 +523,7 @@
 
             <!-- Resources -->
             <reward type="Item" id="garageDoorHousePlayer" value="1"/>
-            <reward type="Item" id="vaultDoor01" value="6"/>
+            <reward type="Item" id="vaultDoor01" value="4"/>
             <reward type="Item" id="vaultHatch_v1" value="3"/>
 
             <reward type="Item" id="cntWoodFurnitureBlockVariantHelper" value="9"/>
