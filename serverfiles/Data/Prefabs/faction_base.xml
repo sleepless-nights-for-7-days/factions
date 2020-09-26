@@ -10,21 +10,21 @@
   <property name="QuestTags" value="trader" />
   <property name="TraderArea" value="False" />
   <property name="RotationToFaceNorth" value="2" />
-  <property name="YOffset" value="-8" />
+  <property name="YOffset" value="-5" />
   <property name="ShowQuestClearCount" value="1" />
   <property name="TraderAreaTeleportSize" value="10, 1, 10" />
   <property name="TraderAreaTeleportCenter" value="0, 0, 0" />
   <property name="Zoning" value="none" />
   <property class="Stats">
-    <property name="TotalVertices" value="30564" />
-    <property name="TotalTriangles" value="23532" />
+    <property name="TotalVertices" value="32214" />
+    <property name="TotalTriangles" value="26220" />
     <property class="BlockEntities">
-      <property name="Vertices" value="1904" />
-      <property name="Triangles" value="1884" />
+      <property name="Vertices" value="6542" />
+      <property name="Triangles" value="6762" />
     </property>
     <property class="ChunkMeshes0">
-      <property name="Vertices" value="25010" />
-      <property name="Triangles" value="15088" />
+      <property name="Vertices" value="22604" />
+      <property name="Triangles" value="13962" />
     </property>
     <property class="ChunkMeshes1">
       <property name="Vertices" value="0" />
@@ -51,8 +51,8 @@
       <property name="Triangles" value="0" />
     </property>
     <property class="ChunkMeshes7">
-      <property name="Vertices" value="3650" />
-      <property name="Triangles" value="6560" />
+      <property name="Vertices" value="3068" />
+      <property name="Triangles" value="5496" />
     </property>
     <property class="ChunkMeshes8">
       <property name="Vertices" value="0" />
@@ -65,7 +65,7 @@
   </property>
   <property class="IndexedBlockOffsets">
     <property class="Trader">
-      <property name="0" value="18, 8, 20" />
+      <property name="0" value="18, 16, 20" />
     </property>
   </property>
 </prefab>
