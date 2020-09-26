@@ -1,0 +1,21 @@
+<delmod>
+	<append xpath="/items/item[@name='drinkJarEmpty']/property[@class='Action1']">
+		<property name="Focused_blockname_6" value="workingGranitSink" />
+		<property name="Focused_blockname_7" value="workingCabinetSink" />
+		<!--property name="Focused_blockname_8" value="utilitySink" />
+		<property name="Focused_blockname_9" value="wallHungSink" />
+		<property name="Focused_blockname_10" value="cntFridgeTop" />
+		<property name="Focused_blockname_11" value="faucet02" />
+		<property name="Focused_blockname_12" value="faucet04" /-->
+	</append>
+	
+	<!--append xpath="/items/item[@name='drinkCanEmpty']/property[@class='Action1']">
+		<property name="Focused_blockname_6" value="workingGranitSink" />
+		<property name="Focused_blockname_7" value="workingCabinetSink" />
+		<property name="Focused_blockname_8" value="utilitySink" />
+		<property name="Focused_blockname_9" value="wallHungSink" />
+		<property name="Focused_blockname_10" value="cntFridgeTop" />
+		<property name="Focused_blockname_11" value="faucet02" />
+		<property name="Focused_blockname_12" value="faucet04" />
+	</append-->
+</delmod>

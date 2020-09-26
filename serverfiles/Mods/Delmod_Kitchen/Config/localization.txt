@@ -1,0 +1,8 @@
+﻿Key,Source,Context,Changes,English,French,German,Klingon,Spanish,Polish
+workingOven,blocks,Block Building,,Working Oven,,,,
+workingOvenDesc,blocks,Block Building,,This working oven can be used to cook many different recipes without using a fuel source.,,,,
+workingStove,blocks,Block Building,,Working Stove,,,,
+workingStoveDesc,blocks,Block Building,,This working stove can be used to cook many different recipes without using a fuel source.,,,,
+workingSinkDesc,blocks,Block Building,,This working sink can be used as a source of clean water. Fill your jars or bowls with water by left-clicking with them.,,,,
+workingGranitSink,blocks,Block Building,,Working Granite Sink,,,,
+workingCabinetSink,blocks,Block Building,,Working Sink,,,,

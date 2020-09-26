@@ -1,0 +1,123 @@
+<delmod>
+<append xpath="/blocks">
+		<!-- Del's Working Oven and Sink Mod -->
+	<block name="workingOven">
+		<property name="DescriptionKey" value="workingOvenDesc" />
+		<property name="Class" value="Campfire" />
+		<property name="CustomIcon" value="cntWallOven" />
+		<property name="Place" value="TowardsPlacerInverted" />
+		<property name="Stacknumber" value="1" />
+		<property name="Material" value="Mmetal" />
+		<property name="ParticleName" value="campfire" /> 
+		<property name="ParticleOffset" value="0.7,0,0.7" /> 
+		<property name="Texture" value="346,345,341,345,262,345" />
+		<property name="HeatMapStrength" value="1" />
+		<property name="HeatMapTime" value="1200" />
+		<property name="HeatMapFrequency" value="25" />
+		<property name="Group" value="Food/Cooking,Basics,Building"/>
+		<property name="ActiveRadiusEffects" value="+heatSource(3)" />
+		<property name="WorkstationIcon" value="ui_game_symbol_campfire" />
+		<property name="CraftActionName" value="lblContextActionCook" />
+		<property name="CraftIcon" value="ui_game_symbol_spatula" />
+		<property name="OpenSound" value="campfire_open" />
+		<property name="CloseSound" value="campfire_close" />
+		<property name="CraftSound" value="campfire_cook_click" />
+		<property name="CraftCompleteSound" value="campfire_complete_item" />
+		<property name="WorkstationJournalTip" value="campfireTip" />
+		<property class="Workstation">
+			<property name="Modules" value="tools,output,input"/>
+			<property name="Collide" value="melee,bullet,arrow,rocket"/>
+			<property name="CraftingAreaRecipes" value="workingOven,campfire"/> 
+		</property>
+		<property class="RepairItems">
+			<property name="resourceforgedSteel" value="5" />
+		</property>
+		<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+		<drop event="Harvest" name="resourceMechanicalParts" count="0,1" tag="salvageHarvest"/>
+		<drop event="Harvest" name="resourceMetalPipe" count="1,2" tag="salvageHarvest"/>
+		<drop event="Destroy" name="resourceScrapIron" count="5,10" prob="1"/>
+		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+		<property name="FilterTags" value="floot,ffurniture"/>
+	</block>
+	
+	<block name="workingStove">
+		<property name="DescriptionKey" value="workingOvenDesc" />
+		<property name="Class" value="Campfire"/>
+		<property name="Material" value="Mmetal_weak"/>
+		<property name="CustomIcon" value="cntStoveOldVer1Closed" />
+		<property name="Shape" value="Ext3dModel"/> 
+		<property name="Texture" value="293"/>
+		<property name="Mesh" value="models"/>
+		<property name="Path" value="solid"/>
+		<property name="ParticleName" value="campfire" /> 
+		<property name="ParticleOffset" value="0.7,0,0.7" /> 
+		<property name="Model" value="Appliances/stove_old" param1="main_mesh"/>
+		<property name="Place" value="TowardsPlacerInverted"/>
+		<property name="Stacknumber" value="1" />
+		<property name="LootList" value="5"/>
+		<property name="HeatMapStrength" value="1" />
+		<property name="HeatMapTime" value="1200" />
+		<property name="HeatMapFrequency" value="25" />
+		<property name="Group" value="Food/Cooking,Basics,Building"/>
+		<property name="ActiveRadiusEffects" value="+heatSource(3)" />
+		<property name="WorkstationIcon" value="ui_game_symbol_campfire" />
+		<property name="CraftActionName" value="lblContextActionCook" />
+		<property name="CraftIcon" value="ui_game_symbol_spatula" />
+		<property name="OpenSound" value="campfire_open" />
+		<property name="CloseSound" value="campfire_close" />
+		<property name="CraftSound" value="campfire_cook_click" />
+		<property name="CraftCompleteSound" value="campfire_complete_item" />
+		<property name="WorkstationJournalTip" value="campfireTip" />
+		<property class="Workstation">
+			<property name="Modules" value="tools,output,input"/>
+			<property name="Collide" value="melee,bullet,arrow,rocket"/>
+			<property name="CraftingAreaRecipes" value="workingOven,campfire"/> 
+		</property>
+		<property class="RepairItems">
+			<property name="resourceforgedSteel" value="5" />
+		</property>
+		<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+		<drop event="Harvest" name="resourceMechanicalParts" count="0,1" tag="salvageHarvest"/>
+		<drop event="Harvest" name="resourceMetalPipe" count="1,2" tag="salvageHarvest"/>
+		<drop event="Destroy" name="resourceScrapIron" count="5,10" prob="1"/>
+		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+		<property name="FilterTags" value="floot,ffurniture"/>
+</block>
+	
+	
+	
+	<block name="workingGranitSink">
+		<property name="DescriptionKey" value="workingSinkDesc" />
+		<property name="CustomIcon" value="cntGraniteSink" />
+		<property name="Class" value="Loot" />
+		<property name="LootList" value="130" />
+		<property name="Stacknumber" value="1" />
+		<property name="Material" value="Mmetal" />
+		<property name="Shape" value="New" />
+		<property name="Model" value="counter_sink" />
+		<property name="Place" value="TowardsPlacerInverted" />
+		<property name="IsDecoration" value="true" />
+		<property name="Texture" value="373,261,262,345,345,345" />
+		<!-- 373/374=sink, 82=cabinetWood -->
+		<property name="LootList" value="8" />
+		<drop event="Destroy" name="scrapIron" count="5" prob="1" />
+		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1" />
+		<drop event="Harvest" name="shortMetalPipe" count="4" tool_category="Disassemble" />
+		<drop event="Harvest" name="scrapIron" count="10" tool_category="Disassemble" />
+		<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1" />
+		<property name="EconomicValue" value="80" />
+		<!-- disassemble value -->
+		<property name="ImposterExchange" value="imposterBlock" param1="116" />
+		<property class="RepairItems">
+			<property name="scrapIron" value="10" />
+		</property>
+	</block>
+	<block name="workingCabinetSink">
+		<property name="Extends" value="workingGranitSink" />
+		<property name="CustomIcon" value="cntCabinetOldSink" />
+		<property name="Texture" value="374,78,79,84,84,84" />
+		<!-- 373/374=sink, 84=cabinetWood -->
+	</block>
+	
+	</append>
+</delmod>

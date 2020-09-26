@@ -185,7 +185,16 @@ Urban Combat | | x | | Craft stealth boots, cigars, no sound over trash, less so
 Tech Junkie | | | x | Buff Robotic weapons, craft special turret ammo
 Wasteland Treasures | | x | | Buff looting of certain items
 
-# FAQ
+## Mods included from other authors
+
+### Delmod Kitchen
+*[Credit goes to Del Stryker](https://github.com/DelStryker/Delmod)*
+
+Adds working Stove, Working Oven, Working Sink, and Working Granite Sink that can be crafted at Level 1 of Advanced Engineering
+- The Stove and Oven operate like the Campfire but the do not require fuel.
+- The Sinks fill empty bottles with murky water by right mouse clicking on the sink with the bottle in your hand.
+
+## FAQ
 - Is there a recommended team size?
 	- 2 people to each team is good
 	- 3 or more to each team makes for a much better experience. This is because the 3 Job Specializations really are geared to support one another
