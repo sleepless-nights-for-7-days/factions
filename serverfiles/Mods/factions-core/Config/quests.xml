@@ -328,7 +328,7 @@
             <reward type="Item" id="armorLeatherGloves" value="6"/>
             <reward type="Item" id="armorLeatherPants" value="6"/>
             <reward type="Item" id="armorLeatherBoots" value="6"/>
-            <reward type="Item" id="apparelAviatorGoggles"/>
+            <reward type="Item" id="apparelNightvisionGoggles"/>
             <reward type="Item" id="apparelCigarette"/>
             
             <!-- Armor Mods -->
