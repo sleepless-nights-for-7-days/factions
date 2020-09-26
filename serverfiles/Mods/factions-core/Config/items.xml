@@ -160,8 +160,8 @@
                 <property name="Delay" value="0"/>
                 <property name="Use_time" value="0"/>
                 <property name="Sound_start" value="SupplyDrops/open_supply_crate"/>
-                <property name="Create_item" value="generatorbank,smallEngine,ammoGasCan,shotgunTurret,ammoShotgunShell,autoTurret,ammo9mmBulletBall,motionsensor,speaker,ceilingLight01_player,electricwirerelay"/>
-                <property name="Create_item_count" value="1,6,1000,2,300,1,300,2,2,12,12"/>
+                <property name="Create_item" value="meleeToolWireTool,generatorbank,smallEngine,ammoGasCan,shotgunTurret,ammoShotgunShell,autoTurret,ammo9mmBulletBall,motionsensor,speaker,ceilingLight01_player,electricwirerelay"/>
+                <property name="Create_item_count" value="1,1,6,1000,2,300,1,300,2,2,12,12"/>
             </property>
         </item>
 
@@ -181,29 +181,8 @@
                 <property name="Delay" value="0"/>
                 <property name="Use_time" value="0"/>
                 <property name="Sound_start" value="UseActions/open_cardboard"/>
-                <property name="Create_item" value="campfire,toolCookingGrill,toolCookingPot,toolBeaker,forge,toolBellows,toolAnvil,toolForgeCrucible,workbench,cementMixer,chemistryStation"/>
-                <property name="Create_item_count" value="1,1,1,1,1,1,1,1,1,1,1"/>
-            </property>
-        </item>
-
-        <item name="seedKit">
-	        <property name="NoScrapping" value="true"/>
-            <property name="CustomIcon" value="cntPurse01"/>
-            <property name="ItemTypeIcon" value="treasure"/>
-	        <property name="HoldType" value="45"/>
-            <property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
-            <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
-            <property name="Material" value="Morganic"/>
-            <property name="Stacknumber" value="1"/>
-            <property name="SellableToTrader" value="false"/>
-            <property name="Group" value="Resources"/>
-            <property class="Action0">
-                <property name="Class" value="OpenBundle"/>
-                <property name="Delay" value="0"/>
-                <property name="Use_time" value="0"/>
-                <property name="Sound_start" value="UseActions/open_backpack"/>
-                <property name="Create_item" value="plantedPotato1,plantedCoffee1,plantedCorn1,plantedBlueberry1,plantedCotton1,plantedGoldenrod1,plantedAloe1,plantedMushroom1,plantedYucca1,plantedHop1,plantedChrysanthemum1,plantedPumpkin1"/>
-                <property name="Create_item_count" value="2,2,2,2,2,2,2,2,2,2,2,2"/>
+                <property name="Create_item" value="cntWoodFurnitureBlockVariantHelper,cntGreenDrawerSecure,toolCookingGrill,toolCookingPot,toolBeaker,toolBellows,toolAnvil,toolForgeCrucible"/>
+                <property name="Create_item_count" value="9,5,1,1,1,1,1,1"/>
             </property>
         </item>
     </append>

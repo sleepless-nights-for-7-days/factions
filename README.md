@@ -34,7 +34,7 @@ Small, custom [Nitrogen](https://community.7daystodie.com/topic/12730-a19-nitrog
 ![map example](serverfiles/Data/Worlds/FactionsOfCentralCity/preview/previewMap.jpg)
 
 #### Faction Base POI Example
-*5 story steel base with roof shown (basement not visible)*
+*4 story steel base with roof shown*
 
 ![faction base example](serverfiles/Data/Prefabs/faction_base.jpg)
 
@@ -71,7 +71,7 @@ Advanced Engineering lvl 5 | reduce crafting time `for workbench/forge recipes` 
 
 ### Starting Gear
 - 1 Land Claim Block
-	- make sure one is placed between the spikes on your base's third floor
+	- make sure one is placed between the spikes on your base's forth floor
 - 3 Purified Water
 - 3 Meat Stew
 - Set of clothes specific to your faction
