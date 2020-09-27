@@ -51,9 +51,9 @@ engineerStartingKitDesc,items,Item,"As a good Engineer, you will keep your team 
 
 job_raider,Quest,Challenge Info,"Open Raider Kit"
 job_raider_subtitle,Quest,Challenge Info,,,"Open Raider Kit"
-job_looter,Quest,Challenge Info,"Open Raider Kit"
-job_looter_subtitle,Quest,Challenge Info,,,"Open Raider Kit"
-job_engineer,Quest,Challenge Info,"Open Raider Kit"
-job_engineer_subtitle,Quest,Challenge Info,,,"Open Raider Kit"
+job_looter,Quest,Challenge Info,"Open Looter Kit"
+job_looter_subtitle,Quest,Challenge Info,,,"Open Looter Kit"
+job_engineer,Quest,Challenge Info,"Open Engineer Kit"
+job_engineer_subtitle,Quest,Challenge Info,,,"Open Engineer Kit"
 
 job_offer,Quest,Quest Info,"Includes specialized equipment for your job responsibilities.\n\n[!] It may be a good idea to store your existing inventory in a box before opening this since there may be a lot of goodies inside.\n\nWeapons, Armor, Skill Unlocks, and Perk Unlocks all included"
