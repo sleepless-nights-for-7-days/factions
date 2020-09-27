@@ -1,0 +1,25 @@
+<configs>
+    <!-- boost all experience gainst from quests by 5x; these are further boosted by server XPMultiplier value -->
+    <set xpath="/quests/quest/reward[@type='Exp' and @value='27000']/@value">135000</set>
+    <set xpath="/quests/quest/reward[@type='Exp' and @value='24000']/@value">120000</set>
+    <set xpath="/quests/quest/reward[@type='Exp' and @value='20000']/@value">100000</set>
+    <set xpath="/quests/quest/reward[@type='Exp' and @value='16900']/@value">84500</set>
+    <set xpath="/quests/quest/reward[@type='Exp' and @value='15000']/@value">75000</set>
+    <set xpath="/quests/quest/reward[@type='Exp' and @value='12500']/@value">62500</set>
+    <set xpath="/quests/quest/reward[@type='Exp' and @value='8400']/@value">42000</set>
+    <set xpath="/quests/quest/reward[@type='Exp' and @value='7500']/@value">37500</set>
+    <set xpath="/quests/quest/reward[@type='Exp' and @value='6750']/@value">33750</set>
+    <set xpath="/quests/quest/reward[@type='Exp' and @value='6250']/@value">31250</set>
+    <set xpath="/quests/quest/reward[@type='Exp' and @value='6000']/@value">30000</set>
+    <set xpath="/quests/quest/reward[@type='Exp' and @value='5060']/@value">25300</set> 
+    <set xpath="/quests/quest/reward[@type='Exp' and @value='5000']/@value">25000</set>
+    <set xpath="/quests/quest/reward[@type='Exp' and @value='4500']/@value">22500</set>
+    <set xpath="/quests/quest/reward[@type='Exp' and @value='3750']/@value">18750</set>
+    <set xpath="/quests/quest/reward[@type='Exp' and @value='3000']/@value">15000</set>
+    <set xpath="/quests/quest/reward[@type='Exp' and @value='2500']/@value">12500</set>
+    <set xpath="/quests/quest/reward[@type='Exp' and @value='750']/@value">3750</set>
+    <set xpath="/quests/quest/reward[@type='Exp' and @value='600']/@value">3000</set>
+    <set xpath="/quests/quest/reward[@type='Exp' and @value='500']/@value">2500</set>
+    <set xpath="/quests/quest/reward[@type='Exp' and @value='100']/@value">500</set>
+    <set xpath="/quests/quest/reward[@type='Exp' and @value='50']/@value">250</set>
+</configs>

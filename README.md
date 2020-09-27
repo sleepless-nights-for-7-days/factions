@@ -44,8 +44,13 @@ Chosen by each player during setup, jobs allow you to start with pre-configured 
 - Looter: focused on speed and stealth, turning cities into goodie grab-bags. Supply the engineers and support raiders with your superior agility and stealth
 - Engineer: upgrade your base, mine, and craft nearly anything to supply your team with an edge in the mission and defend your Faction's honor
 
-### Motorcycles for All!
-Start with a Motorcycle. Nobody likes walking.
+### Boosted Quest XP Gains
+Game time is short, but quests are time consuming: Earn 40x XP from Quests
+
+- quest XP, specifically, is modded to 5x on top of default
+- all XP boosted by an additional 8x, serverside
+
+*Note: this is one of the best ways for Raiders and Looters to quickly gain levels*
 
 ### Fast Plant/Tree Growth
 Farming is still useful when your veggies grow at incredible rates!
@@ -60,6 +65,8 @@ Lucky Looter | 5x | 50x
 The Huntsman | 2x | 15x
 Salvage Operations | 2x | 15x
 Living Off The Land | 3x | 15x
+
+*Note: this is perhaps the best way for Engineers to gain levels*
 
 ### Enhanced Crafting and Smelting
 *Drastically reduced Smelting and Crafting times and become the king of crafting.*

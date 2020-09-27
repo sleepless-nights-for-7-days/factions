@@ -1,0 +1,4 @@
+<configs>
+    <!-- default: .05,.20 -->
+    <set xpath="/progression/perks/perk[@name='perkDaringAdventurer']/effect_group/passive_effect[@name='QuestBonusItemReward']/@value">0,16</set>
+</configs>
