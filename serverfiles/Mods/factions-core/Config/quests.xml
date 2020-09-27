@@ -334,6 +334,13 @@
             <reward type="Item" id="apparelCigarette"/>
             
             <!-- Armor Mods -->
+            <reward type="Item" id="modClothingCargoStoragePocket"/>
+            <reward type="Item" id="modClothingCargoStoragePocket"/>
+            <reward type="Item" id="modClothingCargoStoragePocket"/>
+            <reward type="Item" id="modArmorTripleStoragePocket"/>
+            <reward type="Item" id="modArmorTripleStoragePocket"/>
+            <reward type="Item" id="modArmorTripleStoragePocket"/>
+            <reward type="Item" id="modArmorTripleStoragePocket"/>
             <reward type="Item" id="modArmorImpactBracing"/>
 
             <!-- Tools -->

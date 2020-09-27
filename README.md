@@ -93,7 +93,7 @@ Category | Raider | Looter | Engineer
 **Weapon Mods** | 2 Muzzle Brake Mods, 2 Magazine Extender Mods, Hunter Mod, Rad Remover Mod, Reflex Sight Mod, Scope 4x Mod | 2 Silencer Mods, Scope 8x Mod | N/A
 **Ammo** | 240 7.62AP, 120 .44HP | 270 9mmHP, 150 9mmAP, 120 7.62AP | 950 Robotic Turret Shells, 950 Robotic Turret AP Ammo, 140 Shotgun Shells, 140 Shotgun AP Slugs
 **Armor** | Steel Helmet with Mid-Tier Heavy, Night Vision Goggles | Mid-Tier Light, Night Vision Goggles, Cigarette | Mid-Tier Heavy, Nerdy Glasses
-**Armor Mods** | 4 Banded Armor Plating Mods | Impact Bracing Mod | Helmet Light Mod
+**Armor Mods** | 4 Banded Armor Plating Mods | 3 Clothing Double Pocket Mods, 4 Armor Triple Pocket Mods, 1 Impact Bracing Mod | Helmet Light Mod
 **Tools** | Auger | Impact Driver | Wire Tool, Steel Pickaxe, Steel Axe, Steel Shovel, Nailgun
 **Consumables** | 5 First Aid Kits, 1 Fort Bites | 2 bottles of Grandpa's Awesome Sauce, 1 bottle of Recog | 10 cups of Blackstrap Coffee, 10 bowls of Sham Chowder
 **Resources** | 300 Gas | 7500 Dukes, 40 Lockpicks | *lots... see below* 
