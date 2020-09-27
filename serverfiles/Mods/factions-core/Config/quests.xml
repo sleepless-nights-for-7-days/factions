@@ -500,7 +500,13 @@
             <reward type="Item" id="gunBotT2JunkTurret" value="6"/>
 
             <!-- Weapon Mods -->
-            <!-- none -->
+            <reward type="Item" id="modMeleeWoodSplitter"/>
+            <reward type="Item" id="modMeleeGraveDigger"/>
+            <reward type="Item" id="modMeleeBunkerBuster"/>
+            <reward type="Item" id="modMeleeIronBreaker"/>
+            <reward type="Item" id="modMeleeDiamondTip"/>
+            <reward type="Item" id="modMeleeDiamondTip"/>
+            <reward type="Item" id="modMeleeDiamondTip"/>
             
             <!-- Ammo -->
             <reward type="Item" id="ammoJunkTurretShell" value="950"/>

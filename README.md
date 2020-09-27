@@ -90,7 +90,7 @@ Advanced Engineering lvl 5 | reduce crafting time `for workbench/forge recipes` 
 Category | Raider | Looter | Engineer
 --- | --- | --- | ---
 **Weapons** | Steel Knuckles, AK-47, Desert Vulture | Machette, SMG-5, Marksman Rifle | Stun Baton, Robotic Turret, Pump Shotgun
-**Weapon Mods** | 2 Muzzle Brake Mods, 2 Magazine Extender Mods, Hunter Mod, Rad Remover Mod, Reflex Sight Mod, Scope 4x Mod | 2 Silencer Mods, Scope 8x Mod | N/A
+**Weapon Mods** | 2 Muzzle Brake Mods, 2 Magazine Extender Mods, Hunter Mod, Rad Remover Mod, Reflex Sight Mod, Scope 4x Mod | 2 Silencer Mods, Scope 8x Mod | Wood Splitter Mod, Bunker Buster Mod, Grave Digger Mod, Iron Breaker Mod, 3 Diamond Tipped Mods
 **Ammo** | 240 7.62AP, 120 .44HP | 270 9mmHP, 150 9mmAP, 120 7.62AP | 950 Robotic Turret Shells, 950 Robotic Turret AP Ammo, 140 Shotgun Shells, 140 Shotgun AP Slugs
 **Armor** | Steel Helmet with Mid-Tier Heavy, Night Vision Goggles | Mid-Tier Light, Night Vision Goggles, Cigarette | Mid-Tier Heavy, Nerdy Glasses
 **Armor Mods** | 4 Banded Armor Plating Mods | 3 Clothing Double Pocket Mods, 4 Armor Triple Pocket Mods, 1 Impact Bracing Mod | Helmet Light Mod
