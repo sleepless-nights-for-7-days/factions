@@ -39,7 +39,7 @@ quest_LocateSnowFactionBase,Quest,Quest Info,"Locate Snow Faction Base"
 quest_LocateSnowFactionBase_subtitle,Quest,Quest Info,"Track down the Snow Faction Base"
 quest_LocateSnowFactionBase_offer,Quest,Quest Info,"Find the opposing faction's base while keeping your own secure. When found, destroy their Claim Block to win the game"
 
-factionsFinishSettingUp,Journal Tip,,"Complete the following steps with your team:\n- Send an Ally (and possibly Party) invite to each person in your faction and join up in a voice service like Discord.\n- Unpack your job/equipment bundle and look over your inventory, skills, and magazines/books progress since this will adjust all three.\n- Ensure a Claim Block is placed between the steel spikes on Floor 3 of your Base."
+factionsFinishSettingUp,Journal Tip,,"Complete the following steps with your team:\n- Send an Ally (and possibly Party) invite to each person in your faction and join up in a voice service like Discord.\n- Unpack your job/equipment bundle and look over your inventory, skills, and magazines/books progress since this will adjust all three.\n- Ensure a Claim Block is placed between the steel spikes on the upper floor of your Base."
 factionsFinishSettingUp_title,Journal Tip,,"Factions: Finish Setting Up"
 
 raiderStartingKit,items,Item,"Raider Kit"
