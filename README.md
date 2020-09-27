@@ -194,6 +194,13 @@ Adds working Stove, Working Oven, Working Sink, and Working Granite Sink that ca
 - The Stove and Oven operate like the Campfire but the do not require fuel.
 - The Sinks fill empty bottles with murky water by right mouse clicking on the sink with the bottle in your hand.
 
+### khzmusik No Bedrolls
+*[Credit goes to Karl Giesing](https://gitlab.com/karlgiesing/7d2d-modlets/tree/master/khzmusik_No_Bedrolls)*
+
+- Bedrolls and beds no longer act as player spawn points, and no longer prevent zombie spawns
+
+*Note: Factions will have you spawn in the same location you started the map in, which is roughly halfway between each base. This means you're already halfway to the enemy base if you're attacking, but also as much as halfway away from your own base if you're defending*
+
 ## FAQ
 - Is there a recommended team size?
 	- 2 people to each team is good

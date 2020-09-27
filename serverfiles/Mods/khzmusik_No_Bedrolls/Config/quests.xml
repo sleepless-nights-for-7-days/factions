@@ -1,0 +1,11 @@
+<configs> <!-- Disabled this part of the mod since it conflicts with Factions -->
+    <!-- Remove the quest to craft a bedroll -->
+    <!-- <remove xpath="/quests/quest[@id='quest_BasicSurvival1']" /> -->
+    <!--
+        To compensate for the 50xp that the player would have gained from that quest,
+        add 50xp to the next quest (for a total of 100xp)
+    -->
+    <!-- <set xpath="/quests/quest[@id='quest_BasicSurvival2']/reward[@type='Exp']/@value">100</set> -->
+    <!-- Apparently quest_BasicSurvival1 is hardcoded, so rename quest_BasicSurvival2 -->
+    <!-- <set xpath="/quests/quest[@id='quest_BasicSurvival2']/@id">quest_BasicSurvival1</set> -->
+</configs>

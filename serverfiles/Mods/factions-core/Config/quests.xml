@@ -91,7 +91,8 @@
                 <property name="use_closest" value="true"/>
             </objective>
             
-            <reward type="Item" id="bedroll" value="1"/>
+            <!-- bedrolls have been disabled per khzmusik_No_Bedrolls mod -->
+            <!-- <reward type="Item" id="bedroll" value="1"/> -->
             <reward type="Item" id="keystoneBlock" value="1"/>
 
             <reward type="Item" id="raiderStartingKit" ischosen="true"/>
@@ -128,7 +129,8 @@
                 <property name="use_closest" value="true"/>
             </objective>
             
-            <reward type="Item" id="bedroll" value="1"/>
+            <!-- bedrolls have been disabled per khzmusik_No_Bedrolls mod -->
+            <!-- <reward type="Item" id="bedroll" value="1"/> -->
             <reward type="Item" id="keystoneBlock" value="1"/>
 
             <reward type="Item" id="raiderStartingKit" ischosen="true"/>
