@@ -318,12 +318,13 @@
 
             <!-- Weapons -->
             <reward type="Item" id="meleeWpnBladeT3Machete" value="6"/>
-            <reward type="Item" id="gunHandgunT3SMG5" value="6"/>
-            <reward type="Item" id="gunRifleT2MarksmanRifle" value="6"/>
+            <reward type="Item" id="gunHandgunT1Pistol" value="6"/>
+            <reward type="Item" id="gunRifleT3SniperRifle" value="6"/>
             
             <!-- Weapon Mods -->
             <reward type="Item" id="modGunSoundSuppressorSilencer"/>
             <reward type="Item" id="modGunSoundSuppressorSilencer"/>
+            <reward type="Item" id="modGunMagazineExtender"/>
             <reward type="Item" id="modGunScopeLarge"/>
 
             <!-- Ammo -->
