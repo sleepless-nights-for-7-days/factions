@@ -99,13 +99,15 @@ Category | Raider | Looter | Engineer
 **Resources** | 300 Gas | 7500 Dukes, 40 Lockpicks | *lots... see below* 
 
 #### Building Materials that come with each Engineer
-- Pre-Constructed
-	- 1 Rolling Garage Door 5x3
-	- 6 Metal Doors
-	- 3 Metal Hatches
+- 1 Rolling Garage Door 5x3
+- Electronics Kit
 	- 1 Generator Bank
 	- 6 Small Engines
 	- 1000 Gas
+	- 2 Motion Sensors
+	- 2 Speakers
+	- 12 Electric Wire Relays
+- Workshop Kit
 	- Campfire Attachments
 		- Pot
 		- Grill
@@ -113,9 +115,7 @@ Category | Raider | Looter | Engineer
 	- Forge Attachments
 		- Anvil
 		- Advanced Bellows
-		- Crucible
-	- 5 Drawers
-	- 9 Wooden Storage Boxes
+		- Crucible\
 
 #### Starting Recipes (every job)
 - Campfire/Oven Attachment Recipies
