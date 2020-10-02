@@ -511,7 +511,8 @@
 
             <!-- Weapons -->
             <reward type="Item" id="meleeWpnBatonT2StunBaton" value="6"/>
-            <reward type="Item" id="gunShotgunT2PumpShotgun" value="3"/>
+            <reward type="Item" id="gunShotgunT2PumpShotgun" value="6"/>
+            <reward type="Item" id="gunBotT2JunkTurret" value="6"/>
             <reward type="Item" id="gunBotT2JunkTurret" value="6"/>
 
             <!-- Weapon Mods -->
