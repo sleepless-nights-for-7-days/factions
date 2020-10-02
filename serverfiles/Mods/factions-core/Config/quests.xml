@@ -252,6 +252,13 @@
 
             <!-- Resources -->
             <reward type="Item" id="ammoGasCan" value="300"/>
+
+            <!-- Recipes -->
+            <reward type="Recipe" id="toolAnvil" value="1"/>
+            <reward type="Recipe" id="toolBellows" value="1"/>
+            <reward type="Recipe" id="toolForgeCrucible" value="1"/>
+            <reward type="Recipe" id="toolCookingGrill" value="1"/>
+            <reward type="Recipe" id="toolCookingPot" value="1"/>
             
             <!-- Skills/Perks -->
             <reward type="Skill" id="attPerception" value="4"/>
@@ -353,6 +360,13 @@
             <!-- Resources -->
             <reward type="Item" id="casinoCoin" value="7500"/>
             <reward type="Item" id="resourceLockPick" value="40"/>
+
+            <!-- Recipes -->
+            <reward type="Recipe" id="toolAnvil" value="1"/>
+            <reward type="Recipe" id="toolBellows" value="1"/>
+            <reward type="Recipe" id="toolForgeCrucible" value="1"/>
+            <reward type="Recipe" id="toolCookingGrill" value="1"/>
+            <reward type="Recipe" id="toolCookingPot" value="1"/>
             
             <!-- Skills/Perks -->
             <reward type="Skill" id="attPerception" value="8"/>

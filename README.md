@@ -115,6 +115,15 @@ Category | Raider | Looter | Engineer
 	- 5 Drawers
 	- 9 Wooden Storage Boxes
 
+#### Starting Recipes (every job)
+- Forge Attachments Recipies:
+	- Anvil
+	- Bellows
+	- Crucible
+- Campfire/Oven Attachment Recipies:
+	- CookingGrill
+	- CookingPot
+
 ### Starting Skills/Perks
 Perk | Max Level | Raider | Looter | Engineer
 --- | :---: | :---: | :---: | :---:
