@@ -1,0 +1,15 @@
+[submodule "serverfiles/Mods/fast-crop-growth"]
+	path = serverfiles/Mods/fast-crop-growth
+	url = git@github.com:sleepless-nights-for-7-days/fast-crop-growth.git
+[submodule "serverfiles/Mods/fast-tree-growth"]
+	path = serverfiles/Mods/fast-tree-growth
+	url = git@github.com:sleepless-nights-for-7-days/fast-tree-growth.git
+[submodule "serverfiles/Mods/power-harvester"]
+	path = serverfiles/Mods/power-harvester
+	url = git@github.com:sleepless-nights-for-7-days/power-harvester.git
+[submodule "serverfiles/Mods/speed-crafter"]
+	path = serverfiles/Mods/speed-crafter
+	url = git@github.com:sleepless-nights-for-7-days/speed-crafter.git
+[submodule "serverfiles/Mods/ultra-adventurer"]
+	path = serverfiles/Mods/ultra-adventurer
+	url = git@github.com:sleepless-nights-for-7-days/ultra-adventurer.git
