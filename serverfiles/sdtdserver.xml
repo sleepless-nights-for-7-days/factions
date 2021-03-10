@@ -5,7 +5,7 @@
 	<!-- Server representation -->
 	<property name="ServerName"						value="Factions of Central City"/>		<!-- Whatever you want the name of the server to be. -->
 	<property name="ServerDescription"				value="Two factions fight for control of the city - will yours be victorious?"/>	<!-- Whatever you want the server description to be, will be shown in the server browser. -->
-	<property name="ServerWebsiteURL"				value="https://github.com/jonathan-robertson/7-days-to-die-factions"/>					<!-- Website URL for the server, will be shown in the serverbrowser as a clickable link -->
+	<property name="ServerWebsiteURL"				value="https://github.com/sleepless-nights-for-7-days/factions"/>					<!-- Website URL for the server, will be shown in the serverbrowser as a clickable link -->
 	<property name="ServerPassword"					value=""/>					<!-- Password to gain entry to the server -->
 	<property name="ServerLoginConfirmationText"	value="Factions of Central City
 Two factions fight for control of the city - will yours be victorious?
